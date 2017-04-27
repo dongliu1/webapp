@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>神库</title>
+  </head>
+  <body onkeydown="init_refreshAll(event)">
+    <a href="javascript:location.href='index.html'">RefreshAll</a>
+    <h1>Hello World!</h1>
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>.
+  <script>
+    function init_refreshAll(e) {
+      var keynum = window.event ? e.keyCode : e.which;
+      if(keynum==116)location.href="index.html";
+    }
+  </script>
+  </body>
+</html>

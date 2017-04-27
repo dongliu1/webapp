@@ -1,0 +1,484 @@
+.ui-front{z-index:2000!important}
+.ribbon{height:156px}
+/* .ribbon .sku-wijribbon .ui-widget-header{background:#fff} */
+/* .ribbon .ui-state-active,.ribbon .ui-widget-content .ui-state-active{background:#dadada url(../lib/jquery-ui/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x} */
+/* .ribbon .sku-wijribbon .sku-wijribbon-panel{border:solid 1px #d3d3d3} */
+.ribbon .quick-access-bar{border:none;}
+.ribbon .quick-access-bar button{height:26px;width:26px;margin-right:3px;padding:3px;border:none;background:0 0}
+.ribbon .quick-access-bar button:not(:disabled):hover{background-image:linear-gradient(top,#fee58b 19%,#fef9c7 60%);background-image:-o-linear-gradient(top,#fee58b 19%,#fef9c7 60%);background-image:-moz-linear-gradient(top,#fee58b 19%,#fef9c7 60%);background-image:-webkit-linear-gradient(top,#fee58b 19%,#fef9c7 60%);background-image:-ms-linear-gradient(top,#fee58b 19%,#fef9c7 60%);background-image:-webkit-gradient(linear,left top,left bottom,color-stop(.19,#fee58b),color-stop(.6,#fef9c7))}
+
+.ribbon .quick-access-bar button:not(:disabled):active{background:#fee68b}
+.ribbon .quick-access-bar span{background-image:url(../images/icons.png);height:16px;width:16px;margin:2px;display:block}
+.ribbon .quick-access-bar .accessbar-undo{background-position:0 -3344px}
+.ribbon .quick-access-bar .accessbar-redo{background-position:0 -2464px}
+.ribbon .quick-access-bar .accessbar-save{background-position:0 -2592px}
+.ribbon .quick-access-bar .accessbar-new{background-position:0 -1904px}
+.ribbon .quick-access-bar .accessbar-open{background-position:0 -1984px}
+.ribbon .quick-access-bar .accessbar-active{background-position:0 -3952px}
+.ribbon .quick-access-bar .accessbar-close{background-position:0 -4112px}
+.ribbon .quick-access-bar .accessbar-zoom{background-position:0 -4128px}
+.ribbon .quick-access-bar .accessbar-min{background-position:0 -4144px}
+.ribbon .quick-access-bar .accessbar-reload{background-position:0 -4160px}
+.ribbon .quick-access-bar span.accessbar-logo{background:url(../images/logo.png) center;background-size:32px 16px;width:32px;margin-right:20px;display:inline-block}
+.ribbon .function-bar{float:right}
+.ribbon .page-filename{position: absolute;top: 0;left: 200px;right: 200px;height:30px;text-align: center;}
+/* .ribbon .sku-wijribbon .ui-state-default{background:#fff} */
+/* .ribbon .sku-wijribbon .ui-tabs-active{border-top:solid 1px #d3d3d3;border-left:solid 1px #d3d3d3;border-right:solid 1px #d3d3d3} */
+.ribbon .sku-wijribbon-marginright{margin-right:5px}
+.ribbon .sku-wijribbon #file-menu-tab{text-decoration:none;cursor:pointer;padding:2px 12px;float:left;min-width:40px;text-align:center}
+.ribbon .ui-tabs .ui-tabs-nav{border:none}
+.ribbon .sku-wijribbon .ui-corner-top{border-top-left-radius:0;border-top-right-radius:0}
+.ribbon .sku-wijribbon .sku-wijribbon-listseparator{height:1px;border-top:1px solid #d3d3d3;margin:0 0 0 12px}
+.ribbon .ui-tabs .ui-tabs-nav li a{padding:2px 12px}
+.ribbon .sku-wijribbon .sku-wijribbon-group .sku-wijribbon-group-content{height:78px;background:none}
+.ribbon .sku-wijribbon .sku-wijribbon-separator{width:1px;border:none;border-left:1px solid #d3d3d3;height:17px;display:inline-block;vertical-align:middle}
+.ribbon .sku-wijribbon .sku-wijribbon-longseparator{height:60px;width:1px;border-left:1px solid #d3d3d3;float:left}
+.ribbon .sku-wijribbon .sku-wijribbon-splitbutton{width:16px}
+.ribbon .sku-wijribbon .sku-wijribbon-smallsplit{width:16px}
+.ribbon .sku-wijribbon .sku-wijribbon-smallsplit .ui-icon-triangle-1-s:hover{background-color:#e5e5e5}
+.ribbon div.sku-wijribbon .ui-icon{background-image:url(../images/icons.png)}
+.ribbon .sku-wijribbon .sku-wijribbon-group .ui-button:hover .ui-icon{background-image:url(../images/icons.png)}
+.ribbon .sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton{height:85px;margin-top:-13px}
+.ribbon .sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton .ui-button-text{padding-top:4em}
+.ribbon .sku-wijribbon .sku-wijribbon-fontfamily-parent{width:100px;border:1px solid #d3d3d3;white-space:nowrap}
+.ribbon .sku-wijribbon .sku-wijribbon-fontfamily{width:100%;text-align:left}
+.ribbon .sku-wijribbon .sku-wijribbon-fontfamily .ui-button-text{padding-left:.2em}
+.ribbon .sku-wijribbon .sku-wijribbon-fontsize-parent{width:42px;border:1px solid #d3d3d3;white-space:nowrap}
+.ribbon .sku-wijribbon .sku-wijribbon-fontsize{width:100%;text-align:left}
+.ribbon .sku-wijribbon .sku-wijribbon-fontsize .ui-button-text{padding-left:.2em}
+.ribbon .sku-wijribbon .sku-wijribbon-number-parent{width:120px;border:1px solid #d3d3d3;white-space:nowrap}
+.ribbon .sku-wijribbon .sku-wijribbon-number{width:100%;text-align:left}
+.ribbon .sku-wijribbon .sku-wijribbon-number .ui-button-text{padding-left:.2em}
+.ribbon .ui-button-text-icon-primary .ui-button-text{padding-right:1px}
+.ribbon .sku-wijribbon .sku-wijribbon-paste{background-position:-16px -2304px}
+.ribbon .sku-wijribbon .sku-wijribbon-clear-celltype{background-position:-16px -3712px}
+.ribbon .sku-wijribbon .ui-button .ui-icon-triangle-1-s{background-position:0 -2576px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-cut{background-position:0 -768px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-copy{background-position:0 -752px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-increaseFontSize{background-position:0 -1472px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-decreaseFontSize{background-position:0 -2736px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-bold{background-position:0 -400px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-italic{background-position:0 -1712px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-underline{background-position:0 -3328px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-bottomborder{background-position:0 -416px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-topborder{background-position:0 -3264px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-leftborder{background-position:0 -1728px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-rightborder{background-position:0 -2560px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-noborder{background-position:0 -1952px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-allborder{background-position:0 -128px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-outsideborder{background-position:0 -2016px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-thickborder{background-position:0 -3184px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-bdborder{background-position:0 -448px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-tbborder{background-position:0 -3200px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-tb2border{background-position:0 -3216px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-ttbborder{background-position:0 -3248px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-tdbborder{background-position:0 -3232px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-moreborder{background-position:0 -1856px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-bgcolor{background-position:0 -1008px}
+.ribbon .sku-wijribbon .ui-button .sku-wijribbon-forecolor{background-position:0 -1168px}
+.ribbon .sku-wijribbon .sku-wijribbon-leftalign{background-position:0 -64px}
+.ribbon .sku-wijribbon .sku-wijribbon-centeralign{background-position:0 -48px}
+.ribbon .sku-wijribbon .sku-wijribbon-rightalign{background-position:0 -96px}
+.ribbon .sku-wijribbon .sku-wijribbon-increaseindent{background-position:0 -1536px}
+.ribbon .sku-wijribbon .sku-wijribbon-topalign{background-position:0 -112px}
+.ribbon .sku-wijribbon .sku-wijribbon-middlealign{background-position:0 -80px}
+.ribbon .sku-wijribbon .sku-wijribbon-bottomalign{background-position:0 -32px}
+.ribbon .sku-wijribbon .sku-wijribbon-decreaseindent{background-position:0 -816px}
+.ribbon .sku-wijribbon .sku-wijribbon-wraptext{background-position:0 -3456px}
+.ribbon .sku-wijribbon .sku-wijribbon-mergecenter{background-position:0 -1840px}
+.ribbon .sku-wijribbon .sku-wijribbon-mergeacross{background-position:0 -1792px}
+.ribbon .sku-wijribbon .sku-wijribbon-mergecells{background-position:0 -1808px}
+.ribbon .sku-wijribbon .sku-wijribbon-unmergecells{background-position:0 -3376px}
+.ribbon .sku-wijribbon .sku-wijribbon-numberformat{background-position:0 -16px}
+.ribbon .sku-wijribbon .sku-wijribbon-percentstyle{background-position:0 -2064px}
+.ribbon .sku-wijribbon .sku-wijribbon-commastyle{background-position:0 -720px}
+.ribbon .sku-wijribbon .sku-wijribbon-increasedecimal{background-position:0 -800px}
+.ribbon .sku-wijribbon .sku-wijribbon-decreasedecimal{background-position:0 -1520px}
+.ribbon .sku-wijribbon .sku-wijribbon-buttoncelltype{background-position:0 -3680px}
+.ribbon .sku-wijribbon .sku-wijribbon-checkboxcelltype{background-position:0 -3728px}
+.ribbon .sku-wijribbon .sku-wijribbon-comboboxcelltype{background-position:0 -3712px}
+.ribbon .sku-wijribbon .sku-wijribbon-hyperlinkcelltype{background-position:0 -3696px}
+.ribbon .sku-wijribbon .sku-wijribbon-conditionalformat{background-position:-16px -352px}
+.ribbon .sku-wijribbon .sku-wijribbon-formattable{background-position:-16px -2400px}
+.ribbon .sku-wijribbon .sku-wijribbon-cellstyles{background-position:-16px -288px}
+.ribbon .sku-wijribbon .sku-wijribbon-cellstyles{background-position:-16px -288px}
+.ribbon .sku-wijribbon .sku-wijribbon-insert{background-position:-16px -1920px}
+.ribbon .sku-wijribbon .sku-wijribbon-delete{background-position:-16px -608px}
+.ribbon .sku-wijribbon .sku-wijribbon-format{background-position:-16px -992px}
+.ribbon .sku-wijribbon .sku-wijribbon-insertcells{background-position:0 -1616px}
+.ribbon .sku-wijribbon .sku-wijribbon-insertcolumns{background-position:0 -1568px}
+.ribbon .sku-wijribbon .sku-wijribbon-insertsheet{background-position:0 -1632px}
+.ribbon .sku-wijribbon .sku-wijribbon-deletecells{background-position:0 -832px}
+.ribbon .sku-wijribbon .sku-wijribbon-deleterows{background-position:0 -928px}
+.ribbon .sku-wijribbon .sku-wijribbon-deletecolumns{background-position:0 -912px}
+.ribbon .sku-wijribbon .sku-wijribbon-deletesheet{background-position:0 -896px}
+.ribbon .sku-wijribbon .sku-wijribbon-rowheight{background-position:0 -2688px}
+.ribbon .sku-wijribbon .sku-wijribbon-columnwidth{background-position:0 -2672px}
+.ribbon .sku-wijribbon .sku-wijribbon-protectsheet{background-position:0 -2176px}
+.ribbon .sku-wijribbon .sku-wijribbon-lockcells{background-position:0 -1744px}
+.ribbon .sku-wijribbon .sku-wijribbon-emptyicon{background-position:0 -16000px}
+.ribbon .sku-wijribbon .sku-wijribbon-autosum{background-position:0 -3120px}
+.ribbon .sku-wijribbon .sku-wijribbon-filldown{background-position:0 -1024px}
+.ribbon .sku-wijribbon .sku-wijribbon-fillleft{background-position:0 -1040px}
+.ribbon .sku-wijribbon .sku-wijribbon-fillright{background-position:0 -1056px}
+.ribbon .sku-wijribbon .sku-wijribbon-fillup{background-position:0 -1072px}
+.ribbon .sku-wijribbon .sku-wijribbon-clearall{background-position:0 -608px}
+.ribbon .sku-wijribbon .sku-wijribbon-clearformat{background-position:0 -640px}
+.ribbon .sku-wijribbon .sku-wijribbon-sortfilter{background-position:-16px -2912px}
+.ribbon .sku-wijribbon .sku-wijribbon-sortAZ{background-position:0 -2800px}
+.ribbon .sku-wijribbon .sku-wijribbon-sortZA{background-position:0 -2816px}
+.ribbon .sku-wijribbon .sku-wijribbon-customsort{background-position:0 -2752px}
+.ribbon .sku-wijribbon .sku-wijribbon-filter{background-position:0 -1088px}
+.ribbon .sku-wijribbon .sku-wijribbon-clearfilter{background-position:0 -624px}
+.ribbon .sku-wijribbon .sku-wijribbon-reapplyfilter{background-position:0 -2352px}
+.ribbon .sku-wijribbon .sku-wijribbon-find{background-position:-16px -928px}
+.ribbon .sku-wijribbon .sku-wijribbon-smallfind{background-position:0 -1104px}
+.ribbon .sku-wijribbon .sku-wijribbon-goto{background-position:0 -1328px}
+.ribbon .sku-wijribbon .sku-wijribbon-insert-table{background-position:-16px -1952px}
+.ribbon .sku-wijribbon .sku-wijribbon-insert-picture{background-position:-16px -3936px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-line{background-position:-16px -3040px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-column{background-position:-16px -2976px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-winloss{background-position:-16px -3072px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-pie{background-position:-16px -3968px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-area{background-position:-16px -4032px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-scatter{background-position:-16px -4000px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-bullet{background-position:-16px -4096px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-spread{background-position:-16px -4224px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-stacked{background-position:-16px -4288px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-hbar{background-position:-16px -4160px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-vbar{background-position:-16px -4384px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-variance{background-position:-16px -4352px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-boxplot{background-position:-16px -4064px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-cascade{background-position:-16px -4128px}
+.ribbon .sku-wijribbon .sku-wijribbon-sparkline-pareto{background-position:-16px -4192px}
+.ribbon .sku-wijribbon-sparkline-group{background-position:0 -2896px}
+.ribbon .sku-wijribbon-sparkline-ungroup{background-position:0 -2992px}
+.ribbon .sku-wijribbon-sparkline-color{background-position:0 -2848px}
+.ribbon .sku-wijribbon-sparkline-marker-color{background-position:0 -2928px}
+.ribbon .sku-wijribbon-sparkline-weight{background-position:0 -3872px}
+.ribbon .sku-wijribbon-sparkline-weight-custom{background-position:0 -3888px}
+.ribbon .sku-wijribbon-sparkline-dot25{background-position:0 -3856px}
+.ribbon .sku-wijribbon-sparkline-dot1{background-position:0 -3840px}
+.ribbon .sku-wijribbon-sparkline-dot225{background-position:0 -3824px}
+.ribbon .sku-wijribbon-sparkline-dot3{background-position:0 -3808px}
+.ribbon .sku-wijribbon-sparkline-dot45{background-position:0 -3792px}
+.ribbon .sku-wijribbon-sparkline-dot6{background-position:0 -3776px}
+.ribbon .sku-wijribbon .sku-wijribbon-insertfunction{background-position:-16px -1248px}
+.ribbon .sku-wijribbon .sku-wijribbon-namemanager{background-position:-16px -2080px}
+.ribbon .sku-wijribbon .sku-wijribbon-calculateoption{background-position:-16px -256px}
+.ribbon .sku-wijribbon .sku-wijribbon-calculatenow{background-position:-16px -224px}
+.ribbon .sku-wijribbon .sku-wijribbon-fromaccess{background-position:-16px -1344px}
+.ribbon .sku-wijribbon .sku-wijribbon-fromtext{background-position:-16px -1408px}
+.ribbon .sku-wijribbon .sku-wijribbon-fromother{background-position:-16px -1376px}
+.ribbon .sku-wijribbon .sku-wijribbon-exitconnect{background-position:-16px -1312px}
+.ribbon .sku-wijribbon .sku-wijribbon-refreshall{background-position:-16px -2560px}
+.ribbon .sku-wijribbon .sku-wijribbon-refreshallsmall{background-position:0 -2512px}
+.ribbon .sku-wijribbon .sku-wijribbon-refresh{background-position:0 -2496px}
+.ribbon .sku-wijribbon .sku-wijribbon-sortbig{background-position:-16px -2880px}
+.ribbon .sku-wijribbon .sku-wijribbon-filterbig{background-position:-16px -896px}
+.ribbon .sku-wijribbon .sku-wijribbon-datavalidationbig{background-position:-16px -512px}
+.ribbon .sku-wijribbon .sku-wijribbon-datavalidation{background-position:0 -784px}
+.ribbon .sku-wijribbon .sku-wijribbon-groupbig{background-position:-16px -1792px}
+.ribbon .sku-wijribbon .sku-wijribbon-ungroup{background-position:-16px -3392px}
+.ribbon .sku-wijribbon .sku-wijribbon-template-design-mode{background-position:-16px -3392px}
+.ribbon .sku-wijribbon .sku-wijribbon-showdetail{background-position:0 -992px}
+.ribbon .sku-wijribbon .sku-wijribbon-hidedetail{background-position:0 -704px}
+.ribbon .sku-wijribbon .sku-wijribbon-template-designmode{background-position:-16px -4320px}
+.ribbon .sku-wijribbon .sku-wijribbon-loadSchema{background-position:0 -4048px}
+.ribbon .sku-wijribbon .sku-wijribbon-saveSchema{background-position:0 -4064px}
+.ribbon .sku-wijribbon .sku-wijribbon-clearBindingPath{background-position:0 -4032px}
+.ribbon .sku-wijribbon .sku-wijribbon-checked{background-position:0 -3600px}
+.ribbon .sku-wijribbon .sku-wijribbon-unchecked{background-position:0 -3648px}
+.ribbon .sku-wijribbon .sku-wijribbon-zoom{background-position:-16px -3552px}
+.ribbon .sku-wijribbon .sku-wijribbon-zoomdefault{background-position:-16px -3584px}
+.ribbon .sku-wijribbon .sku-wijribbon-zoomselection{background-position:-16px -3616px}
+.ribbon .sku-wijribbon .sku-wijribbon-freeze{background-position:-16px -1152px}
+.ribbon .sku-wijribbon .sku-wijribbon-unfreeze{background-position:-16px -3648px}
+.ribbon .sku-wijribbon .sku-wijribbon-split{background-position:-16px -3104px}
+.ribbon .sku-wijribbon .sku-wijribbon-spreadgeneral{background-position:-16px -3136px}
+.ribbon .sku-wijribbon .sku-wijribbon-splitbox{background-position:0 -3024px}
+.ribbon .sku-wijribbon .sku-wijribbon-scrollbars{background-position:0 -2656px}
+.ribbon .sku-wijribbon .sku-wijribbon-view{background-position:0 -3424px}
+.ribbon .sku-wijribbon .sku-wijribbon-tabstrip{background-position:0 -3168px}
+.ribbon .sku-wijribbon .sku-wijribbon-sheetgeneral{background-position:-16px -2624px}
+.ribbon .sku-wijribbon .sku-wijribbon-gridlines{background-position:0 -1440px}
+.ribbon .sku-wijribbon .sku-wijribbon-calculation{background-position:0 -576px}
+.ribbon .sku-wijribbon .sku-wijribbon-headers{background-position:0 -1488px}
+.ribbon .sku-wijribbon .sku-wijribbon-resize-table{background-position:0 -2528px}
+.ribbon .sku-wijribbon-table-style{background-position:-16px -3904px}
+.ribbon .sku-wijribbon-abbrevicon{background-image:url(../images/icons.png)}
+.ribbon .sku-wijribbon .sku-wijribbon-abbrevgroup .ui-icon{background-position:0 -2576px}
+.ribbon .sku-wijribbon-abbrevclipboard{background-position:0 -768px}
+.ribbon .sku-wijribbon-abbrevfonts{background-position:0 -400px}
+.ribbon .sku-wijribbon-abbrevalignment{background-position:0 -48px}
+.ribbon .sku-wijribbon-abbrevnumbers{background-position:0 -2064px}
+.ribbon .sku-wijribbon-abbrevcelltype{background-position:0 -3728px}
+.ribbon .sku-wijribbon-abbrevstyles{background-position:0 -1232px}
+.ribbon .sku-wijribbon-abbrevcells{background-position:0 -1216px}
+.ribbon .sku-wijribbon-abbrevediting{background-position:0 -1024px}
+.ribbon .sku-wijribbon-abbrevtables{background-position:0 -1648px}
+.ribbon .sku-wijribbon-abbrevsparklines{background-position:0 -2912px}
+.ribbon .sku-wijribbon-abbrevfunctions{background-position:0 -1600px}
+.ribbon .sku-wijribbon-abbrevnames{background-position:0 -1872px}
+.ribbon .sku-wijribbon-abbrevsort{background-position:0 -2752px}
+.ribbon .sku-wijribbon-abbrevdata{background-position:0 -784px}
+.ribbon .sku-wijribbon-abbrevoutline{background-position:0 -1456px}
+.ribbon .sku-wijribbon-abbrevshow\5c\2fhide{background-position:0 -3600px}
+.ribbon .sku-wijribbon-abbrevzoom{background-position:0 -3584px}
+.ribbon .sku-wijribbon-abbrevviewport{background-position:0 -1264px}
+.ribbon .sku-wijribbon-abbrevspread{background-position:0 -2128px}
+.ribbon .sku-wijribbon-abbrevsheet{background-position:0 -2112px}
+.ribbon .sku-wijribbon-abbrevproperties{background-position:0 -2528px}
+.ribbon .sku-wijribbon-abbrevtable{background-position:0 -2704px}
+.ribbon .sku-wijribbon-abbrevtype{background-position:0 -2912px}
+.ribbon .sku-wijribbon-abbrevshow{background-position:0 -3600px}
+.ribbon .sku-wijribbon-abbrevstyle{background-position:0 -2928px}
+.ribbon .sku-wijribbon-abbrevgroups{background-position:0 -2896px}
+.ribbon #condition-format-popup{width:auto}
+.ribbon #condition-format-popup .sku-wijribbon-dropdown{background:#fafafa;border:solid 1px #a7abb0;box-shadow:1px 1px 3px rgba(0,0,0,.25);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.25);-moz-box-shadow:1px 1px 3px rgba(0,0,0,.25);padding:3px 5px 3px 2px}
+.ribbon #condition-format-popup .ui-icon{background-image:url(../images/icons.png)}
+.ribbon #condition-format-popup .ui-icon-big{background-image:url(../images/icons.png);position:absolute;top:.5em;margin-top:0;width:32px;height:32px}
+.ribbon #condition-format-popup .ui-icon-small{background-image:url(../images/icons.png);position:absolute;top:.5em;margin-top:0;width:16px;height:16px}
+.ribbon #condition-format-popup .ui-button{text-decoration:none;display:inline-block;position:relative;padding:0;line-height:normal;cursor:pointer;vertical-align:middle;text-align:left;overflow:visible;background:0 0;border:none;color:#000;box-shadow:none;-webkit-box-shadow:none;width:100%;margin:0 0 1px 1px}
+.ribbon #condition-format-popup .ui-button .ui-state-hover{border:none;text-decoration:none}
+.ribbon #condition-format-popup .ui-button .icon-button-container{padding:6px;display:block;white-space:nowrap}
+.ribbon #condition-format-popup .horizontal-3-big-icon-button-container{width:144px}
+.ribbon #condition-format-popup .horizontal-4-big-icon-button-container{width:192px}
+.ribbon #condition-format-popup .horizontal-2-small-iconset-button-container{width:232px}
+.ribbon #condition-format-popup .big-icon-only{width:44px;height:44px}
+.ribbon #condition-format-popup .small-icon-set-only{width:112px;height:28px}
+.ribbon #condition-format-popup .horizontal-icon-set-item{display:inline-block}
+.ribbon #condition-format-popup .ui-button-text-big{padding:.4em 1em .4em 42px;display:block;line-height:32px;white-space:nowrap;font-size:12px}
+.ribbon #condition-format-popup .ui-button-text-small{padding:.4em 1em .4em 2.1em;display:block;line-height:normal;white-space:nowrap;font-size:12px}
+.ribbon #condition-format-popup .menu-right-arrow{background-position:0 -3904px}
+.ribbon #condition-format-popup .menu-has-subitem{padding-right:2em}
+.ribbon #condition-format-popup .align-right-icon-container{direction:rtl}
+.ribbon #condition-format-popup .submenu-title{font-weight:700;background-color:#f0f2f5;padding-left:.5em;font-size:10px;font-family:"Helvetica Neue","Segoe UI",Helvetica,Verdana,sans-serif}
+.ribbon #condition-format-popup .sku-wijribbon-listseparator{height:1px;border-top:1px solid #d3d3d3;margin:0 0 0 12px}
+.ribbon #condition-format-popup .sku-ribbon-highlight-cells-rules{background-position:-16px -1824px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-top-bottom-rules{background-position:-16px -3328px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-data-bars{background-position:-16px -480px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-color-scales{background-position:-16px -320px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-icon-sets{background-position:-16px -1888px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-new-rule{background-position:0 -1920px}
+.ribbon #condition-format-popup .sku-ribbon-clear-rules{background-position:0 -672px}
+.ribbon #condition-format-popup .sku-ribbon-manage-rules{background-position:0 -1760px}
+.ribbon #condition-format-popup .sku-ribbon-greater-than{background-position:-16px -1632px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-less-than{background-position:-16px -1984px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-between{background-position:-16px -96px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-equal-to{background-position:-16px -704px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-text-contains{background-position:-16px -3232px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-a-date-occurring{background-position:-16px -576px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-duplicate-values{background-position:-16px -672px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-top-10-items{background-position:-16px -3328px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-bottom-10-items{background-position:-16px -192px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-above-average{background-position:-16px 0;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-below-average{background-position:-16px -64px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gradient-fill-blue-data-bar{background-position:-16px -1440px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gradient-fill-green-data-bar{background-position:-16px -1472px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gradient-fill-red-data-bar{background-position:-16px -1600px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gradient-fill-orange-data-bar{background-position:-16px -1536px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gradient-fill-lightblue-data-bar{background-position:-16px -1504px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gradient-fill-purple-data-bar{background-position:-16px -1568px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-solid-fill-blue-data-bar{background-position:-16px -2688px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-solid-fill-green-data-bar{background-position:-16px -2720px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-solid-fill-red-data-bar{background-position:-16px -2848px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-solid-fill-orange-data-bar{background-position:-16px -2784px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-solid-fill-lightblue-data-bar{background-position:-16px -2752px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-solid-fill-purple-data-bar{background-position:-16px -2816px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gyr-color-scale{background-position:-16px -1728px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-ryg-color-scale{background-position:-16px -2528px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gwr-color-scale{background-position:-16px -1664px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-rwg-color-scale{background-position:-16px -2464px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-bwr-color-scale{background-position:-16px -128px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-rwb-color-scale{background-position:-16px -2432px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-wr-color-scale{background-position:-16px -3456px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-rw-color-scale{background-position:-16px -2496px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gw-color-scale{background-position:-16px -1696px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-wg-color-scale{background-position:-16px -3424px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-gy-color-scale{background-position:-16px -1760px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-yg-color-scale{background-position:-16px -3520px;width:32px;height:32px}
+.ribbon #condition-format-popup .sku-ribbon-up-arrow-green{background-position:0 -240px}
+.ribbon #condition-format-popup .sku-ribbon-right-arrow-yellow{background-position:0 -352px}
+.ribbon #condition-format-popup .sku-ribbon-down-arrow-red{background-position:0 -320px}
+.ribbon #condition-format-popup .sku-ribbon-up-arrow-gray{background-position:0 -304px}
+.ribbon #condition-format-popup .sku-ribbon-right-arrow-gray{background-position:0 -288px}
+.ribbon #condition-format-popup .sku-ribbon-down-arrow-gray{background-position:0 -272px}
+.ribbon #condition-format-popup .sku-ribbon-up-triangle-green{background-position:0 -3280px}
+.ribbon #condition-format-popup .sku-ribbon-minus-yellow{background-position:0 -3312px}
+.ribbon #condition-format-popup .sku-ribbon-down-triangle-red{background-position:0 -3296px}
+.ribbon #condition-format-popup .sku-ribbon-right-up-arrow-gray{background-position:0 -192px}
+.ribbon #condition-format-popup .sku-ribbon-right-down-arrow-gray{background-position:0 -176px}
+.ribbon #condition-format-popup .sku-ribbon-right-up-arrow-yellow{background-position:0 -224px}
+.ribbon #condition-format-popup .sku-ribbon-right-down-arrow-yellow{background-position:0 -208px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-green{background-position:0 -1392px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-yellow{background-position:0 -3472px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-red{background-position:0 -2368px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-rimmed-green{background-position:0 -1424px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-rimmed-yellow{background-position:0 -3536px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-rimmed-red{background-position:0 -2480px}
+.ribbon #condition-format-popup .sku-ribbon-up-triangle-yellow{background-position:0 -3552px}
+.ribbon #condition-format-popup .sku-ribbon-down-rhombus-red{background-position:0 -2416px}
+.ribbon #condition-format-popup .sku-ribbon-traffic-light-black{background-position:0 -368px}
+.ribbon #condition-format-popup .sku-ribbon-ball-red{background-position:0 -2432px}
+.ribbon #condition-format-popup .sku-ribbon-ball-pink{background-position:0 -2080px}
+.ribbon #condition-format-popup .sku-ribbon-ball-gray{background-position:0 -1344px}
+.ribbon #condition-format-popup .sku-ribbon-ball-black{background-position:0 -384px}
+.ribbon #condition-format-popup .sku-ribbon-check-circled-green{background-position:0 -1376px}
+.ribbon #condition-format-popup .sku-ribbon-notice-circled-yellow{background-position:0 -3504px}
+.ribbon #condition-format-popup .sku-ribbon-close-circled-red{background-position:0 -2400px}
+.ribbon #condition-format-popup .sku-ribbon-check-uncircled-green{background-position:0 -1360px}
+.ribbon #condition-format-popup .sku-ribbon-notice-uncircled-yellow{background-position:0 -3488px}
+.ribbon #condition-format-popup .sku-ribbon-close-uncircled-red{background-position:0 -2384px}
+.ribbon #condition-format-popup .sku-ribbon-flag-green{background-position:0 -1408px}
+.ribbon #condition-format-popup .sku-ribbon-flag-yellow{background-position:0 -3520px}
+.ribbon #condition-format-popup .sku-ribbon-flag-red{background-position:0 -2448px}
+.ribbon #condition-format-popup .sku-ribbon-star-solid{background-position:0 -3072px}
+.ribbon #condition-format-popup .sku-ribbon-star-half{background-position:0 -3056px}
+.ribbon #condition-format-popup .sku-ribbon-star-hollow{background-position:0 -3040px}
+.ribbon #condition-format-popup .sku-ribbon-rating-4{background-position:0 -2336px}
+.ribbon #condition-format-popup .sku-ribbon-rating-3{background-position:0 -2320px}
+.ribbon #condition-format-popup .sku-ribbon-rating-2{background-position:0 -2304px}
+.ribbon #condition-format-popup .sku-ribbon-rating-1{background-position:0 -2288px}
+.ribbon #condition-format-popup .sku-ribbon-rating-0{background-position:0 -2272px}
+.ribbon #condition-format-popup .sku-ribbon-quarters-4{background-position:0 -2256px}
+.ribbon #condition-format-popup .sku-ribbon-quarters-3{background-position:0 -2240px}
+.ribbon #condition-format-popup .sku-ribbon-quarters-2{background-position:0 -2224px}
+.ribbon #condition-format-popup .sku-ribbon-quarters-1{background-position:0 -2208px}
+.ribbon #condition-format-popup .sku-ribbon-quarters-0{background-position:0 -2192px}
+.ribbon #condition-format-popup .sku-ribbon-box-4{background-position:0 -528px}
+.ribbon #condition-format-popup .sku-ribbon-box-3{background-position:0 -512px}
+.ribbon #condition-format-popup .sku-ribbon-box-2{background-position:0 -496px}
+.ribbon #condition-format-popup .sku-ribbon-box-1{background-position:0 -480px}
+.ribbon #condition-format-popup .sku-ribbon-box-0{background-position:0 -464px}
+.ribbon .sku-wijribbon .sku-wijribbon-cornerindicator{float:right;margin-right:3px;height:14px}
+.ribbon .sku-wijribbon .sku-wijribbon-cornerindicator button{width:16px;height:14px}
+.ribbon .sku-wijribbon .sku-wijribbon-indicatoricon{background-position:0 -3616px}
+.ribbon .designer-colorpicker{background-color:#fff}
+.ribbon .sku-wijribbon .ui-custom-triangle{background-image:url(../images/icons.png);display:inline-block;width:9px;height:10px;background-position:0 -3664px}
+.ribbon .sku-wijribbon .ui-custom-triangle2{background-image:url(../images/icons.png);display:block;width:32px;height:10px;background-position:-16px -3680px}
+.ribbon .sku-wijribbon-menu-caption{font-weight:700;margin-left:-20px;background-color:#eee}
+.ribbon .designer-table-name{width:100px;padding:3px 3px 3px 5px}
+.ribbon .designer-table-format{width:483px;border:1px solid #d3d3d3}
+.ribbon .designer-table-format .ui-state-hover{border:none}
+.ribbon .designer-table-format li{list-style:none}
+.ribbon .designer-table-format .new-table-style-div .new-table-style-span{background-image:url(../images/icons.png);position:absolute;top:2px;margin-top:0;width:16px;height:16px;background-position:0 -1936px}
+.ribbon .designer-table-format .new-table-style-div .new-table-style-text{float:left;margin-left:28px}
+.ribbon .designer-table-format .new-table-style{background:#fff;width:483px;height:24px}
+.ribbon .designer-table-format .table-format-label-container{background-color:#f0f2f5;height:22px;font-family:"Helvetica Neue","Segoe UI",Helvetica,Verdana,sans-serif}
+.ribbon .designer-table-format .table-format-label{font-weight:700;display:inline-block;vertical-align:-webkit-baseline-middle;margin-left:10px}
+.ribbon .designer-table-format .custom-format-table{display:none}
+.ribbon .designer-table-format .table-format-category-div{background-color:#fff}
+.ribbon .designer-table-format .table-format-preview{background-image:url(../images/formattable.png);display:inline-block;background-repeat:no-repeat;width:61px;height:46px}
+.ribbon .designer-table-format .table-format-preview-button{padding:0;margin:0;border:none}
+.ribbon .designer-table-format .container-span{padding:4px;width:61px;height:46px;display:block;background-color:#fff}
+.ribbon .designer-table-format .table-format-custom1{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-custom2{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-custom3{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-custom4{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-custom5{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-custom6{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-custom7{background-position:0 0;display:none}
+.ribbon .designer-table-format .table-format-light1{background-position:0 -506px}
+.ribbon .designer-table-format .table-format-light2{background-position:0 -552px}
+.ribbon .designer-table-format .table-format-light3{background-position:0 -598px}
+.ribbon .designer-table-format .table-format-light4{background-position:0 -644px}
+.ribbon .designer-table-format .table-format-light5{background-position:0 -690px}
+.ribbon .designer-table-format .table-format-light6{background-position:0 -736px}
+.ribbon .designer-table-format .table-format-light7{background-position:0 -782px}
+.ribbon .designer-table-format .table-format-light8{background-position:0 -828px}
+.ribbon .designer-table-format .table-format-light9{background-position:0 -874px}
+.ribbon .designer-table-format .table-format-light10{background-position:0 -920px}
+.ribbon .designer-table-format .table-format-light11{background-position:0 -966px}
+.ribbon .designer-table-format .table-format-light12{background-position:0 -1012px}
+.ribbon .designer-table-format .table-format-light13{background-position:0 -1058px}
+.ribbon .designer-table-format .table-format-light14{background-position:0 -1104px}
+.ribbon .designer-table-format .table-format-light15{background-position:0 -1150px}
+.ribbon .designer-table-format .table-format-light16{background-position:0 -1196px}
+.ribbon .designer-table-format .table-format-light17{background-position:0 -1242px}
+.ribbon .designer-table-format .table-format-light18{background-position:0 -1288px}
+.ribbon .designer-table-format .table-format-light19{background-position:0 -1334px}
+.ribbon .designer-table-format .table-format-light20{background-position:0 -1380px}
+.ribbon .designer-table-format .table-format-light21{background-position:0 -1426px}
+.ribbon .designer-table-format .table-format-medium1{background-position:0 -1472px}
+.ribbon .designer-table-format .table-format-medium2{background-position:0 -1518px}
+.ribbon .designer-table-format .table-format-medium3{background-position:0 -1564px}
+.ribbon .designer-table-format .table-format-medium4{background-position:0 -1610px}
+.ribbon .designer-table-format .table-format-medium5{background-position:0 -1656px}
+.ribbon .designer-table-format .table-format-medium6{background-position:0 -1702px}
+.ribbon .designer-table-format .table-format-medium7{background-position:0 -1748px}
+.ribbon .designer-table-format .table-format-medium8{background-position:0 -1794px}
+.ribbon .designer-table-format .table-format-medium9{background-position:0 -1840px}
+.ribbon .designer-table-format .table-format-medium10{background-position:0 -1886px}
+.ribbon .designer-table-format .table-format-medium11{background-position:0 -1932px}
+.ribbon .designer-table-format .table-format-medium12{background-position:0 -1978px}
+.ribbon .designer-table-format .table-format-medium13{background-position:0 -2024px}
+.ribbon .designer-table-format .table-format-medium14{background-position:0 -2070px}
+.ribbon .designer-table-format .table-format-medium15{background-position:0 -2116px}
+.ribbon .designer-table-format .table-format-medium16{background-position:0 -2162px}
+.ribbon .designer-table-format .table-format-medium17{background-position:0 -2208px}
+.ribbon .designer-table-format .table-format-medium18{background-position:0 -2254px}
+.ribbon .designer-table-format .table-format-medium19{background-position:0 -2300px}
+.ribbon .designer-table-format .table-format-medium20{background-position:0 -2346px}
+.ribbon .designer-table-format .table-format-medium21{background-position:0 -2392px}
+.ribbon .designer-table-format .table-format-medium22{background-position:0 -2438px}
+.ribbon .designer-table-format .table-format-medium23{background-position:0 -2484px}
+.ribbon .designer-table-format .table-format-medium24{background-position:0 -2530px}
+.ribbon .designer-table-format .table-format-medium25{background-position:0 -2576px}
+.ribbon .designer-table-format .table-format-medium26{background-position:0 -2622px}
+.ribbon .designer-table-format .table-format-medium27{background-position:0 -2668px}
+.ribbon .designer-table-format .table-format-medium28{background-position:0 -2714px}
+.ribbon .designer-table-format .table-format-dark1{background-position:0 0}
+.ribbon .designer-table-format .table-format-dark2{background-position:0 -46px}
+.ribbon .designer-table-format .table-format-dark3{background-position:0 -92px}
+.ribbon .designer-table-format .table-format-dark4{background-position:0 -138px}
+.ribbon .designer-table-format .table-format-dark5{background-position:0 -184px}
+.ribbon .designer-table-format .table-format-dark6{background-position:0 -230px}
+.ribbon .designer-table-format .table-format-dark7{background-position:0 -276px}
+.ribbon .designer-table-format .table-format-dark8{background-position:0 -322px}
+.ribbon .designer-table-format .table-format-dark9{background-position:0 -368px}
+.ribbon .designer-table-format .table-format-dark10{background-position:0 -414px}
+.ribbon .designer-table-format .table-format-dark11{background-position:0 -460px}
+.ribbon .designer-cell-styles{background-color:#fafafa;width:645px;border:thin solid #a7abb0}
+.ribbon .designer-cell-styles .ui-state-hover{border:none;background-color:#dbdbdb;cursor:default}
+.ribbon .designer-cell-styles .submenu-title{font-weight:700;background-color:#f0f2f5;font-size:12px;font-family:"Helvetica Neue","Segoe UI",Helvetica,Verdana,sans-serif;padding:6px 0 0 8px;height:22px}
+.ribbon .designer-cell-styles .cell-style-symbol{height:22px;width:96px;display:inline-block;padding-left:3px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.ribbon .designer-cell-styles .custom-cell-style-symbol{height:20px;width:96px;display:inline-block;padding-left:3px;padding-top:3px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.ribbon .designer-cell-styles ul{list-style-type:none;padding:0;margin:0}
+.ribbon .designer-cell-styles .cell-style-outer-span{height:25px;padding:3px;background-color:#fafafa;display:inline-block;float:left;font-family:"Helvetica Neue","Segoe UI",Helvetica,Verdana,sans-serif}
+.ribbon .designer-cell-styles .ui-icon-small{background-image:url(../images/icons.png);position:absolute;top:2px;margin-top:0;width:16px;height:16px}
+.ribbon .designer-cell-styles .ui-button-text-small{padding:3px 510px 3px 28px;display:block;line-height:normal;white-space:nowrap;background-color:#fff}
+.ribbon .designer-cell-styles .new-cell-style-button{width:100%}
+.ribbon .designer-cell-styles .sku-ribbon-new-cell-style{background-position:0 -1888px}
+.ribbon .designer-cell-styles .cellstyle-icon-empty{height:16px;width:16px;display:inline-block;margin-right:2px}
+.ribbon .designer-cell-styles .cellstyle-menu{width:130px}
+.ribbon .designer-cell-styles .sub-cellstyle-category{display:inline-block}
+.ribbon .template-design-mode-checked{background-color:#dbdbdb}
+.ribbon .designer-data-binding-icon{background-image:url(../images/icons.png);display:inline-block;width:16px;height:16px;background-position:0 -1024px}
+.ribbon .data-binding-path{width:90px}
+.ribbon #data-binding-setting-popup{position:absolute;padding:15px;z-index:1000;background-color:#fff;border:1px solid #d3d3d3;background-color:#ebebeb;min-width:235px}
+.ribbon #data-binding-setting-indicator{position:absolute;z-index:1000}
+.ribbon .table-binding-block1{margin-left:5px}
+.ribbon .table-binding-block2{width:120px}
+.ribbon .data-field-select{width:120px}
+.ribbon .data-field-block1{display:inline-block;width:65px}
+.ribbon .auto-generate-columns-container{margin:4px 0}
+.ribbon .table-binding-columninfo-fieldset{border:1px solid #d3d3d3}
+.ribbon .data-field-container{margin:2px}
+.ribbon .table-binding-path{width:110px;border:0;height:18px}
+.ribbon .table-binding-setting-button{float:right;width:60px;margin-top:10px;margin-right:2px}
+.ribbon .data-binding-path-overlay{z-index:1000;opacity:.3;position:fixed;width:100%;height:100%;margin:0;padding:0;top:0;left:0;border:none;background-color:grey}
+.ribbon .data-binding-decoration{border:1px solid #00f;outline:0;-webkit-box-shadow:0 0 4px 0 #007eff;position:absolute;z-index:1000}
+.ribbon .columninfo-fieldset-container{max-width:250px;max-height:250px;overflow:auto}
+.ribbon .data-binding-celltype-option{display:none;border:1px solid #d3d3d3;padding:2px;background:#fff}
+.ribbon .data-binding-celltype-option .sku-binding{display:inline-block;width:16px;height:16px;background-image:url(../images/icons.png);vertical-align:bottom}
+.ribbon .data-binding-celltype-option .ui-button-text{padding:.3em .5em}
+.ribbon .data-binding-celltype-option .data-binding-celltype-button{width:115px;text-align:inherit;border:none;background:#fff}
+.ribbon .data-binding-celltype-option .data-binding-celltype-button:hover{background-color:#d3d3d3}
+.ribbon .data-binding-celltype-option .data-binding-table-icon{background-position:0 -3376px}
+.ribbon .data-binding-celltype-option .data-binding-checkbox-icon{background-position:0 -3728px}
+.ribbon .data-binding-celltype-option .data-binding-hyperlink-icon{background-position:0 -3696px}
+.ribbon .data-binding-celltype-option .data-binding-combox-icon{background-position:0 -3712px}
+.ribbon .data-binding-celltype-option .data-binding-button-icon{background-position:0 -3680px}
+.ribbon .data-binding-celltype-option .data-binding-text-icon{background-position:0 -1152px}
+.ribbon .ribbon-menu-caption{font-size:13px}

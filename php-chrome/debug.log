@@ -1,0 +1,587 @@
+- 11:39:48.016 INFO: --------------------------------------------------------
+- 11:39:48.016 INFO: Started application
+- 11:39:48.016 INFO: Logging to: C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\debug.log
+- 11:39:48.016 INFO: Log level = DEBUG4
+- 11:39:48.016 INFO: Starting Mongoose 3.9c web server
+- 11:39:48.032 INFO: WWW directory: C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\www
+- 11:39:48.032 INFO: Index files: index.html,index.php
+- 11:39:48.032 INFO: CGI interpreter: C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\php\php-cgi.exe
+- 11:39:48.032 INFO: CGI pattern: **.php$
+- 11:39:48.032 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 11:39:48.032 INFO: Web server url: http://127.0.0.1:11419/
+- 11:39:48.032 INFO: remote_debugging_port = 53053
+- 11:39:48.032 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\debug.log" --remote-debugging-port=53053 --no-sandbox
+- 11:39:48.047 DEBUG: App::OnContextInitialized()
+- 11:39:48.047 DEBUG: Window max width/height = 1520/812
+- 11:39:48.047 DEBUG: GetBrowserWindow(): not found, hwnd = 69126
+- 11:39:48.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:39:48.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:39:48.047 DEBUG: StoreBrowserWindow(): hwnd = 69126
+- 11:39:48.063 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 11:39:48.078 DEBUG: ClientHandler::OnAfterCreated()
+- 11:39:48.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:39:48.078 INFO: DPI, ppix = 96, ppiy = 96
+- 11:39:48.078 INFO: DPI, browser zoom level = 0
+- 11:39:48.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\phpdesktop-chrome.exe" --type=gpu-process --channel="11268.0.1047046728\970577774" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\debug.log" /prefetch:822062411
+- 11:39:48.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:39:48.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\phpdesktop-chrome-31.8-php-5.4.33\debug.log" --channel="11268.1.797602882\1206869414" /prefetch:673131151
+- 11:39:48.062 DEBUG: OnBrowserCreated()
+- 11:39:50.906 DEBUG: OnContextCreated()
+- 11:39:50.032 INFO: GET 200 /
+- 11:39:50.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:19.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:19.797 DEBUG: OnContextCreated()
+- 11:40:19.907 INFO: GET 200 /
+- 11:40:19.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:20.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:20.218 DEBUG: OnContextCreated()
+- 11:40:20.328 INFO: GET 200 /
+- 11:40:20.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:21.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:21.515 DEBUG: OnContextCreated()
+- 11:40:21.625 INFO: GET 200 /
+- 11:40:21.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:23.078 DEBUG: F5 pressed, reloading page
+- 11:40:23.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:23.015 DEBUG: OnContextCreated()
+- 11:40:23.125 INFO: GET 200 /
+- 11:40:23.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:24.641 DEBUG: F5 pressed, reloading page
+- 11:40:24.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:24.593 DEBUG: OnContextCreated()
+- 11:40:24.719 INFO: GET 200 /
+- 11:40:24.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:24.860 DEBUG: F5 pressed, reloading page
+- 11:40:24.860 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:24.797 DEBUG: OnContextCreated()
+- 11:40:24.907 INFO: GET 200 /
+- 11:40:24.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:24.078 DEBUG: F5 pressed, reloading page
+- 11:40:24.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:24.015 DEBUG: OnContextCreated()
+- 11:40:24.125 INFO: GET 200 /
+- 11:40:24.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:24.282 DEBUG: F5 pressed, reloading page
+- 11:40:24.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:24.218 DEBUG: OnContextCreated()
+- 11:40:24.328 INFO: GET 200 /
+- 11:40:24.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:25.453 DEBUG: F5 pressed, reloading page
+- 11:40:25.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:25.390 DEBUG: OnContextCreated()
+- 11:40:25.516 INFO: GET 200 /
+- 11:40:25.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:40:45.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11419/
+- 11:40:45.625 DEBUG: OnContextCreated()
+- 11:40:45.735 INFO: GET 200 /
+- 11:40:45.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11419/
+- 11:48:11.844 DEBUG: WM_DESTROY
+- 11:48:11.844 DEBUG: RemoveBrowserWindow(): hwnd = 69126
+- 11:48:11.844 INFO: Stopping Mongoose web server
+- 11:48:11.844 DEBUG: Mongoose webserver stopped immediately
+- 11:48:11.844 DEBUG: RemoveBrowserWindow(): hwnd = 69136
+- 11:48:11.844 DEBUG: GetBrowserWindow(): not found, hwnd = 69136
+- 11:48:11.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:48:11.750 DEBUG: OnBrowserDestroyed()
+- 11:48:11.891 INFO: Ended application
+- 11:48:11.891 INFO: --------------------------------------------------------
+- 11:55:20.031 INFO: --------------------------------------------------------
+- 11:55:20.031 INFO: Started application
+- 11:55:20.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 11:55:20.031 INFO: Log level = DEBUG4
+- 11:55:20.031 INFO: Starting Mongoose 3.9c web server
+- 11:55:20.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 11:55:20.031 INFO: Index files: index.html,index.php
+- 11:55:20.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 11:55:20.031 INFO: CGI pattern: **.php$
+- 11:55:20.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 11:55:20.031 INFO: Web server url: http://127.0.0.1:11538/
+- 11:55:20.047 INFO: remote_debugging_port = 54662
+- 11:55:20.047 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=54662 --no-sandbox
+- 11:55:20.062 DEBUG: App::OnContextInitialized()
+- 11:55:20.062 DEBUG: Window max width/height = 1520/812
+- 11:55:20.062 DEBUG: GetBrowserWindow(): not found, hwnd = 395018
+- 11:55:20.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:55:20.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:55:20.062 DEBUG: StoreBrowserWindow(): hwnd = 395018
+- 11:55:20.062 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 11:55:20.078 DEBUG: ClientHandler::OnAfterCreated()
+- 11:55:20.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:55:20.078 INFO: DPI, ppix = 96, ppiy = 96
+- 11:55:20.078 INFO: DPI, browser zoom level = 0
+- 11:55:20.016 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="596.0.411942360\1133972689" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 11:55:20.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:55:20.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="596.1.1440397511\842144193" /prefetch:673131151
+- 11:55:20.063 DEBUG: OnBrowserCreated()
+- 11:55:20.297 INFO: GET 200 /
+- 11:55:20.188 DEBUG: OnContextCreated()
+- 11:55:20.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11538/
+- 11:57:49.500 DEBUG: F5 pressed, reloading page
+- 11:57:49.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11538/
+- 11:57:49.438 DEBUG: OnContextCreated()
+- 11:57:49.547 INFO: GET 200 /
+- 11:57:49.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11538/
+- 11:57:56.125 DEBUG: RemoveBrowserWindow(): hwnd = 395052
+- 11:57:56.125 DEBUG: GetBrowserWindow(): not found, hwnd = 395052
+- 11:57:56.125 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:03:07.031 INFO: --------------------------------------------------------
+- 12:03:07.031 INFO: Started application
+- 12:03:07.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:03:07.031 INFO: Log level = DEBUG4
+- 12:03:07.031 INFO: Starting Mongoose 3.9c web server
+- 12:03:07.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:03:07.031 INFO: Index files: index.html,index.php
+- 12:03:07.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:03:07.031 INFO: CGI pattern: **.php$
+- 12:03:07.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:03:07.047 INFO: Web server url: http://127.0.0.1:11554/
+- 12:03:07.047 INFO: remote_debugging_port = 52193
+- 12:03:07.047 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=52193 --no-sandbox
+- 12:03:07.062 DEBUG: App::OnContextInitialized()
+- 12:03:07.062 DEBUG: Window max width/height = 1520/812
+- 12:03:07.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1051680
+- 12:03:07.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:03:07.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:03:07.062 DEBUG: StoreBrowserWindow(): hwnd = 1051680
+- 12:03:07.078 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:03:07.078 DEBUG: ClientHandler::OnAfterCreated()
+- 12:03:07.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:03:07.078 INFO: DPI, ppix = 96, ppiy = 96
+- 12:03:07.078 INFO: DPI, browser zoom level = 0
+- 12:03:07.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="2432.0.348328235\1493706025" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:03:07.094 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:03:07.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="2432.1.2019147104\1766776416" /prefetch:673131151
+- 12:03:07.063 DEBUG: OnBrowserCreated()
+- 12:03:07.125 DEBUG: OnContextCreated()
+- 12:03:07.234 INFO: GET 200 /
+- 12:03:07.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11554/
+- 12:05:44.031 INFO: --------------------------------------------------------
+- 12:05:44.031 INFO: Started application
+- 12:05:44.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:05:44.031 INFO: Log level = DEBUG4
+- 12:05:44.031 INFO: Starting Mongoose 3.9c web server
+- 12:05:44.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:05:44.031 INFO: Index files: index.html,index.php
+- 12:05:44.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:05:44.031 INFO: CGI pattern: **.php$
+- 12:05:44.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:05:44.031 INFO: Web server url: http://127.0.0.1:11559/
+- 12:05:44.031 INFO: remote_debugging_port = 55747
+- 12:05:44.031 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=55747 --no-sandbox
+- 12:05:44.047 DEBUG: App::OnContextInitialized()
+- 12:05:44.047 DEBUG: Window max width/height = 1520/812
+- 12:05:44.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1050894
+- 12:05:44.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:05:44.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:05:44.047 DEBUG: StoreBrowserWindow(): hwnd = 1050894
+- 12:05:44.062 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:05:44.062 DEBUG: ClientHandler::OnAfterCreated()
+- 12:05:44.062 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:05:44.062 INFO: DPI, ppix = 96, ppiy = 96
+- 12:05:44.062 INFO: DPI, browser zoom level = 0
+- 12:05:44.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="14884.0.838282471\1020153835" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:05:44.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:05:44.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="14884.1.1287942123\1507938909" /prefetch:673131151
+- 12:05:44.046 DEBUG: OnBrowserCreated()
+[0427/120544:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0427/120544:ERROR:cache_util.cc(104)] Unable to move cache folder C:\Users\liudong\Desktop\php-chrome\webcache\GPUCache to C:\Users\liudong\Desktop\php-chrome\webcache\old_GPUCache_000
+[0427/120544:ERROR:cache_creator.cc(115)] Unable to create cache
+[0427/120544:ERROR:shader_disk_cache.cc(580)] Shader Cache Creation failed: -2
+[0427/120544:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[0427/120544:ERROR:cache_util.cc(104)] Unable to move cache folder C:\Users\liudong\Desktop\php-chrome\webcache to C:\Users\liudong\Desktop\php-chrome\old_webcache_000
+[0427/120544:ERROR:cache_creator.cc(115)] Unable to create cache
+- 12:05:44.187 INFO: GET 200 /
+- 12:05:44.093 DEBUG: OnContextCreated()
+- 12:05:44.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/
+- 12:07:42.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/
+- 12:07:42.687 DEBUG: OnContextCreated()
+- 12:07:42.797 INFO: GET 200 /chrome-version.php
+- 12:07:42.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/chrome-version.php
+- 12:07:47.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/chrome-version.php
+- 12:07:47.562 DEBUG: OnContextCreated()
+- 12:07:47.656 INFO: GET 200 /index.php
+- 12:07:47.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:52.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:52.921 DEBUG: OnContextCreated()
+- 12:07:52.015 INFO: GET 200 /index.php
+- 12:07:52.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:53.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:53.796 DEBUG: OnContextCreated()
+- 12:07:53.890 INFO: GET 200 /index.php
+- 12:07:53.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:53.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:53.187 DEBUG: OnContextCreated()
+- 12:07:53.281 INFO: GET 200 /index.php
+- 12:07:53.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:53.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:53.453 DEBUG: OnContextCreated()
+- 12:07:53.547 INFO: GET 200 /index.php
+- 12:07:53.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:54.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:54.703 DEBUG: OnContextCreated()
+- 12:07:54.812 INFO: GET 200 /index.php
+- 12:07:54.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:54.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:54.921 DEBUG: OnContextCreated()
+- 12:07:54.015 INFO: GET 200 /index.php
+- 12:07:54.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:54.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:54.171 DEBUG: OnContextCreated()
+- 12:07:54.265 INFO: GET 200 /index.php
+- 12:07:54.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:07:55.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:07:55.671 DEBUG: OnContextCreated()
+- 12:07:55.765 INFO: GET 200 /index.php
+- 12:07:55.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:09:24.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:09:24.562 DEBUG: OnContextCreated()
+- 12:09:24.656 INFO: GET 200 /index.php
+- 12:09:24.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:09:25.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:09:25.484 DEBUG: OnContextCreated()
+- 12:09:25.594 INFO: GET 200 /index.php
+- 12:09:25.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:09:26.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:09:26.843 DEBUG: OnContextCreated()
+- 12:09:26.937 INFO: GET 200 /index.php
+- 12:09:26.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:09:26.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11559/index.php
+- 12:09:26.046 DEBUG: OnContextCreated()
+- 12:09:26.156 INFO: GET 200 /index.php
+- 12:09:26.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11559/index.php
+- 12:09:27.203 DEBUG: WM_DESTROY
+- 12:09:27.203 DEBUG: RemoveBrowserWindow(): hwnd = 1050894
+- 12:09:27.203 INFO: Stopping Mongoose web server
+- 12:09:27.203 DEBUG: Mongoose webserver stopped immediately
+- 12:09:27.203 DEBUG: RemoveBrowserWindow(): hwnd = 592302
+- 12:09:27.203 DEBUG: GetBrowserWindow(): not found, hwnd = 592302
+- 12:09:27.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:09:27.219 INFO: Ended application
+- 12:09:27.219 INFO: --------------------------------------------------------
+- 12:09:27.125 DEBUG: OnBrowserDestroyed()
+- 12:09:31.640 DEBUG: WM_DESTROY
+- 12:09:31.640 DEBUG: RemoveBrowserWindow(): hwnd = 1051680
+- 12:09:31.640 INFO: Stopping Mongoose web server
+- 12:09:31.640 DEBUG: Mongoose webserver stopped immediately
+- 12:09:31.640 DEBUG: RemoveBrowserWindow(): hwnd = 460562
+- 12:09:31.640 DEBUG: GetBrowserWindow(): not found, hwnd = 460562
+- 12:09:31.656 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:09:31.656 INFO: Ended application
+- 12:09:31.656 INFO: --------------------------------------------------------
+- 12:09:31.547 DEBUG: OnBrowserDestroyed()
+- 12:09:38.031 INFO: --------------------------------------------------------
+- 12:09:38.031 INFO: Started application
+- 12:09:38.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:09:38.031 INFO: Log level = DEBUG4
+- 12:09:38.031 INFO: Starting Mongoose 3.9c web server
+- 12:09:38.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:09:38.031 INFO: Index files: index.html,index.php
+- 12:09:38.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:09:38.031 INFO: CGI pattern: **.php$
+- 12:09:38.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:09:38.031 INFO: Web server url: http://127.0.0.1:11589/
+- 12:09:38.031 INFO: remote_debugging_port = 53693
+- 12:09:38.031 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=53693 --no-sandbox
+- 12:09:38.047 DEBUG: App::OnContextInitialized()
+- 12:09:38.047 DEBUG: Window max width/height = 1520/812
+- 12:09:38.047 DEBUG: GetBrowserWindow(): not found, hwnd = 526024
+- 12:09:38.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:09:38.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:09:38.047 DEBUG: StoreBrowserWindow(): hwnd = 526024
+- 12:09:38.063 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:09:38.078 DEBUG: ClientHandler::OnAfterCreated()
+- 12:09:38.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:09:38.078 INFO: DPI, ppix = 96, ppiy = 96
+- 12:09:38.078 INFO: DPI, browser zoom level = 0
+- 12:09:38.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="15144.0.721924933\1184495522" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:09:38.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:09:38.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="15144.1.233243049\2002437445" /prefetch:673131151
+- 12:09:38.047 DEBUG: OnBrowserCreated()
+- 12:09:38.235 INFO: GET 200 /
+- 12:09:38.141 DEBUG: OnContextCreated()
+- 12:09:38.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11589/
+- 12:09:43.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11589/
+- 12:09:43.703 DEBUG: OnContextCreated()
+- 12:09:43.797 INFO: GET 200 /
+- 12:09:43.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11589/
+- 12:09:49.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11589/
+- 12:09:49.141 INFO: GET -1 /web-pages
+- 12:09:49.156 INFO: GET 200 /web-pages/
+- 12:09:49.062 DEBUG: OnContextCreated()
+- 12:09:49.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11589/web-pages/
+- 12:10:35.516 DEBUG: WM_DESTROY
+- 12:10:35.516 DEBUG: RemoveBrowserWindow(): hwnd = 526024
+- 12:10:35.516 INFO: Stopping Mongoose web server
+- 12:10:35.516 DEBUG: Mongoose webserver stopped immediately
+- 12:10:35.516 DEBUG: RemoveBrowserWindow(): hwnd = 460420
+- 12:10:35.516 DEBUG: GetBrowserWindow(): not found, hwnd = 460420
+- 12:10:35.516 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:10:35.531 INFO: Ended application
+- 12:10:35.531 INFO: --------------------------------------------------------
+- 12:10:35.437 DEBUG: OnBrowserDestroyed()
+- 12:11:57.031 INFO: --------------------------------------------------------
+- 12:11:57.031 INFO: Started application
+- 12:11:57.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:11:57.031 INFO: Log level = DEBUG4
+- 12:11:57.031 INFO: Starting Mongoose 3.9c web server
+- 12:11:57.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:11:57.031 INFO: Index files: index.html,index.php
+- 12:11:57.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:11:57.031 INFO: CGI pattern: **.php$
+- 12:11:57.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:11:57.031 INFO: Web server url: http://127.0.0.1:11595/
+- 12:11:57.031 INFO: remote_debugging_port = 51309
+- 12:11:57.031 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=51309 --no-sandbox
+- 12:11:57.062 DEBUG: App::OnContextInitialized()
+- 12:11:57.062 DEBUG: Window max width/height = 1520/812
+- 12:11:57.062 DEBUG: GetBrowserWindow(): not found, hwnd = 591560
+- 12:11:57.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:11:57.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:11:57.062 DEBUG: StoreBrowserWindow(): hwnd = 591560
+- 12:11:57.062 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:11:57.078 DEBUG: ClientHandler::OnAfterCreated()
+- 12:11:57.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:11:57.078 INFO: DPI, ppix = 96, ppiy = 96
+- 12:11:57.078 INFO: DPI, browser zoom level = 0
+- 12:11:57.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="8708.0.658630061\292611600" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:11:57.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:11:57.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="8708.1.1299644201\111674228" /prefetch:673131151
+- 12:11:57.046 DEBUG: OnBrowserCreated()
+- 12:11:58.203 INFO: GET 200 /
+- 12:11:58.109 DEBUG: OnContextCreated()
+- 12:11:58.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11595/
+- 12:11:59.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11595/
+- 12:11:59.078 DEBUG: OnContextCreated()
+- 12:11:59.172 INFO: GET 200 /index.php
+- 12:12:00.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11595/index.php
+- 12:20:08.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11595/index.php
+- 12:20:08.750 DEBUG: OnLoadError, errorCode=-101, failedUrl=http://code.google.com/p/phpdesktop/
+- 12:20:08.750 ERROR: Failed to load URL: http://code.google.com/p/phpdesktop/
+- 12:20:08.656 DEBUG: OnContextCreated()
+- 12:20:08.750 DEBUG: OnLoadingStateChange: loading=0, url=http://code.google.com/p/phpdesktop/
+- 12:20:08.750 DEBUG: OnLoadingStateChange: loading=1, url=data:text/html,chromewebdata
+- 12:20:08.671 DEBUG: OnContextCreated()
+- 12:20:08.765 DEBUG: OnLoadingStateChange: loading=0, url=http://code.google.com/p/phpdesktop/
+- 12:21:04.390 DEBUG: WM_DESTROY
+- 12:21:04.390 DEBUG: RemoveBrowserWindow(): hwnd = 591560
+- 12:21:04.390 INFO: Stopping Mongoose web server
+- 12:21:04.390 DEBUG: Mongoose webserver stopped immediately
+- 12:21:04.390 DEBUG: RemoveBrowserWindow(): hwnd = 723226
+- 12:21:04.390 DEBUG: GetBrowserWindow(): not found, hwnd = 723226
+- 12:21:04.390 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:21:04.406 INFO: Ended application
+- 12:21:04.406 INFO: --------------------------------------------------------
+- 12:21:04.312 DEBUG: OnBrowserDestroyed()
+- 12:27:21.031 INFO: --------------------------------------------------------
+- 12:27:21.031 INFO: Started application
+- 12:27:21.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:27:21.031 INFO: Log level = DEBUG4
+- 12:27:21.031 INFO: Starting Mongoose 3.9c web server
+- 12:27:21.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:27:21.031 INFO: Index files: index.html,index.php
+- 12:27:21.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:27:21.031 INFO: CGI pattern: **.php$
+- 12:27:21.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:27:21.031 INFO: Web server url: http://127.0.0.1:11987/
+- 12:27:21.031 INFO: remote_debugging_port = 61324
+- 12:27:21.031 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=61324 --no-sandbox
+- 12:27:21.047 DEBUG: App::OnContextInitialized()
+- 12:27:21.047 DEBUG: Window max width/height = 1520/812
+- 12:27:21.062 DEBUG: GetBrowserWindow(): not found, hwnd = 459848
+- 12:27:21.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:27:21.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:27:21.062 DEBUG: StoreBrowserWindow(): hwnd = 459848
+- 12:27:21.062 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:27:21.078 DEBUG: ClientHandler::OnAfterCreated()
+- 12:27:21.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:27:21.078 INFO: DPI, ppix = 96, ppiy = 96
+- 12:27:21.078 INFO: DPI, browser zoom level = 0
+- 12:27:21.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:27:21.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="20156.0.725372137\477510719" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:27:21.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="20156.1.329205694\195638673" /prefetch:673131151
+- 12:27:21.047 DEBUG: OnBrowserCreated()
+- 12:27:21.219 INFO: GET 200 /
+- 12:27:21.140 DEBUG: OnContextCreated()
+- 12:27:21.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11987/
+- 12:27:56.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11987/
+- 12:27:56.828 DEBUG: OnContextCreated()
+- 12:27:56.922 INFO: GET 200 /index.php
+- 12:27:56.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11987/index.php
+- 12:29:17.375 DEBUG: WM_DESTROY
+- 12:29:17.375 DEBUG: RemoveBrowserWindow(): hwnd = 459848
+- 12:29:17.375 INFO: Stopping Mongoose web server
+- 12:29:17.375 DEBUG: Mongoose webserver stopped immediately
+- 12:29:17.375 DEBUG: RemoveBrowserWindow(): hwnd = 393416
+- 12:29:17.375 DEBUG: GetBrowserWindow(): not found, hwnd = 393416
+- 12:29:17.375 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:29:17.391 INFO: Ended application
+- 12:29:17.391 INFO: --------------------------------------------------------
+- 12:29:17.297 DEBUG: OnBrowserDestroyed()
+- 12:29:23.032 INFO: --------------------------------------------------------
+- 12:29:23.032 INFO: Started application
+- 12:29:23.032 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:29:23.032 INFO: Log level = DEBUG4
+- 12:29:23.032 INFO: Starting Mongoose 3.9c web server
+- 12:29:23.032 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:29:23.032 INFO: Index files: index.html,index.php
+- 12:29:23.032 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:29:23.032 INFO: CGI pattern: **.php$
+- 12:29:23.032 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:29:24.032 INFO: Web server url: http://127.0.0.1:11998/
+- 12:29:24.032 INFO: remote_debugging_port = 54896
+- 12:29:24.032 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=54896 --no-sandbox
+- 12:29:24.063 DEBUG: App::OnContextInitialized()
+- 12:29:24.063 DEBUG: Window max width/height = 1520/812
+- 12:29:24.063 DEBUG: GetBrowserWindow(): not found, hwnd = 525528
+- 12:29:24.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:29:24.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:29:24.063 DEBUG: StoreBrowserWindow(): hwnd = 525528
+- 12:29:24.063 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:29:24.079 DEBUG: ClientHandler::OnAfterCreated()
+- 12:29:24.079 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:29:24.079 INFO: DPI, ppix = 96, ppiy = 96
+- 12:29:24.079 INFO: DPI, browser zoom level = 0
+- 12:29:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="12116.0.381351746\1778576471" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:29:24.079 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:29:24.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="12116.1.1642092864\1633093787" /prefetch:673131151
+- 12:29:24.063 DEBUG: OnBrowserCreated()
+- 12:29:24.188 INFO: GET 200 /
+- 12:29:24.094 DEBUG: OnContextCreated()
+- 12:29:24.204 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11998/
+- 12:29:29.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11998/
+- 12:29:29.172 DEBUG: OnContextCreated()
+- 12:29:29.282 INFO: GET 200 /index.php
+- 12:29:29.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11998/index.php
+- 12:29:30.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11998/index.php
+- 12:29:30.453 DEBUG: OnContextCreated()
+- 12:29:30.547 INFO: GET 200 /index.php
+- 12:29:30.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11998/index.php
+- 12:29:31.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:11998/index.php
+- 12:29:31.688 DEBUG: OnContextCreated()
+- 12:29:31.782 INFO: GET 200 /env-variables.php
+- 12:29:31.813 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:11998/env-variables.php
+- 12:31:23.375 INFO: GET 200 /env-variables.php
+- 12:31:23.594 INFO: GET 200 /favicon.ico
+- 12:31:29.969 INFO: DevTools url: http://127.0.0.1:54896/devtools/devtools.html?ws=127.0.0.1:54896/devtools/page/d4ea30231958aadc385206166bdd2fa4
+- 12:31:29.969 DEBUG: Window max width/height = 1520/812
+- 12:31:29.969 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 12:31:29.969 DEBUG: StoreBrowserWindow(): hwnd = 1379080
+- 12:31:29.969 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:31:29.969 DEBUG: ClientHandler::OnAfterCreated()
+- 12:31:29.969 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:31:29.969 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:31:29.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="12116.2.1928816203\1319313170" /prefetch:673131151
+- 12:31:29.015 DEBUG: OnBrowserCreated()
+- 12:31:30.062 DEBUG: OnContextCreated()
+- 12:31:30.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54896/devtools/devtools.html?ws=127.0.0.1:54896/devtools/page/d4ea30231958aadc385206166bdd2fa4
+- 12:32:48.391 DEBUG: WM_DESTROY
+- 12:32:48.391 DEBUG: RemoveBrowserWindow(): hwnd = 1379080
+- 12:32:48.391 DEBUG: RemoveBrowserWindow(): hwnd = 593428
+- 12:32:48.391 DEBUG: GetBrowserWindow(): not found, hwnd = 593428
+- 12:32:48.391 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:32:53.860 DEBUG: WM_DESTROY
+- 12:32:53.860 DEBUG: RemoveBrowserWindow(): hwnd = 525528
+- 12:32:53.860 INFO: Stopping Mongoose web server
+- 12:32:53.860 DEBUG: Mongoose webserver stopped immediately
+- 12:32:53.860 DEBUG: RemoveBrowserWindow(): hwnd = 264290
+- 12:32:53.860 DEBUG: GetBrowserWindow(): not found, hwnd = 264290
+- 12:32:53.860 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:32:53.781 DEBUG: OnBrowserDestroyed()
+- 12:32:53.891 INFO: Ended application
+- 12:32:53.891 INFO: --------------------------------------------------------
+- 12:32:57.031 INFO: --------------------------------------------------------
+- 12:32:57.031 INFO: Started application
+- 12:32:57.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:32:57.031 INFO: Log level = DEBUG4
+- 12:32:57.031 INFO: Starting Mongoose 3.9c web server
+- 12:32:57.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:32:57.031 INFO: Index files: index.html,index.php
+- 12:32:57.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:32:57.031 INFO: CGI pattern: **.php$
+- 12:32:57.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=yxybzd.cn,PHPDESKTOP_VERSION=31.8
+- 12:32:57.031 WARNING: set_ports_option: yxybzd.cn:0: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 12:36:12.031 INFO: --------------------------------------------------------
+- 12:36:12.031 INFO: Started application
+- 12:36:12.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:36:12.031 INFO: Log level = DEBUG4
+- 12:36:12.031 INFO: Starting Mongoose 3.9c web server
+- 12:36:12.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:36:12.031 INFO: Index files: index.html,index.php
+- 12:36:12.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:36:12.031 INFO: CGI pattern: **.php$
+- 12:36:12.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=yzybzd.cn,PHPDESKTOP_VERSION=31.8
+- 12:36:12.031 WARNING: set_ports_option: yzybzd.cn:0: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 12:36:26.032 INFO: --------------------------------------------------------
+- 12:36:26.032 INFO: Started application
+- 12:36:26.032 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:36:26.032 INFO: Log level = DEBUG4
+- 12:36:26.032 INFO: Starting Mongoose 3.9c web server
+- 12:36:26.032 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:36:26.032 INFO: Index files: index.html,index.php
+- 12:36:26.032 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:36:26.032 INFO: CGI pattern: **.php$
+- 12:36:26.032 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=yzybzd.cn,PHPDESKTOP_VERSION=31.8
+- 12:36:26.032 WARNING: set_ports_option: yzybzd.cn:0: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 12:36:58.015 INFO: --------------------------------------------------------
+- 12:36:58.015 INFO: Started application
+- 12:36:58.015 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:36:58.015 INFO: Log level = DEBUG4
+- 12:36:58.015 INFO: Starting Mongoose 3.9c web server
+- 12:36:58.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:36:58.031 INFO: Index files: index.html,index.php
+- 12:36:58.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:36:58.031 INFO: CGI pattern: **.php$
+- 12:36:58.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=yzybzd.cn,PHPDESKTOP_VERSION=31.8
+- 12:36:58.031 WARNING: set_ports_option: yzybzd.cn:0: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 12:37:08.031 INFO: --------------------------------------------------------
+- 12:37:08.031 INFO: Started application
+- 12:37:08.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:37:08.031 INFO: Log level = DEBUG4
+- 12:37:08.031 INFO: Starting Mongoose 3.9c web server
+- 12:37:08.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:37:08.031 INFO: Index files: index.html,index.php
+- 12:37:08.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:37:08.031 INFO: CGI pattern: **.php$
+- 12:37:08.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=yzybzd.cn,PHPDESKTOP_VERSION=31.8
+- 12:37:08.031 WARNING: set_ports_option: yzybzd.cn:0: invalid port spec. Expecting list of: [IP_ADDRESS:]PORT[s|r]
+- 12:37:24.031 INFO: --------------------------------------------------------
+- 12:37:24.031 INFO: Started application
+- 12:37:24.031 INFO: Logging to: C:\Users\liudong\Desktop\php-chrome\debug.log
+- 12:37:24.031 INFO: Log level = DEBUG4
+- 12:37:24.031 INFO: Starting Mongoose 3.9c web server
+- 12:37:24.031 INFO: WWW directory: C:\Users\liudong\Desktop\php-chrome\www
+- 12:37:24.031 INFO: Index files: index.html,index.php
+- 12:37:24.031 INFO: CGI interpreter: C:\Users\liudong\Desktop\php-chrome\php\php-cgi.exe
+- 12:37:24.031 INFO: CGI pattern: **.php$
+- 12:37:24.031 INFO: CGI environment variables set: TMP=C:\Users\liudong\AppData\Local\Temp\,TEMP=C:\Users\liudong\AppData\Local\Temp\,TMPDIR=C:\Users\liudong\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=31.8
+- 12:37:24.031 INFO: Web server url: http://127.0.0.1:12027/
+- 12:37:24.031 INFO: remote_debugging_port = 60603
+- 12:37:24.031 DEBUG: Command line string for the browser process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --remote-debugging-port=60603 --no-sandbox
+- 12:37:24.062 DEBUG: App::OnContextInitialized()
+- 12:37:24.062 DEBUG: Window max width/height = 1520/812
+- 12:37:24.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1704660
+- 12:37:24.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:37:24.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:37:24.062 DEBUG: StoreBrowserWindow(): hwnd = 1704660
+- 12:37:24.062 DEBUG: BrowserWindow::OnSize() failed: CefBrowser object not created yet
+- 12:37:24.078 DEBUG: ClientHandler::OnAfterCreated()
+- 12:37:24.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:37:24.078 INFO: DPI, ppix = 96, ppiy = 96
+- 12:37:24.078 INFO: DPI, browser zoom level = 0
+- 12:37:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=gpu-process --channel="4764.0.889199533\1795780928" --no-sandbox --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --supports-dual-gpus=false --gpu-driver-bug-workarounds=0,3,12,22 --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4459 --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" /prefetch:822062411
+- 12:37:24.078 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:37:24.000 DEBUG: Command line string for the renderer process: "C:\Users\liudong\Desktop\php-chrome\phpdesktop-chrome.exe" --type=renderer --no-sandbox --lang=en-US --lang=en-US --log-file="C:\Users\liudong\Desktop\php-chrome\debug.log" --channel="4764.1.1724519784\176856165" /prefetch:673131151
+- 12:37:24.047 DEBUG: OnBrowserCreated()
+- 12:37:24.187 INFO: GET 200 /
+- 12:37:24.110 DEBUG: OnContextCreated()
+- 12:37:24.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:12027/
+- 12:37:30.640 DEBUG: WM_DESTROY
+- 12:37:30.640 DEBUG: RemoveBrowserWindow(): hwnd = 1704660
+- 12:37:30.640 INFO: Stopping Mongoose web server
+- 12:37:30.640 DEBUG: Mongoose webserver stopped immediately
+- 12:37:30.640 DEBUG: RemoveBrowserWindow(): hwnd = 1048904
+- 12:37:30.640 DEBUG: GetBrowserWindow(): not found, hwnd = 1048904
+- 12:37:30.640 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:37:30.656 INFO: Ended application
+- 12:37:30.656 INFO: --------------------------------------------------------
+- 12:37:30.563 DEBUG: OnBrowserDestroyed()

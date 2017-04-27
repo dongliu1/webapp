@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "package": "electron-packager ./app SKDBMS --win --out ./out --arch=ia32 --electronVersion 1.6.6 --overwrite --ignore=node_modules --icon=./app/app.ico"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.6.0"
+  }
+}

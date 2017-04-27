@@ -1,0 +1,109 @@
+/* This is a function for icons position*/
+.ribbon .sku-wijribbon .sku-wijribbon-bigbutton .ui-button-text,
+.ribbon .sku-wijribbon .ui-button .ui-button-text,
+.ribbon .ui-tabs .ui-tabs-nav li a,
+.ribbon #condition-format-popup .ui-button-text-big,
+.ribbon #condition-format-popup .ui-button-text-small,
+.ribbon #condition-format-popup .submenu-title {
+  font-size: 12px;
+}
+.ribbon .sku-wijribbon .sku-wijribbon-groups .sku-wijribbon-group {
+  height: 102px;
+}
+.ribbon .sku-wijribbon .sku-wijribbon-group .sku-wijribbon-group-content {
+  height: 85px;
+}
+.ribbon .sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton {
+  height: 85px;
+  margin-top: -18px;
+}
+.ribbon .sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton .ui-button-text {
+  padding-top: 4em;
+}
+.ribbon .sku-wijribbon-abbrevクリップボード {
+  background-position: 0px -768px;
+}
+.ribbon .sku-wijribbon-abbrevフォント {
+  background-position: 0px -400px;
+}
+.ribbon .sku-wijribbon-abbrev配置 {
+  background-position: 0px -48px;
+}
+.ribbon .sku-wijribbon-abbrev数値 {
+  background-position: 0px -2064px;
+}
+.ribbon .sku-wijribbon-abbrevセル型 {
+  background-position: 0px -3728px;
+}
+.ribbon .sku-wijribbon-abbrevスタイル {
+  background-position: 0px -1232px;
+}
+.ribbon .sku-wijribbon-abbrevセル {
+  background-position: 0px -1216px;
+}
+.ribbon .sku-wijribbon-abbrev編集 {
+  background-position: 0px -1024px;
+}
+.ribbon .sku-wijribbon-abbrevテーブル {
+  background-position: 0px -1648px;
+}
+.ribbon .sku-wijribbon-abbrevスパークライン {
+  background-position: 0px -2912px;
+}
+.ribbon .sku-wijribbon-abbrev関数 {
+  background-position: 0px -1600px;
+}
+.ribbon .sku-wijribbon-abbrev名前 {
+  background-position: 0px -1872px;
+}
+.ribbon .sku-wijribbon-abbrevソートとフィルター {
+  background-position: 0px -2752px;
+}
+.ribbon .sku-wijribbon-abbrevデータツール {
+  background-position: 0px -784px;
+}
+.ribbon .sku-wijribbon-abbrevアウトライン {
+  background-position: 0px -1456px;
+}
+.ribbon .sku-wijribbon-abbrev表示 {
+  background-position: 0px -3600px;
+}
+.ribbon .sku-wijribbon-abbrevズーム {
+  background-position: 0px -3584px;
+}
+.ribbon .sku-wijribbon-abbrevウインドウ {
+  background-position: 0px -1264px;
+}
+.ribbon .sku-wijribbon-abbrevSpread設定 {
+  background-position: 0px -2128px;
+}
+.ribbon .sku-wijribbon-abbrevシート {
+  background-position: 0px -2112px;
+}
+.ui-tabs .ui-tabs-nav li a {
+  color: #333;
+}
+.ui-tabs .ui-tabs-nav li a:hover {
+  color: #333;
+}
+.only-for-native {
+  font-size: 12px;
+}
+#data-bars-popup {
+  width: 190px;
+}
+.content > .fill-spread-content {
+  top: 197px;
+}
+.ui-dialog-buttonpane .ui-button {
+  width: 95px;
+}
+.ui-widget,
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button,
+html,
+body {
+  font-family: 'Meiryo UI', 'MS UI Gothic';
+}

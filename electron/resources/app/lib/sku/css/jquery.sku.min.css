@@ -1,0 +1,1227 @@
+.ui-helper-horizontal>DIV,.ui-helper-horizontal>H1,.ui-helper-horizontal>H2,.ui-helper-horizontal>H3,.ui-helper-horizontal>H4,.ui-helper-horizontal>LABEL,.ui-helper-horizontal>LI,.ui-helper-horizontal>SPAN{float:left;clear:none;display:block}
+.ui-icon{text-indent:-9999px}
+.ui-priority-secondary{opacity:.7}
+.ui-helper-reset{border-width:0;font-size:100%;line-height:1.3;list-style:none outside none;margin:0;outline:0 none;padding:0;text-decoration:none}
+.sku-wijslider-horizontal{position:relative;-ms-touch-action:none}
+.sku-wijslider-horizontal .sku-wijslider-decbutton{position:absolute;left:0;right:auto;cursor:pointer}
+.sku-wijslider-horizontal .sku-wijslider-incbutton{position:absolute;left:auto;right:0;cursor:pointer}
+.sku-wijslider-vertical{position:relative;-ms-touch-action:none}
+.sku-wijslider-vertical .sku-wijslider-decbutton{position:absolute;top:0;bottom:auto;cursor:pointer}
+.sku-wijslider-vertical .sku-wijslider-incbutton{position:absolute;top:auto;bottom:0;cursor:pointer}
+.sku-wijsplitter-vertical{overflow:hidden;position:relative}
+.sku-wijsplitter-v-panel1{float:left;position:relative}
+.sku-wijsplitter-v-panel1-content{position:relative}
+.sku-wijsplitter-v-bar{float:left;position:relative;font-size:1px;width:2px;z-index:99;border:solid 1px transparent}
+.sku-wijsplitter-vertical .ui-resizable-e{right:-7px;width:10px;z-index:1000;display:block;background-color:#fff;filter:alpha(opacity=0);-moz-opacity:0;opacity:0}
+*html .sku-wijsplitter-vertical .ui-resizable-e{right:-4px}
+.sku-wijsplitter-v-expander{position:absolute;z-index:999}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel1-expanded{border-right:medium none;overflow:hidden;padding:12px 0;left:-8px;width:6px;z-index:99}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel1-expanded .ui-icon{margin-left:-6px}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel1-collapsed{border-left:medium none;overflow:hidden;padding:12px 0;right:-8px;width:6px;z-index:999}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel1-collapsed .ui-icon{margin-left:-6px}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel2-expanded{border-right:medium none;overflow:hidden;padding:12px 0;right:-8px;width:6px;z-index:999}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel2-expanded .ui-icon{margin-left:-6px}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel2-collapsed{border-left:medium none;overflow:hidden;padding:12px 0;left:-8px;width:6px;z-index:999}
+.sku-wijsplitter-vertical .sku-wijsplitter-v-panel2-collapsed .ui-icon{margin-left:-6px}
+.sku-wijsplitter-v-panel2{float:left}
+.sku-wijsplitter-v-panel2-content{position:relative}
+.sku-wijsplitter-v-resize-helper{border-right:dotted 1px #000;overflow:hidden;border-bottom:dotted 0 #000}
+.sku-wijsplitter-horizontal{overflow:hidden;position:relative}
+.sku-wijsplitter-h-panel1{position:relative}
+.sku-wijsplitter-h-panel1-content{overflow:auto;position:relative}
+.sku-wijsplitter-h-bar{position:relative;font-size:1px;height:2px;z-index:999}
+.sku-wijsplitter-horizontal .ui-resizable-s{bottom:-7px;height:10px;z-index:1000;display:block;background-color:#fff;filter:alpha(opacity=0);-moz-opacity:0;opacity:0}
+*html .sku-wijsplitter-horizontal .ui-resizable-s{bottom:-4px}
+.sku-wijsplitter-h-expander{position:absolute;z-index:999}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel1-expanded{border-bottom:none;height:8px;overflow:hidden;padding:0 10px;top:-10px;z-index:999}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel1-expanded .ui-icon{margin-top:-4px}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel1-collapsed{border-top:none;height:8px;overflow:hidden;padding:0 10px;bottom:-10px;z-index:999}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel1-collapsed .ui-icon{margin-top:-4px}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel2-expanded{border-bottom:none;height:8px;overflow:hidden;padding:0 10px;bottom:-10px;z-index:999}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel2-expanded .ui-icon{margin-top:-4px}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel2-collapsed{border-top:none;height:8px;overflow:hidden;padding:0 10px;top:-10px;z-index:999}
+.sku-wijsplitter-horizontal .sku-wijsplitter-h-panel2-collapsed .ui-icon{margin-top:-4px}
+.sku-wijsplitter-h-panel2-content{overflow:auto;position:relative}
+.sku-wijsplitter-h-resize-helper{border-bottom:dotted 1px #000;overflow:hidden;border-right:dotted 0 #000}
+.sku-wijprogressbar{moz-user-select:none;text-align:left;float:left;position:relative;overflow:hidden}
+.sku-wijprogressbar .ui-progressbar-value{position:absolute;border-width:0;margin:0}
+div.sku-wijprogressbar-east{width:200px;height:1.1em}
+div.sku-wijprogressbar-west{width:200px;height:1.1em}
+div.sku-wijprogressbar-south{height:200px;width:1.1em;line-height:100%}
+div.sku-wijprogressbar-north{height:200px;width:1.1em;line-height:100%}
+.sku-wijprogressbar-east .ui-progressbar-value{left:0;height:100%}
+.sku-wijprogressbar-west .ui-progressbar-value{right:0;height:100%}
+.sku-wijprogressbar-south .ui-progressbar-value{top:0;width:100%}
+.sku-wijprogressbar-north .ui-progressbar-value{bottom:0;width:100%}
+.sku-wijprogressbar .ui-progressbar-label{display:block;position:absolute;text-align:center;width:100%;height:100%}
+.sku-wijprogressbar .sku-wijprogressbar-lb-west{left:0;width:auto}
+.sku-wijprogressbar .sku-wijprogressbar-lb-east{right:0;width:auto}
+.sku-wijprogressbar .sku-wijprogressbar-lb-south{bottom:0;height:auto}
+.sku-wijprogressbar .sku-wijprogressbar-lb-north{top:0;height:auto}
+.sku-wijprogressbar-east .sku-wijprogressbar-lb-running,.sku-wijprogressbar-west .sku-wijprogressbar-lb-running{display:inline;width:auto}
+.sku-wijprogressbar-north .sku-wijprogressbar-lb-running,.sku-wijprogressbar-south .sku-wijprogressbar-lb-running{height:auto}
+.sku-wijprogressbar-north .ui-progressbar-label,.sku-wijprogressbar-south .ui-progressbar-label{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg)}
+.sku-wijdialog-captionbutton{height:18px;padding:1px;width:19px;display:inline-block;outline:0;text-align:left}
+.sku-wijdialog-captionbutton .ui-state-focus,.sku-wijdialog-captionbutton:hover{padding:0}
+.sku-wijdialog-captionbutton .ui-icon{margin:1px}
+.sku-wijdialog .sku-wijdialog-hasframe{padding:0}
+.sku-wijdialog-defaultdockingzone{position:fixed;bottom:0;left:0}
+.ui-dialog-overlay{position:fixed}
+.ui-dialog-titlebar{text-align:right}
+.sku-wijdialog .ui-dialog-titlebar .ui-dialog-title{float:left;width:auto}
+* html .sku-wijdialog-defaultdockingzone .ui-dialog-titlebar{float:left}
+.sku-wijaccordion .sku-wijaccordion-header{display:block;cursor:pointer;position:relative;margin-top:2px;zoom:1;padding:.5em .5em .5em .7em;margin:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.sku-wijaccordion .sku-wijaccordion-icons{padding-left:2.2em}
+.sku-wijaccordion .sku-wijaccordion-noicons{padding-left:.7em}
+.sku-wijaccordion .sku-wijaccordion-header a{padding-left:1.2em;font-size:1em;display:block;background:0 0;border:none;color:inherit;text-decoration:none}
+.sku-wijaccordion .sku-wijaccordion-header a:hover{color:inherit}
+.sku-wijaccordion .sku-wijaccordion-header .ui-icon{position:absolute;left:.5em;top:50%;margin-top:-8px}
+.sku-wijaccordion .sku-wijaccordion-content{overflow:auto;zoom:1;padding:1em 2.2em;display:none;margin:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.sku-wijaccordion .sku-wijaccordion-content.sku-wijaccordion-content-active{display:block}
+.sku-wijaccordion a{outline:0}
+.sku-wijaccordion-bottom .sku-wijaccordion-content-active{border-top:none}
+.sku-wijaccordion-right .sku-wijaccordion-header{margin-top:0;margin-left:1px;width:2em;height:12em;overflow:hidden;padding:.7em .5em .5em}
+.sku-wijaccordion-right .sku-wijaccordion-content-active{border-left:none}
+.sku-wijaccordion-left .sku-wijaccordion-header{margin-top:0;margin-right:1px;width:2em;height:12em;overflow:hidden;padding:.7em .5em .5em}
+.sku-wijaccordion-left .sku-wijaccordion-content-active{border-right:none}
+.sku-wijaccordion-top .sku-wijaccordion-header{margin:0 0 1px}
+.sku-wijaccordion-top .sku-wijaccordion-content-active{border-bottom:none}
+.sku-wijaccordion-left .sku-wijaccordion-content,.sku-wijaccordion-right .sku-wijaccordion-content{width:36em;height:12em;margin:0;padding:.7em 2.2em .5em}
+.sku-wijaccordion-left .sku-wijaccordion-header a,.sku-wijaccordion-right .sku-wijaccordion-header a{text-align:center;padding:1.2em .5em .5em}
+.sku-wijaccordion-left .sku-wijaccordion-header .ui-icon,.sku-wijaccordion-right .sku-wijaccordion-header .ui-icon{top:.5em;left:50%;margin-left:-9px;margin-top:0}
+.ui-mobile .sku-wijaccordion .sku-wijaccordion-header{padding:12px 15px}
+.sku-wijsuperpanel{overflow:hidden;outline:0;background-image:none}
+.sku-wijsuperpanel-statecontainer{overflow:hidden;position:relative;zoom:1}
+.sku-wijsuperpanel-statecontainer{-webkit-overflow-scrolling:touch;-ms-overflow-style:-ms-autohiding-scrollbar}
+.sku-wijsuperpanel-contentwrapper{position:absolute;overflow:hidden}
+.sku-wijsuperpanel-hbarcontainer,.sku-wijsuperpanel-vbarcontainer{font-size:0;border:0}
+.sku-wijsuperpanel-templateouterwrapper{position:relative;zoom:1}
+.sku-wijsuperpanel-hbarcontainer .ui-btn-up-c,.sku-wijsuperpanel-hbarcontainer .ui-state-default,.sku-wijsuperpanel-vbarcontainer .ui-btn-up-c,.sku-wijsuperpanel-vbarcontainer .ui-state-default{width:16px;height:16px;position:absolute}
+.sku-wijsuperpanel .sku-wijsuperpanel-vbarcontainer{position:absolute;width:18px;padding-top:18px;padding-bottom:18px;border:none}
+.sku-wijsuperpanel .sku-wijsuperpanel-hbarcontainer{position:absolute;height:18px;padding-left:18px;padding-right:18px;border:none}
+.sku-wijsuperpanel-handle{position:absolute;font-size:0;overflow:hidden}
+.sku-wijsuperpanel-handle *{font-size:0}
+.sku-wijsuperpanel-helper{border-style:dotted;background:0 0}
+.sku-wijsuperpanel-button{position:absolute;padding:4px}
+.sku-wijsuperpanel .ui-icon-gripsmall-diagonal-se{background:0 0;width:7px;height:7px}
+.sku-wijsuperpanel-hbar-buttonleft{left:0}
+.sku-wijsuperpanel-hbar-buttonright{right:0}
+.sku-wijsuperpanel-vbar-buttontop{top:0}
+.sku-wijsuperpanel-vbar-buttonbottom{bottom:0}
+.sku-wijtextbox{outline:0;margin:0;padding:5px}
+.sku-wijdropdown{display:inline-block;position:relative;width:auto;zoom:1}
+.sku-wijdropdown div.sku-dropdown-trigger{border-right:none;border-top:none;border-bottom:none;cursor:pointer;width:16px;height:100%;position:absolute;right:0;top:0;padding:0 3px}
+.sku-wijdropdown .sku-dropdown-trigger .ui-icon{margin-top:3px}
+.sku-wijdropdown label.sku-dropdown-label{display:block;padding:5px 26px 5px 5px;width:auto;border:none;white-space:nowrap}
+.sku-wijdropdown .sku-dropdown{position:absolute;height:250px}
+.sku-wijdropdown .sku-dropdown .sku-dropdown-list{padding:.4em;border:0 none}
+.sku-wijdropdown .sku-dropdown .sku-dropdown-item{border:1px solid transparent;cursor:pointer;font-weight:400;margin:1px 0;padding:3px 5px;text-align:left;white-space:nowrap}
+.sku-wijdropdown .sku-dropdown .sku-dropdown-optgroup .sku-dropdown-items li{padding-left:10px}
+.sku-wijdropdown .sku-dropdown .sku-optgroup-header{font-style:italic}
+.sku-wijdropdown .ui-icon-arrow-d{float:left}
+.sku-checkbox{position:relative;margin:3px 0;line-height:16px;display:block}
+.sku-checkbox .sku-checkbox-inputwrapper{width:0;height:0;overflow:hidden}
+.sku-checkbox label{display:block;position:relative;margin:0;cursor:pointer;z-index:1;padding:0 0 0 1.4em;outline:0;margin:0 3px}
+.sku-checkbox .sku-checkbox-box{position:absolute;bottom:0;left:0;width:16px;height:16px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;margin-right:3px}
+.sku-checkbox .sku-checkbox-relative{position:relative;float:left;margin-right:3px}
+.sku-checkbox .ui-icon-checkbox-on{float:left}
+.sku-checkbox .ui-icon{border-radius:3px;-webkit-border-radius:3px}
+.sku-wijradio{position:relative;margin:3px 0;line-height:16px;display:block}
+.sku-wijradio .sku-wijradio-inputwrapper{width:0;height:0;overflow:hidden}
+.sku-wijradio label{display:block;position:relative;margin:0;cursor:pointer;z-index:1;padding:0 0 0 1.4em;outline:0;margin:0 3px}
+.sku-wijradio .sku-wijradio-box{position:absolute;bottom:0;left:0;width:16px;height:16px;line-height:16px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+.sku-wijradio .sku-wijradio-relative{position:relative;float:left;margin-right:3px}
+.sku-wijradio .ui-btn-up-a{float:left}
+.sku-wijwizard .sku-wijlist{border-width:1px!important}
+.sku-wijlist-list{cursor:default;overflow:hidden}
+.sku-wijlist-ul{list-style:none;padding:2px;margin:0;display:block;border:0;overflow:hidden}
+.sku-wijlist-ul .sku-wijlist-item{margin:1px 0;padding:3px 5px;cursor:pointer;text-align:left;font-weight:400;border:solid 1px transparent}
+.sku-wijlist-ul .sku-wijlist-item.ui-state-hover{font-weight:400}
+.sku-wijlist .ui-resizable-se{width:7px;height:7px;background:0 0}
+.ui-mobile .sku-wijlist-ul .sku-wijlist-item{padding:12px 15px}
+/*! * jQuery UI Datepicker @VERSION * http://jqueryui.com * * Copyright 2012 jQuery Foundation and other contributors * Released under the MIT license. * http://jquery.org/license * * http://docs.jquery.com/UI/Datepicker#theming */.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}
+.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}
+.ui-datepicker .ui-datepicker-next,.ui-datepicker .ui-datepicker-prev{position:absolute;top:2px;width:1.8em;height:1.8em}
+.ui-datepicker .ui-datepicker-next-hover,.ui-datepicker .ui-datepicker-prev-hover{top:1px}
+.ui-datepicker .ui-datepicker-prev{left:2px}
+.ui-datepicker .ui-datepicker-next{right:2px}
+.ui-datepicker .ui-datepicker-prev-hover{left:1px}
+.ui-datepicker .ui-datepicker-next-hover{right:1px}
+.ui-datepicker .ui-datepicker-next span,.ui-datepicker .ui-datepicker-prev span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}
+.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}
+.ui-datepicker select.ui-datepicker-month-year{width:100%}
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}
+.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}
+.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:700;border:0}
+.ui-datepicker td{border:0;padding:1px}
+.ui-datepicker td a,.ui-datepicker td span{display:block;padding:.2em;text-align:right;text-decoration:none}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}
+.ui-datepicker.ui-datepicker-multi{width:auto}
+.ui-datepicker-multi .ui-datepicker-group{float:left}
+.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}
+.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}
+.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}
+.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}
+.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}
+.ui-datepicker-row-break{clear:both;width:100%;font-size:0}
+.ui-datepicker-rtl{direction:rtl}
+.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}
+.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}
+.sku-wijcalendar{-webkit-user-select:none;-moz-user-select:none;display:block}
+.sku-wijcalendar-header{position:relative}
+.sku-wijcalendar-header-inner{margin:0 1.8em;line-height:1.8em}
+.sku-wijcalendar .ui-datepicker-header{padding:1px}
+.sku-wijcalendar .ui-datepicker-header .ui-state-default{border-color:transparent;background:0 0;color:inherit}
+.sku-wijcalendar .sku-wijcalendar-table{table-layout:fixed}
+.sku-wijcalendar-nextpreview-button,.sku-wijcalendar-prevpreview-button{width:16px;margin-top:35%;float:left}
+.sku-wijcalendar-nextpreview-button{float:right}
+.sku-wijcalendar-preview-wrapper .sku-wijcalendar{float:left;width:18em}
+.sku-wijcalendar-preview-wrapper .sku-wijcalendar .ui-datepicker-calendar{width:80%;float:left}
+.sku-wijcalendar-selectable,.sku-wijcalendar-title{cursor:pointer}
+.ui-datepicker-other-month{text-align:right}
+.sku-wijcalendar-mygrid td a,.sku-wijcalendar-mygrid td span{display:block;text-align:center;text-decoration:none;padding:0}
+.sku-wijcalendar-mygrid .ui-state-default a,.sku-wijcalendar-mygrid .ui-state-default a:hover,.sku-wijcalendar-mygrid .ui-state-hover a,.sku-wijcalendar-mygrid .ui-state-hover a:hover{color:inherit}
+.ui-footer-custom img,.ui-header-custom img{width:100%}
+.sku-wijcalendar table.sku-wijcalendar-mygrid{margin-top:2px;border-collapse:separate;table-layout:fixed}
+.sku-wijcalendar table.sku-wijcalendar-mygrid .ui-datepicker-week-day{cursor:pointer}
+.sku-wijcalendar-aniwrapper{position:relative;left:0;top:0}
+.sku-wijcalendar-multi-aniwrapper{position:absolute;overflow:hidden}
+.ui-datepicker-rtl .ui-datepicker-next .ui-icon,.ui-datepicker-rtl .ui-datepicker-prev .ui-icon{direction:rtl}
+.sku-wijcalendar-table .sku-wijcalendar-day-selectable .ui-priority-secondary{opacity:.25}
+.ui-datepicker-title{background:0 0;border:none;box-shadow:none;text-shadow:none;color:inherit}
+.sku-wijcalendar-notitle:after,.sku-wijcalendar-notitle:before{content:none!important}
+.sku-wijexpander{margin:1px;padding:0;display:block;margin:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.sku-wijexpander a{outline:0}
+.sku-wijexpander .ui-expander-header{cursor:pointer;margin-top:1px;position:relative;margin:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-expander .ui-expander-content{border-top:0 none;display:none;margin-bottom:2px;margin-top:-2px;overflow:auto;padding:1em 2.2em;position:relative;top:1px;margin:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.sku-wijexpander .ui-expander-header a{display:block;font-size:1em;padding:.5em .5em .5em .7em;color:inherit;text-decoration:none}
+.sku-wijexpander .ui-expander-header .ui-icon{left:.5em;margin-top:-8px;position:absolute;top:50%}
+.sku-wijexpander .ui-expander-content-active{display:block;border-top:0 none;padding:1em 2.2em}
+.sku-wijexpander .ui-expander-header>a{padding-left:2.2em}
+.ui-helper-horizontal.sku-wijexpander .ui-expander-header .ui-icon{left:inherit;margin-top:inherit;margin-left:-8px;position:absolute;top:.5em;left:50%}
+.ui-helper-horizontal.sku-wijexpander .ui-expander-header>a{padding-left:inherit;padding-top:2.2em;display:inline-block}
+.ui-expander-right .ui-expander-header{margin:0 1px;width:2em;height:12em;overflow:hidden}
+.ui-expander-right .ui-expander-content{margin:0;height:200px;width:12em;height:12em;padding:0 2.2em}
+.ui-expander-right .ui-expander-content{top:0;margin-left:-2px;padding:1px;border:none;margin-right:1px}
+.ui-expander-right .ui-state-active{border-right:none}
+.ui-expander-right .ui-expander-header a{padding:2.2em 0 0 0}
+.ui-expander-right .ui-expander-header .ui-icon{top:10%}
+.ui-expander-left .ui-expander-header{margin:0 1px;width:2em;height:12em;overflow:hidden}
+.ui-expander-left .ui-expander-content{margin:0;height:200px;width:12em;height:12em;padding:0 2.2em}
+.ui-expander-left .ui-expander-content{border:none;padding:1px;top:0;margin-right:-2px;margin-left:1px}
+.ui-expander-left .ui-state-active{border-left:none}
+.ui-expander-left .ui-expander-header a{padding:2.2em 0 0 0}
+.ui-expander-left .ui-expander-header .ui-icon{top:10%}
+.ui-mobile .ui-expander .ui-expander-header{padding:12px 15px}
+.sku-wijtabs-hide{display:none!important}
+.ui-tabs .ui-tabs-nav li{top:1px}
+.ui-tabs-bottom .ui-tabs-nav li{top:-3px;padding:0;margin:1px .2em 0 0}
+.ui-tabs-bottom .ui-tabs-nav li.ui-tabs-active{margin-top:-1px;padding-bottom:1px!important;border-top:none!important}
+.ui-tabs .ui-tabs-nav li{border:none}
+.ui-tabs-left .ui-tabs-nav{float:left}
+.ui-tabs-left .ui-tabs-nav li{white-space:normal;float:right;display:block;width:98%}
+.ui-tabs-left .ui-tabs-nav li a,.ui-tabs-right .ui-tabs-nav li a{float:none;display:block}
+.ui-tabs-left .ui-tabs-nav li{top:-1px;left:3px;margin-bottom:2px}
+.ui-tabs-left .ui-tabs-panel{padding:1.6em}
+.ui-tabs-left .ui-tabs-nav li.ui-tabs-active{border-right:medium none;margin-bottom:2px}
+.ui-tabs-left .ui-tabs-nav{padding:.2em 0 0 0}
+.ui-tabs-left .sku-wijtabs-content{float:right;width:75%;overflow:hidden}
+.ui-tabs-left .ui-tabs-nav{min-height:300px;width:23%;height:100%}
+.ui-tabs-right .ui-tabs-nav{float:right}
+.ui-tabs-right .ui-tabs-nav li{white-space:normal;float:left;display:block;width:98%}
+.ui-tabs-right .ui-tabs-nav li{top:-1px;left:0;margin-bottom:2px}
+.ui-tabs-right .ui-tabs-panel{padding:1.6em}
+.ui-tabs-right .ui-tabs-nav li.ui-tabs-active{border-left:medium none;margin-bottom:2px}
+.ui-tabs-right .ui-tabs-nav{padding:.2em 0 0 0}
+.ui-tabs-right .sku-wijtabs-content{float:left;width:75%;overflow:hidden}
+.ui-tabs-right .ui-tabs-nav{min-height:300px;width:23%}
+.ui-tabs-left .ui-tabs-nav li.ui-tabs-active{margin-right:2px;padding-right:1px}
+.ui-tabs-right .ui-tabs-nav li.ui-tabs-active{margin-left:-1px;padding-left:1px}
+.ui-tabs-top .scrollWrap{border-bottom-width:0}
+.ui-tabs-bottom .scrollWrap{border-top-width:0}
+.ui-tabs-left .scrollWrap{border-right-width:0}
+.ui-tabs-right .scrollWrap{border-left-width:0}
+.ui-helper-hidden{display:none}
+.ui-helper-reset{margin:0;padding:0;border-width:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}
+.ui-helper-clearfix:after,.ui-helper-clearfix:before{content:"";display:table}
+.ui-helper-clearfix:after{clear:both}
+.ui-helper-clearfix{zoom:1}
+.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}
+.ui-tabs{position:relative;padding:.2em;zoom:1}
+.ui-tabs .ui-tabs-nav{margin:0;padding:.2em .2em 0;border-width:1px}
+.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:0;margin:1px .2em 0 0;border-bottom:0;padding:0;white-space:nowrap}
+.ui-tabs .ui-tabs-nav li a{float:left;padding:12px 15px;text-decoration:none;color:inherit}
+.ui-tabs .ui-tabs-nav li a:hover{color:inherit}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:-1px;padding-bottom:1px}
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-tabs-active a,.ui-tabs .ui-tabs-nav li.ui-tabs-loading a{cursor:text}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a{cursor:pointer}
+.ui-tabs .ui-tabs-panel{display:block;border-width:0;padding:1em 1.4em;background:0 0}
+.ui-mobile .ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:0;padding-bottom:0}
+.sku-wijtooltip{position:absolute;z-index:9999;margin:0}
+.sku-wijtooltip .sku-wijtooltip-close{background:none repeat scroll 0 0 transparent;border:medium none;display:block;height:16px;position:absolute;right:3px;top:3px;width:16px}
+.sku-wijtooltip .sku-wijtooltip-title{background:none repeat scroll 0 0 transparent;border:medium none;color:inherit;padding:.4em}
+.sku-wijtooltip .sku-wijtooltip-container{padding:1em;overflow:hidden}
+.sku-wijtooltip{border-width:2px}
+.sku-wijtooltip .sku-wijtooltip-pointer,.sku-wijtooltip .sku-wijtooltip-pointer-inner{background:0 0;height:0;position:absolute;width:0}
+.sku-wijtooltip-arrow-tc .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-tl .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-tr .sku-wijtooltip-pointer{border-bottom-width:14px;border-top:0 none;top:-14px}
+.sku-wijtooltip-arrow-tr .sku-wijtooltip-pointer{border-left:18px dashed transparent;border-right:0 none;right:10px}
+.sku-wijtooltip-arrow-tc .sku-wijtooltip-pointer{border-left:10px dashed transparent;border-right:10px dashed transparent;left:50%;margin-left:-10px}
+.sku-wijtooltip-arrow-tl .sku-wijtooltip-pointer{border-left:0 none;border-right:18px dashed transparent;left:10px}
+.sku-wijtooltip-arrow-tc .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-tl .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-tr .sku-wijtooltip-pointer-inner{border-bottom-color:inherit;border-bottom-style:solid;border-bottom-width:10px;bottom:-14px;font-size:0;line-height:0}
+.sku-wijtooltip-arrow-tr .sku-wijtooltip-pointer-inner{border-left:12px dashed transparent;border-right:0 none;right:2px}
+.sku-wijtooltip-arrow-tc .sku-wijtooltip-pointer-inner{border-left:8px dashed transparent;border-right:8px dashed transparent;left:-8px}
+.sku-wijtooltip-arrow-tl .sku-wijtooltip-pointer-inner{border-left:0 none;border-right-style:dashed;border-right-color:inherit;border-right-width:12px;left:2px}
+.sku-wijtooltip-arrow-rb .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-rc .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-rt .sku-wijtooltip-pointer{border-left-width:14px;border-right:0 none;right:-14px}
+.sku-wijtooltip-arrow-rb .sku-wijtooltip-pointer{border-bottom:0 none;border-top:18px dashed transparent;bottom:10px}
+.sku-wijtooltip-arrow-rc .sku-wijtooltip-pointer{border-bottom:10px dashed transparent;border-top:10px dashed transparent;bottom:50%;margin-bottom:-10px}
+.sku-wijtooltip-arrow-rt .sku-wijtooltip-pointer{border-bottom:18px dashed transparent;border-top:0 none;top:10px}
+.sku-wijtooltip-arrow-rb .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-rc .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-rt .sku-wijtooltip-pointer-inner{border-left-color:inherit;border-left-style:solid;border-left-width:10px;left:-14px;font-size:0;line-height:0}
+.sku-wijtooltip-arrow-rb .sku-wijtooltip-pointer-inner{border-bottom:0 none;border-top-style:dashed;border-top-color:inherit;border-top-width:12px;bottom:2px}
+.sku-wijtooltip-arrow-rc .sku-wijtooltip-pointer-inner{border-bottom:8px dashed transparent;border-top:8px dashed transparent;bottom:-8px}
+.sku-wijtooltip-arrow-rt .sku-wijtooltip-pointer-inner{border-bottom-style:dashed;border-bottom-color:inherit;border-bottom-width:12px;border-top:0 none;top:2px}
+.sku-wijtooltip-arrow-bc .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-bl .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-br .sku-wijtooltip-pointer{border-bottom:0 none;border-top-width:14px;bottom:-14px}
+.sku-wijtooltip-arrow-br .sku-wijtooltip-pointer{border-left:18px dashed transparent;border-right:0 none;right:10px}
+.sku-wijtooltip-arrow-bc .sku-wijtooltip-pointer{border-left:10px dashed transparent;border-right:10px dashed transparent;left:50%;margin-left:-10px}
+.sku-wijtooltip-arrow-bl .sku-wijtooltip-pointer{border-left:0 none;border-right:18px dashed transparent;left:10px}
+.sku-wijtooltip-arrow-bc .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-bl .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-br .sku-wijtooltip-pointer-inner{border-top-color:inherit;border-top-style:solid;border-top-width:10px;top:-14px;font-size:0;line-height:0}
+.sku-wijtooltip-arrow-br .sku-wijtooltip-pointer-inner{border-left:12px dashed transparent;border-right:0 none;right:2px}
+.sku-wijtooltip-arrow-bc .sku-wijtooltip-pointer-inner{border-left:8px dashed transparent;border-right:8px dashed transparent;left:-8px}
+.sku-wijtooltip-arrow-bl .sku-wijtooltip-pointer-inner{border-left:0 none;border-right:12px dashed transparent;left:2px}
+.sku-wijtooltip-arrow-lb .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-lc .sku-wijtooltip-pointer,.sku-wijtooltip-arrow-lt .sku-wijtooltip-pointer{border-left:0 none;border-right-width:14px;left:-14px}
+.sku-wijtooltip-arrow-lb .sku-wijtooltip-pointer{border-bottom:0 none;border-top:18px dashed transparent;bottom:10px}
+.sku-wijtooltip-arrow-lc .sku-wijtooltip-pointer{border-bottom:10px dashed transparent;border-top:10px dashed transparent;bottom:50%;margin-bottom:-10px}
+.sku-wijtooltip-arrow-lt .sku-wijtooltip-pointer{border-bottom:18px dashed transparent;border-top:0 none;top:10px}
+.sku-wijtooltip-arrow-lb .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-lc .sku-wijtooltip-pointer-inner,.sku-wijtooltip-arrow-lt .sku-wijtooltip-pointer-inner{border-right-color:inherit;border-right-style:solid;border-right-width:10px;right:-14px;font-size:0;line-height:0}
+.sku-wijtooltip-arrow-lb .sku-wijtooltip-pointer-inner{border-bottom:0 none;border-top:12px dashed transparent;bottom:2px}
+.sku-wijtooltip-arrow-lc .sku-wijtooltip-pointer-inner{border-bottom:8px dashed transparent;border-top:8px dashed transparent;bottom:-8px}
+.sku-wijtooltip-arrow-lt .sku-wijtooltip-pointer-inner{border-bottom-style:dashed;border-bottom-color:inherit;border-bottom-width:12px;border-top:0 none;top:2px}
+.sku-wijtooltip .ui-icon-delete{float:left}
+.sku-wijmenu{width:150px;padding:.3em;position:relative}
+.sku-wijmenu .sku-wijsuperpanel{border:none;background:inherit;padding:0}
+.sku-wijmenu-list{border-width:1px;position:static}
+.sku-wijmenu .sku-wijmenu-parent .sku-wijmenu-child{display:none;width:150px;padding:.3em}
+.sku-wijmenu .sku-wijmenu-parent{position:relative}
+.sku-wijmenu .sku-wijmenu-child{position:relative;left:150px;top:0}
+.sku-wijmenu .sku-wijmenu-item{width:100%;float:left;clear:both;margin:1px 0;padding:0}
+.sku-wijmenu .sku-wijmenu-rtl .sku-wijmenu-item{float:right}
+.sku-wijmenu .sku-wijmenu-list .sku-wijmenu-item{background:0 0;border:none}
+.sku-wijmenu .sku-wijmenu-link{display:block;width:92%;outline:0;text-decoration:none;font-weight:400;border:solid 1px transparent;float:left;line-height:16px;padding:.3em}
+.sku-wijmenu-horizontal{width:auto}
+.sku-wijmenu-horizontal .sku-wijmenu-item{width:auto;clear:none;margin-right:3px}
+.sku-wijmenu-horizontal .sku-wijmenu-child .sku-wijmenu-item{width:100%}
+.sku-wijmenu-horizontal .sku-wijmenu-child{top:25px;left:0}
+.sku-wijmenu-horizontal .sku-wijmenu-link{width:auto;padding:.4em .3em}
+.sku-wijmenu-horizontal .sku-wijmenu-child .sku-wijmenu-link{width:92%}
+.sku-wijmenu .sku-wijmenu-list .ui-header,.sku-wijmenu .sku-wijmenu-list .ui-widget-header{clear:both;float:left;width:98%;margin:1px 0}
+.sku-wijmenu .sku-wijmenu-rtl .ui-header,.sku-wijmenu .sku-wijmenu-rtl .ui-widget-header{float:right}
+.sku-wijmenu-horizontal .sku-wijmenu-list .ui-header,.sku-wijmenu-horizontal .sku-wijmenu-list .ui-widget-header{width:auto;clear:none;margin:-1px 2px -2px 1px}
+.sku-wijmenu-horizontal .sku-wijmenu-child .ui-header,.sku-wijmenu-horizontal .sku-wijmenu-child .ui-widget-header{width:98%;margin:1px 0}
+.sku-wijmenu-horizontal .ui-header,.sku-wijmenu-horizontal .ui-widget-header{clear:none;width:auto;margin:0 3px 0 0}
+.sku-wijmenu .ui-header h1,.sku-wijmenu .ui-header h2,.sku-wijmenu .ui-header h3,.sku-wijmenu .ui-header h4,.sku-wijmenu .ui-header h5,.sku-wijmenu .ui-header h6,.sku-wijmenu .ui-widget-header h1,.sku-wijmenu .ui-widget-header h2,.sku-wijmenu .ui-widget-header h3,.sku-wijmenu .ui-widget-header h4,.sku-wijmenu .ui-widget-header h5,.sku-wijmenu .ui-widget-header h6{float:left;display:block;font-size:1em;margin:0 auto;padding:.3em 3%}
+.sku-wijmenu-horizontal .ui-widget-header h1,.sku-wijmenu-horizontal .ui-widget-header h2,.sku-wijmenu-horizontal .ui-widget-header h3,.sku-wijmenu-horizontal .ui-widget-header h4,.sku-wijmenu-horizontal .ui-widget-header h5,.sku-wijmenu-horizontal .ui-widget-header h6{padding:.4em .3em}
+.sku-wijmenu a.ui-state-active:active,.sku-wijmenu a.ui-state-active:hover,.sku-wijmenu a.ui-state-active:link,.sku-wijmenu a.ui-state-active:visited,.sku-wijmenu a.ui-state-default:active,.sku-wijmenu a.ui-state-default:hover,.sku-wijmenu a.ui-state-default:link,.sku-wijmenu a.ui-state-default:visited,.sku-wijmenu a.ui-state-hover:active,.sku-wijmenu a.ui-state-hover:hover,.sku-wijmenu a.ui-state-hover:link,.sku-wijmenu a.ui-state-hover:visited{font-weight:400;border-style:solid}
+.sku-wijmenu .sku-wijmenu-child .ui-state-hover{font-weight:400}
+.sku-wijmenu .sku-wijmenu-separator{clear:both;float:left;height:1px;text-indent:-9999px;width:98%;margin:1px 0}
+.sku-wijmenu .sku-wijmenu-parent .sku-wijmenu-separator,.sku-wijmenu-ipod .sku-wijmenu-separator{font-size:0}
+.sku-wijmenu-horizontal .sku-wijmenu-separator{height:auto;clear:none;width:1px;text-indent:-9999px;margin:0 3px 0 0;padding:.4em 0}
+.sku-wijmenu-horizontal .sku-wijmenu-child .sku-wijmenu-separator{clear:both;float:left;height:1px;text-indent:-9999px;width:98%;margin:1px 0;padding:0}
+.sku-wijmenu .sku-wijmenu-rtl .sku-wijmenu-separator{float:right}
+.sku-wijmenu .sku-wijmenu-group{clear:both;float:left;width:98%;margin:3px 0;padding:0 .4em}
+.sku-wijmenu-ipod{width:180px}
+.sku-wijmenu-container{overflow:hidden}
+.sku-wijmenu-submenu-container{background-color:transparent;border-style:none;height:0;width:0;padding:0}
+.sku-wijmenu-ipod .sku-wijmenu-list{background:inherit;position:absolute;border-width:0;-moz-box-shadow:none;-webkit-box-shadow:none}
+.sku-wijmenu-breadcrumb{margin:0;padding:0}
+.sku-wijmenu-footer{margin-top:3px;line-height:22px}
+.sku-wijmenu-footer .ui-icon{margin:3px 0}
+.sku-wijmenu-header{margin-bottom:3px}
+.sku-wijmenu-breadcrumb li{float:left;list-style:none;font-size:.9em;margin:0;padding:0 .2em}
+.sku-wijmenu-breadcrumb li.sku-wijmenu-current-crumb,.sku-wijmenu-breadcrumb li.sku-wijmenu-prev-list{clear:left;float:none;opacity:1}
+.sku-wijmenu-breadcrumb li.sku-wijmenu-current-crumb{padding-top:.2em}
+.sku-wijmenu-footer a:link,.sku-wijmenu-footer a:visited{float:left;width:100%;text-decoration:none}
+.sku-wijmenu-footer a span{float:left;cursor:pointer}
+.sku-wijmenu-breadcrumb .sku-wijmenu-prev-list a:active,.sku-wijmenu-breadcrumb .sku-wijmenu-prev-list a:hover,.sku-wijmenu-breadcrumb .sku-wijmenu-prev-list a:link,.sku-wijmenu-breadcrumb .sku-wijmenu-prev-list a:visited{background-image:none;text-decoration:none}
+.sku-wijmenu-breadcrumb .sku-wijmenu-prev-list a{float:left;padding-right:.4em}
+.sku-wijmenu-breadcrumb .sku-wijmenu-backlinktext{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sku-wijmenu-breadcrumb .sku-wijmenu-current-crumb a:active,.sku-wijmenu-breadcrumb .sku-wijmenu-current-crumb a:hover,.sku-wijmenu-breadcrumb .sku-wijmenu-current-crumb a:link,.sku-wijmenu-breadcrumb .sku-wijmenu-current-crumb a:visited{display:block;background-image:none;font-size:1.3em;text-decoration:none}
+.sku-wijmenu .sku-wijmenu-parent .ui-icon,.sku-wijmenu-horizontal .sku-wijmenu-child .ui-icon,.sku-wijmenu-ipod .ui-icon-arrow-r,.sku-wijmenu-ipod .ui-icon-triangle-1-e{float:right}
+.sku-wijmenu .sku-wijmenu-item .sku-wijmenu-text,.sku-wijmenu-breadcrumb .sku-wijmenu-prev-list a .ui-icon,.sku-wijmenu-breadcrumb a,.sku-wijmenu-breadcrumb span,.sku-wijmenu-horizontal .sku-wijmenu-parent .ui-icon{float:left}
+.sku-wijmenu .sku-wijmenu-rtl .ui-icon-triangle-1-w{float:left}
+.sku-wijmenu .sku-wijmenu-rtl .sku-wijmenu-item .sku-wijmenu-text{float:right}
+.sku-wijmenu .sku-wijmenu-link .sku-wijmenu-icon-left{display:inline-block;float:left}
+.sku-wijmenu .sku-wijmenu-link .sku-wijmenu-icon-right{display:inline-block;float:right}
+.sku-wijmenu .ui-content{overflow:visible}
+.sku-wijmenu .ui-body{overflow:visible}
+.sku-wijmenu .ui-header{border:1px solid #e6e6e6}
+.sku-wijvideo{font-size:12px;position:relative}
+.sku-wijvideo .sku-wijvideo-timer{font-size:12px}
+.sku-wijvideo .sku-wijvideo-controls{display:none;border-right:none;border-left:none;border-bottom:none}
+.sku-wijvideo-container-fullscreen{position:absolute;left:0;top:0;z-index:1000;background-color:#000}
+.sku-wijvideo .sku-wijvideo-controls li{float:left;padding:3px;margin:1px;height:16px;line-height:18px}
+.sku-wijvideo li.sku-wijvideo-index{width:100%;margin-right:-129px}
+.sku-wijvideo .sku-wijvideo-index-slider{width:50%;margin:5px 8px;height:6px}
+.sku-wijvideo .sku-wijvideo-index-slider .ui-slider-handle{border-radius:10px;box-shadow:0 0 5px #000;top:-6px;left:3px}
+.sku-wijvideo .sku-wijvideo-volume{position:relative}
+.sku-wijvideo div.sku-wijvideo-volumeslider{left:16px;position:absolute;bottom:0;width:10px;border-bottom:none;height:103px;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+.sku-wijvideo div.sku-wijvideo-volumeslider .ui-slider-range{width:10px;left:0}
+.sku-wijvideo-timer{text-align:right}
+.sku-wijvideo div.sku-wijvideo-volumeslider .ui-slider-handle{left:-7px;height:5px;width:24px;margin:0 0 -5px 0;border-radius:2px}
+.sku-wijvideo-volume-container{display:none;bottom:22px;height:127px;left:-12px;margin:0;padding:0;position:absolute;width:25px;padding:10px}
+.sku-wijvideo-wrapper{position:absolute;bottom:0;left:0;width:100%;z-index:99}
+.sku-wijvideo .sku-wijtooltip-container{padding:3px}
+.sku-wijpager .ui-icon{cursor:pointer}
+.sku-wijpager .ui-list{float:left;padding:1px;margin:0}
+.sku-wijpager .ui-list .sku-wijpager-button{float:left;height:auto;line-height:16px;list-style:none outside none;margin:0 1px;width:auto}
+.sku-wijpager .ui-list .sku-wijpager-button span{margin:2px}
+.sku-wijpager .ui-list .sku-wijpager-button a,.sku-wijpager .ui-list .ui-state-active span{padding:2px 5px;display:block;margin:0}
+.sku-wijpager .ui-list{background:0 0;border:none}
+.ui-mobile .sku-wijpager .ui-list .sku-wijpager-button a,.ui-mobile .sku-wijpager .ui-list .sku-wijpager-button span,.ui-mobile .sku-wijpager .ui-list .ui-state-active span{padding:0;color:inherit;text-decoration:none;margin:0;display:inline-block;min-height:18px;line-height:18px;min-width:18px;text-align:center}
+.ui-mobile .sku-wijpager .ui-list .sku-wijpager-button{padding:12px 15px}
+.sku-wijcombobox{position:relative;display:inline-block}
+.sku-wijcombobox:after,.sku-wijcombobox:before{display:block}
+.sku-wijcombobox-input{background:none repeat scroll 0 0 transparent;border:0 none;color:inherit;padding:3px 5px 3px 5px;outline:0;margin:0}
+.sku-wijcombobox .sku-wijcombobox-label{background:0 0;border:none;font-weight:400;position:absolute;white-space:nowrap}
+.sku-wijcombobox-loading{background:transparent url(images/waiting.gif) right center no-repeat}
+.sku-wijcombobox .sku-wijcombobox-trigger{position:absolute;top:0;font-size:0;width:22px;cursor:pointer}
+.sku-wijcombobox .sku-wijcombobox-trigger .ui-icon{top:auto}
+.sku-wijcombobox-list{position:absolute;overflow:hidden}
+.sku-wijcombobox-ul .sku-wijcombobox-item{margin:0;padding:.2em .4em;line-height:1.5;white-space:nowrap}
+.sku-wijcombobox-ul .sku-wijcombobox-item.ui-state-active,.sku-wijcombobox-ul .sku-wijcombobox-item.ui-state-hover{font-weight:400;margin:-1px}
+.sku-wijcombobox-ul .sku-wijlist-item-selected{font-style:italic}
+.sku-wijcombobox-multicolumn .sku-wijcombobox-row,.sku-wijcombobox-multicolumn .sku-wijcombobox-rowheader{list-style:none none outside;padding:0;margin:0;border:0;overflow:hidden;width:10000px}
+.sku-wijcombobox-multicolumn .sku-wijcombobox-cell{float:left;overflow:hidden;border-width:0;text-align:center;width:100px}
+.sku-wijcombobox-multicolumn .sku-wijcombobox-rowheader .sku-wijcombobox-cell{border-right-width:1px}
+.sku-wijcombobox-multicolumn .sku-wijcombobox-row .sku-wijcombobox-cell{border-right-width:1px;border-bottom-width:1px}
+.sku-wijcombobox-multicolumn .sku-wijsuperpanel-header{border-width:0;border-bottom-width:1px}
+.sku-wijcombobox-multicolumn .sku-wijlist-item,.sku-wijcombobox-multicolumn .sku-wijlist-ul{padding:0;border:0}
+.sku-wijcombobox-multicolumn .sku-wijcombobox-active-prev .sku-wijcombobox-cell{border-bottom-width:0}
+.sku-wijcombobox-multicolumn .sku-wijcombobox-row .ui-state-hover{border-top-width:1px}
+.sku-wijcombobox-multicolumn .sku-wijlist-item-first .ui-state-hover{border-top-width:0}
+.sku-wijlist-ul .sku-wijlist-item{cursor:pointer}
+.sku-wijcombobox .ui-icon-arrow-d{display:block}
+.sku-wijinput{display:inline-block;vertical-align:middle;position:relative;width:150px}
+.sku-wijinput-wrapper{margin-right:0;display:block;padding:5px}
+.sku-wijinput-input{background:0 0;border:0 none;color:inherit;outline:0;margin:0!important;line-height:normal;padding:0;width:100%;height:100%;resize:none;padding-right:2px}
+.sku-wijinput .sku-wijinput-trigger{position:absolute;right:0;top:0;width:16px;cursor:pointer;padding:0 3px;height:100%}
+.sku-wijinput .sku-wijinput-trigger .ui-icon{top:50%;position:relative;margin-top:-8px}
+.ui-input-spinner-right .sku-wijinput-wrapper,.ui-input-trigger-right .sku-wijinput-wrapper{padding-right:25px}
+.ui-input-spinner-left .sku-wijinput-wrapper,.ui-input-trigger-left .sku-wijinput-wrapper{padding-left:25px}
+.ui-input-spinner-trigger-right .sku-wijinput-wrapper{padding-right:42px}
+.ui-input-spinner-trigger-left .sku-wijinput-wrapper{padding-left:42px}
+.sku-wijinput-wrapper-spinner-left .sku-wijinput-wrapper{padding-left:25px}
+.sku-wijinput-wrapper-spinner-right .sku-wijinput-wrapper{padding-right:25px}
+.ui-input-trigger-right .sku-wijinput-trigger{position:absolute;right:0;top:0;border-right:none;border-top:none;border-bottom:none}
+.ui-input-trigger-left .sku-wijinput-trigger{position:absolute;left:0;top:0;border-left:none;border-top:none;border-bottom:none}
+.ui-input-spinner-trigger-left .sku-wijinput-trigger{left:0}
+.sku-wijinput .sku-wijinput-spinner-left{position:absolute;left:0;top:0;width:17px;cursor:pointer;height:100%}
+.sku-wijinput .sku-wijinput-spinner-right{position:absolute;right:0;top:0;width:17px;cursor:pointer;height:100%}
+.ui-input-spinner-trigger-left .sku-wijinput-spinner-left{left:23px}
+.ui-input-spinner-trigger-right .sku-wijinput-spinner-left{left:0}
+.ui-input-spinner-trigger-left .sku-wijinput-spinner-right{right:0}
+.ui-input-spinner-trigger-right .sku-wijinput-spinner-right{right:23px}
+.sku-wijinput .sku-wijinput-spinner-left .ui-icon{position:absolute;top:50%;margin-top:-8px}
+.sku-wijinput .sku-wijinput-spinner-right .ui-icon{position:absolute;top:50%;margin-top:-8px}
+.sku-wijinput-spin{border-bottom:none;display:block;height:100%;width:16px;position:relative}
+.sku-wijinput-spinup{border-bottom:none;display:block;height:50%;width:16px;position:relative}
+.sku-wijinput-spindown{border-top:none;display:block;height:50%;width:16px;position:relative}
+.ui-input-spinner-right .sku-wijinput-spin{border-right:none;border-top:none}
+.ui-input-spinner-right .sku-wijinput-spinup{border-right:none;border-top:none}
+.ui-input-spinner-right .sku-wijinput-spindown{border-right:none;border-bottom:none}
+.ui-input-spinner-left .sku-wijinput-spin{border-left:none;border-top:none}
+.ui-input-spinner-left .sku-wijinput-spinup{border-left:none;border-top:none}
+.ui-input-spinner-left .sku-wijinput-spindown{border-left:none;border-bottom:none}
+.sku-wijinput-numeric{text-align:right}
+.sku-wijinput .ui-state-negative{color:red}
+.ui-input-spinner-trigger-right .sku-wijinput-spindown,.ui-input-spinner-trigger-right .sku-wijinput-spinup,.ui-input-spinner-trigger-right .sku-wijinput-trigger{border-top:none;border-right:none}
+.ui-input-spinner-trigger-left .sku-wijinput-spindown,.ui-input-spinner-trigger-left .sku-wijinput-spinup,.ui-input-spinner-trigger-left .sku-wijinput-trigger{border-top:none;border-left:none}
+input.sku-wijinput-input::-webkit-inner-spin-button,input.sku-wijinput-input::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+.sku-wijgrid{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;overflow:hidden}
+.ui-mobile .sku-wijgrid{width:100%;max-height:100%;overflow:auto;-webkit-overflow-scrolling:touch}
+.sku-wijgrid .sku-wijsuperpanel{border:0}
+.sku-wijgrid .sku-wijgrid-filterrow td{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:inherit}
+.sku-wijgrid .sku-wijgrid-filter{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border:none!important;width:100%}
+.sku-wijgrid .sku-wijgrid-filter td{border-top:0 none!important;border-bottom:0 none!important}
+.sku-wijgrid .sku-wijgrid-filter td.sku-wijgrid-filter-trigger{padding:0 3px;border-radius:0;cursor:pointer}
+.sku-wijgrid .sku-wijgrid-filter .wijgrid-input-wrapper{padding:5px;display:block;margin-right:0}
+.sku-wijgrid .sku-wijgrid-filter .sku-wijgrid-filter-input{background:0 0!important;border:0 none;padding:0;width:100%}
+.sku-wijgrid .sku-wijgrid-filter td.sku-wijgrid-filter-trigger .ui-icon{display:block}
+.sku-wijgrid .ui-input-trigger-right .sku-wijinput-trigger{border-radius:0}
+.sku-wijgrid .ui-input-spinner-right .sku-wijinput-spindown,.sku-wijgrid .ui-input-spinner-right .sku-wijinput-spinup{border-top:none;border-bottom:none}
+.filter-nofilter{background-position:0 0}
+.filter-contains{background-position:0 -16px}
+.filter-notcontain{background-position:0 -32px}
+.filter-beginswith{background-position:0 -48px}
+.filter-endswith{background-position:0 -64px}
+.filter-equals{background-position:0 -80px}
+.filter-notequal{background-position:0 -96px}
+.filter-greater{background-position:0 -112px}
+.filter-less{background-position:0 -128px}
+.filter-greaterorequal{background-position:0 -144px}
+.filter-lessorequal{background-position:0 -160px}
+.filter-isempty{background-position:0 -176px}
+.filter-notisempty{background-position:0 -192px}
+.filter-isnull{background-position:0 -208px}
+.filter-notisnull{background-position:0 -224px}
+.sku-wijpager .ui-icon{cursor:pointer}
+.sku-wijgrid .sku-wijgrid-grouptogglebtn{float:left;cursor:pointer;margin-top:3px}
+.sku-wijgrid .sku-wijgrid-table{border-collapse:collapse;outline:0}
+.sku-wijgrid .sku-wijgrid-table .sku-wijgrid-rowheader{width:21px;border-left:none;border-top:none;position:relative;overflow:hidden;padding:0}
+.sku-wijgrid .sku-wijgrid-table .sku-wijgrid-rowheader .sku-wijgrid-innercell{padding:1px 2px}
+.sku-wijgrid .sku-wijgrid-footer,.sku-wijgrid .sku-wijgrid-header{border-left:none!important;border-top:none!important;border-bottom:none!important;padding:.2em;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
+.sku-wijgrid tr.sku-wijgrid-row{border-bottom:none}
+.sku-wijgrid tr.sku-wijgrid-row td,.sku-wijgrid tr.sku-wijgrid-row th{border:none;border-right-color:inherit;border-right-style:solid;border-right-width:1px;border-top-color:inherit;border-top-style:solid;border-top-width:1px;overflow:hidden}
+.sku-wijgrid .wijgridtd{font-weight:400;padding:0}
+.sku-wijgrid .wijgridth{padding:0}
+.sku-wijgrid .sku-wijgrid-headerrow .sku-c1basefield{zoom:1;overflow:hidden;border-left:0;border-top:0;padding:0;position:relative}
+.sku-wijgrid .sku-wijgrid-headerrow .sku-wijgrid-headertext{padding:.5em 1em;display:block;position:relative;color:inherit;text-decoration:none}
+.sku-wijgrid .sku-wijgrid-headerrow .ui-icon{width:16px;height:16px;position:absolute;top:50%;margin-top:-8px;z-index:99;text-indent:9999px}
+.sku-wijgrid .sku-wijgrid-headerrow th .sku-wijgrid-innercell{position:relative}
+.sku-wijgrid .sku-wijgrid-headerrow .sku-wijgrid-sort-icon{right:0}
+.sku-wijgrid .sku-wijpager{display:block;position:relative}
+.sku-wijgrid .sku-wijsuperpanel-header{position:relative}
+.sku-wijgrid-resizehandle{position:absolute;z-index:99999}
+.sku-wijgrid-freezing-handle-h,.sku-wijgrid-freezing-handle-v{background:0 0;cursor:pointer;position:absolute;z-index:9998;border:none;margin:0;padding:0}
+.sku-wijgrid-freezing-handle-v.not-allowed{cursor:inherit!important}
+.sku-wijgrid-freezing-handle-v{width:5px}
+.sku-wijgrid-freezing-handle-h{height:5px}
+.sku-wijgrid-h-splitter,.sku-wijgrid-v-splitter{background-color:#fff;width:4px;height:4px;position:absolute;z-index:10;display:none}
+.sku-wijgrid-splits-enabled .sku-wijgrid-v-splitter{border-right:1px solid #000;display:block;cursor:w-resize}
+.sku-wijgrid-splits-enabled .sku-wijgrid-h-splitter{border-bottom:1px solid #000;display:block;cursor:n-resize}
+.sku-wijgrid-splits-enabled .sku-wijgrid-h-splitter.ui-draggable-dragging,.sku-wijgrid-splits-enabled .sku-wijgrid-v-splitter.ui-draggable-dragging{background-color:#626262}
+.sku-wijgrid-filterlist{position:absolute;left:0;top:0}
+.sku-wijgrid-scroller{overflow:hidden}
+.sku-wijgrid-fixedview{position:relative}
+.sku-wijgrid-scroller{border:0}
+.sku-wijgrid .sku-wijsuperpanel-vbar-buttontop{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;top:-1px}
+.sku-wijgrid .sku-wijsuperpanel-vbar-buttonbottom{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;bottom:-1px}
+.sku-wijgrid .wijgridinput{width:100%;margin:0;border:none;padding:0;text-align:inherit}
+.sku-wijgrid tr.sku-wijgrid-row td.wijdata-type-currency,.sku-wijgrid tr.sku-wijgrid-row td.wijdata-type-date,.sku-wijgrid tr.sku-wijgrid-row td.wijdata-type-number{text-align:right}
+.sku-wijgrid tr.sku-wijgrid-row td.wijdata-type-boolean{text-align:center}
+.sku-wijgrid tr.sku-wijgrid-row td.wijalign-left{text-align:left}
+.sku-wijgrid tr.sku-wijgrid-row td.wijalign-right{text-align:right}
+.sku-wijgrid tr.sku-wijgrid-row td.wijalign-center{text-align:center}
+.sku-wijgrid .sku-wijgrid-innercell{padding:1px 2px}
+.sku-wijgrid .sku-wijcombobox-wrapper{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border-top:0;border-bottom:0;border-left:0}
+.sku-wijgrid .sku-wijcombobox .sku-wijcombobox-trigger{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;border-top:0;border-bottom:0;border-right:0}
+.sku-wijgrid .sku-wijcombobox-input{padding:0}
+.sku-wijgrid .sku-wijinput{border:none;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0}
+.sku-wijgrid-dnd-arrow-bottom,.sku-wijgrid-dnd-arrow-top{z-index:1000;width:16px;height:16px}
+.sku-wijgrid-dnd-arrow-top .ui-icon{position:absolute;top:-4px}
+.sku-wijgrid-dnd-arrow-bottom .ui-icon{position:absolute;top:4px}
+.sku-wijgrid-dnd-helper{border:1px solid #F0F0F0!important;filter:alpha(opacity=70)!important;-moz-opacity:.7;opacity:.7;z-index:1000;min-height:0!important}
+.sku-wijgrid th.ui-draggable{cursor:pointer}
+.sku-wijgrid-footerrow{text-align:right}
+.sku-wijgrid-group-button{float:left;padding:.4em 1.4em .4em .4em;position:relative;margin:.4em;text-decoration:none}
+.sku-wijgrid-group-button-close{float:right;margin:0 3px 0 24px;padding:1px;position:absolute;right:-14px;top:-7px;border-radius:15px;-moz-border-radius:15px;-webkit-border-radius:15px}
+.sku-wijgrid-group-button-sort{position:absolute;right:3px;top:25%}
+.sku-wijgrid-group-area{height:35px}
+.wijgridtd:focus{outline:0}
+.sku-wijgrid{position:relative}
+.sku-wijgrid-loading{z-index:99}
+.sku-wijgrid-overlay{z-index:99}
+.sku-wijgrid-loadingtext{position:absolute;opacity:1;z-index:100;padding:.4em;font-size:20px;box-shadow:0 0 10px rgba(0,0,0,.25)}
+.sku-wijgrid-loadingtext .ui-icon{display:inline-block;margin-right:.4em;text-indent:0}
+.ui-mobile .sku-wijgrid .sku-wijgrid-innercell{padding:12px 15px}
+.sku-wijfilter h3{margin:.4em 0}
+.sku-wijfilter .sku-wijfilter-headerContainer{padding:.4em;padding-left:1em}
+.sku-wijfilter .sku-wijfilter-headerContainer .sku-wijfilter-headerText{float:left;margin:.4em 0}
+.sku-wijfilter .sku-wijfilter-headerContainer .ui-button{float:right;border-radius:15px}
+.sku-wijfilter .sku-wijfilter-headerContainer .ui-button-text{padding:3px}
+.sku-wijfilter .sku-wijfilter-sortContainer{white-space:nowrap}
+.sku-wijfilter .sku-wijfilter-sortContainer .ui-button{width:49%}
+.sku-wijfilter .sku-wijfilter-text{width:373px;margin-bottom:.4em;padding-left:20px}
+.sku-wijfilter .sku-wijfilter-checkboxContainer{padding:.4em .4em 0 .4em;margin-bottom:1em;height:150px;overflow:scroll}
+.sku-wijfilter .sku-wijfilter-checkboxContainer li{display:inline}
+.sku-wijfilter .sku-wijfilter-checkboxContainer ul{margin:0;padding:0}
+.sku-wijfilter .sku-wijfilter-checkboxContainer label{white-space:nowrap}
+.sku-wijfilter .sku-checkbox{margin-bottom:.4em}
+.sku-wijfilter .sku-wijfilter-filterContainer{clear:left;height:30px;padding:2px 0}
+.sku-wijfilter .sku-wijfilter-radioContainer{clear:left}
+.sku-wijfilter .sku-wijradio{width:25%;float:left}
+.sku-wijfilter .sku-wijcombobox{float:right}
+.sku-wijfilter .sku-wijfilter-filterContainer .sku-wijfilter-combobox{width:180px}
+.sku-wijfilter .sku-wijdropdown{width:49%!important}
+.sku-wijfilter .sku-wijfilter-searchContainer{position:relative}
+.sku-wijfilter .sku-wijfilter-searchContainer .ui-icon{position:absolute;left:0;top:0;margin:.4em}
+.sku-wijfilter .sku-wijfilter-actionContainer{float:right}
+.sku-wijtree{width:360px}
+.ui-mobile .sku-wijtree{width:100%}
+.sku-wijtree .sku-checkbox{margin:0;float:left}
+.sku-wijtree .sku-wijtree-parent span{float:left}
+.sku-wijtree .sku-wijtree-child{margin-left:32px}
+.sku-wijtree .sku-wijtree-list .sku-wijtree-node{border:0;background:0 0;display:block;float:left;clear:both;font-weight:400;margin:0 20px 0 0}
+.sku-wijtree .sku-wijtree-list{float:left;width:100%;padding:.5em}
+.sku-wijtree-inner{border:1px solid transparent;padding:3px;vertical-align:middle;display:block}
+.sku-wijtree .sku-wijtree-list .sku-wijtree-node .sku-wijtree-inner .sku-wijtree-template,.sku-wijtree .sku-wijtree-list .sku-wijtree-node .sku-wijtree-inner a{outline:0;margin:0 .5em;display:block;float:left;color:inherit;text-decoration:none}
+.sku-wijtree .sku-wijtree-list .sku-wijtree-node .sku-wijtree-inner a:hover{color:inherit}
+.sku-wijtree .sku-wijtree-list li.sku-wijtree-node{margin-left:16px}
+.sku-wijtree .sku-wijtree-list .ui-state-default,.sku-wijtree .sku-wijtree-list .ui-state-default a{color:inherit}
+.sku-wijtree .sku-wijtree-list .ui-state-active,.sku-wijtree .sku-wijtree-list .ui-state-hover{font-weight:400}
+sku-wijtree a.ui-state-active:active,sku-wijtree a.ui-state-active:hover,sku-wijtree a.ui-state-active:link,sku-wijtree a.ui-state-active:visited,sku-wijtree a.ui-state-default:active,sku-wijtree a.ui-state-default:hover,sku-wijtree a.ui-state-default:link,sku-wijtree a.ui-state-default:visited,sku-wijtree a.ui-state-hover:active,sku-wijtree a.ui-state-hover:hover,sku-wijtree a.ui-state-hover:link,sku-wijtree a.ui-state-hover:visited{border-style:solid;font-weight:400}
+.sku-wijtree .sku-wijtree-list .sku-wijtree-item{padding:0;width:100%;float:left;clear:left;margin:0 0 0 16px;display:inline;width:100%}
+.sku-wijtree .sku-wijtree-allexpanded .sku-wijtree-item{margin:0}
+.sku-wijtree .sku-wijtree-list .ui-icon{float:left}
+.sku-wijtree .sku-wijtree-list .sku-wijtree-parent{margin:0;padding:0;width:100%;float:left;clear:left}
+.sku-wijtree-insertion{height:1px;font-size:0}
+.sku-wijtree-node .sku-wijtextbox{padding:0;margin:0;float:left;margin:0 0 0 .5em}
+.ui-mobile .sku-wijtree-node .sku-checkbox .sku-checkbox-box{display:block;bottom:0;left:5px;width:18px;height:18px;margin-right:22px;border:none}
+.ui-mobile .sku-wijtree .sku-wijtree-list .ui-icon{line-height:30px;display:block;margin-right:7px}
+.ui-mobile .sku-wijtree .sku-wijtree-list .ui-icon-checkbox-on{background-position:-252px 50%}
+.ui-mobile .sku-wijtree .sku-wijtree-list .sku-wijtree-item{margin:0 0 0 37px}
+.ui-mobile .sku-wijtree .sku-wijtree-list .ui-icon-grid{background-position:-432px 50%}
+.ui-mobile .sku-wijtree-inner{padding:12px 15px}
+.sku-wijupload{overflow:hidden;position:relative}
+.sku-wijupload ul{margin:0;padding:0}
+.sku-wijupload li{list-style:none outside none;position:relative;width:99%}
+.sku-wijupload .sku-wijupload-buttonContainer{position:absolute;right:0;top:0}
+.sku-wijupload .sku-wijupload-file{display:block;padding:.4em;line-height:1.4;margin:5px 105px 5px 5px}
+.sku-wijupload .sku-wijupload-uploadedFile{display:block;padding:.4em;line-height:1.4}
+.sku-wijupload .sku-wijupload-loading{width:16px;height:16px;background-image:url(images/ui-anim_basic_16x16.gif);display:block;float:left;top:25%;left:-10px;position:relative}
+.sku-wijupload .ui-button{margin:2px}
+.sku-wijwizard{position:relative}
+.sku-wijwizard-steps li{float:left;padding:.4em;margin:0 3px 0 0}
+.sku-wijwizard-steps h1{margin:0;padding:0;font-size:24px}
+.sku-wijwizard-content{margin:3px 0}
+.sku-wijwizard .sku-wijwizard-panel{display:block;border-width:0;padding:1em 1.4em;background:0 0}
+.sku-wijwizard .sku-wijwizard-hide{display:none!important}
+.sku-wijwizard-buttons{float:right}
+.ui-mobile .sku-wijwizard-buttons a{padding:12px 15px;margin-right:1px;display:inline-block;text-decoration:none}
+.sku-wijwizard-next,.sku-wijwizard-prev{display:block;position:absolute;padding:3px 0}
+.sku-wijwizard-next{right:0;top:49%}
+.sku-wijwizard-prev{left:0;top:49%}
+.sku-wijwizard .sku-wijsuperpanel{background:0 0;border-width:0}
+.ui-mobile .sku-wijwizard .ui-icon-arrow-l,.ui-mobile .sku-wijwizard .ui-icon-arrow-r{display:block}
+.ui-mobile .sku-wijwizard .sku-wijwizard-next,.ui-mobile .sku-wijwizard .sku-wijwizard-prev{padding:2px 5px}
+.ui-mobile .sku-wijwizard .sku-wijwizard-panel{padding:1em 2em}
+.sku-wijribbon{font-size:11px;padding:0;border:none}
+.ui-widget div.sku-wijribbon{font-size:11px;padding:0;border:none}
+.ui-widget div.sku-wijribbon-simple{padding:3px}
+.sku-wijribbon .ui-button .ui-button-text{font-size:11px}
+.sku-wijribbon .sku-wijmenu,.sku-wijribbon .sku-wijribbon-panel{background:#fff;background:-moz-linear-gradient(top,rgba(255,255,255,1) 0,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,1)),color-stop(58%,rgba(255,255,255,1)),color-stop(71%,rgba(249,249,249,1)),color-stop(88%,rgba(237,237,237,1)),color-stop(100%,rgba(232,232,232,1)));background:-webkit-linear-gradient(top,rgba(255,255,255,1) 0,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);background:-o-linear-gradient(top,rgba(255,255,255,1) 0,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);background:-ms-linear-gradient(top,rgba(255,255,255,1) 0,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);background:linear-gradient(top,rgba(255,255,255,1) 0,rgba(255,255,255,1) 58%,rgba(249,249,249,1) 71%,rgba(237,237,237,1) 88%,rgba(232,232,232,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e8e8e8', GradientType=0 );padding:0}
+.sku-wijribbon .sku-wijribbon-panel .sku-wijribbon-groups{overflow:hidden}
+.sku-wijribbon .sku-wijribbon-groups .sku-wijribbon-group{float:left;border:none;border-right:solid 1px #b2b7bd;border-left:solid 1px #fafafa;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;padding:.2em}
+.sku-wijribbon .ui-button .ui-button-text.ui-state-active,.sku-wijribbon .ui-button .ui-button-text.ui-state-hover{border:none;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;text-decoration:none}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-group-content{height:5.5em;overflow:hidden;border:none;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;border-width:0;padding:.2em .2em 0}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-group-label,.sku-wijribbon-abbrevgroup .sku-wijribbon-text{text-align:center;font-weight:400;white-space:nowrap;margin-top:-1px;color:#333;border-width:1px 0 0}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton{background:0 0;border:solid 1px transparent;width:3.5em;height:52px;color:#000;text-decoration:none}
+.sku-wijribbon-bigbutton:visited{text-decoration:none}
+.sku-wijribbon .sku-wijribbon-dropdownbutton{display:inline-block}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton,.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-dropdownbutton,.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-list,.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-splitbutton{float:left}
+.sku-wijribbon .sku-wijribbon-bigbutton .ui-icon{height:32px;left:50%;margin-left:-17px;margin-top:-24px;width:32px}
+.sku-wijribbon .sku-wijribbon-bigbutton .ui-button-text{padding:3em 0 0;letter-spacing:-1px;font-size:10px}
+.sku-wijribbon .sku-wijribbon-splitbutton{width:54px}
+.sku-wijribbon .sku-wijribbon-splitbutton .ui-button-icon-only{width:1em;height:52px;margin-left:2px}
+.sku-wijribbon .sku-wijribbon-splitbutton .ui-button-icon-only .ui-icon-triangle-1-s{height:16px;margin-left:-7px;margin-top:-11px;width:16px}
+.sku-wijribbon .sku-wijribbon-group-content li .ui-button{width:100%;margin:0 0 1px 1px}
+.sku-wijribbon .sku-wijribbon-bigbutton .sku-wijribbon-save{background-position:-32px -112px}
+.sku-wijribbon .sku-wijribbon-undo{background-position:0 -48px}
+.sku-wijribbon .sku-wijribbon-redo{background-position:-16px -48px}
+.sku-wijribbon .sku-wijribbon-preview{background-position:-128px -48px}
+.sku-wijribbon .sku-wijribbon-cleanup{background-position:-208px -32px}
+.sku-wijribbon .sku-wijribbon-cut{background-position:-32px -48px}
+.sku-wijribbon .sku-wijribbon-copy{background-position:-48px -48px}
+.sku-wijribbon .sku-wijribbon-paste{background-position:-64px -48px}
+.sku-wijribbon .sku-wijribbon-selectall{background-position:-48px -80px}
+.sku-wijribbon .sku-wijribbon-bgcolor{background-position:-192px -32px}
+.sku-wijribbon .sku-wijribbon-color{background-position:-176px -32px}
+.sku-wijribbon .sku-wijribbon-bold{background-position:0 -32px}
+.sku-wijribbon .sku-wijribbon-italic{background-position:-16px -32px}
+.sku-wijribbon .sku-wijribbon-underline{background-position:-32px -32px}
+.sku-wijribbon .sku-wijribbon-strike{background-position:-48px -32px}
+.sku-wijribbon .sku-wijribbon-sup{background-position:-64px -32px}
+.sku-wijribbon .sku-wijribbon-sub{background-position:-80px -32px}
+.sku-wijribbon .sku-wijribbon-removeformat{background-position:-208px -32px}
+.sku-wijribbon .sku-wijribbon-bigbutton .sku-wijribbon-spelling{background-position:-128px -112px}
+.sku-wijribbon .sku-wijribbon-justifycenter{background-position:-16px -16px}
+.sku-wijribbon .sku-wijribbon-justifyright{background-position:-32px -16px}
+.sku-wijribbon .sku-wijribbon-justifyfull{background-position:-48px -16px}
+.sku-wijribbon .sku-wijribbon-borders{background-position:-160px 0}
+.sku-wijribbon .sku-wijribbon-orderlist{background-position:-64px -16px}
+.sku-wijribbon .sku-wijribbon-unorderlist{background-position:-80px -16px}
+.sku-wijribbon .sku-wijribbon-outdent{background-position:-112px -16px}
+.sku-wijribbon .sku-wijribbon-indent{background-position:-96px -16px}
+.sku-wijribbon .sku-wijribbon-inspect{background-position:-64px -80px}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-bigbutton{margin-right:3px}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-splitbutton .sku-wijribbon-bigbutton{margin-right:-3px}
+.sku-wijribbon .sku-wijribbon-bigbutton .sku-wijribbon-table{background-position:0 -112px}
+.sku-wijribbon .sku-wijribbon-inserttable{background-position:-144px 0}
+.sku-wijribbon .sku-wijribbon-edittable{background-position:-128px 0}
+.sku-wijribbon .sku-wijribbon-insertcol{background-position:-16px 0}
+.sku-wijribbon .sku-wijribbon-insertrow{background-position:-48px 0}
+.sku-wijribbon .sku-wijribbon-insertcell{background-position:-80px 0}
+.sku-wijribbon .sku-wijribbon-splitcell{background-position:-144px 0}
+.sku-wijribbon .sku-wijribbon-mergecell{background-position:-96px 0}
+.sku-wijribbon .sku-wijribbon-deleterow{background-position:-32px 0}
+.sku-wijribbon .sku-wijribbon-deletecol{background-position:0 0}
+.sku-wijribbon .sku-wijribbon-deletecell{background-position:-64px 0}
+.sku-wijribbon .sku-wijribbon-insertparagraph{background-position:-96px -32px}
+.sku-wijribbon .sku-wijribbon-insertprintpagebreak{background-position:-112px -48px}
+.sku-wijribbon .sku-wijribbon-inserthr{background-position:-128px -32px}
+.sku-wijribbon .sku-wijribbon-textarea{background-position:-160px -64px}
+.sku-wijribbon .sku-wijribbon-textbox{background-position:-96px -64px}
+.sku-wijribbon .sku-wijribbon-password{background-position:-112px -64px}
+.sku-wijribbon .sku-wijribbon-hiddenfield{background-position:-128px -64px}
+.sku-wijribbon .sku-wijribbon-imagebutton{background-position:-208px -64px}
+.sku-wijribbon .sku-wijribbon-button{background-position:-48px -64px}
+.sku-wijribbon .sku-wijribbon-listbox{background-position:-176px -64px}
+.sku-wijribbon .sku-wijribbon-dropdownlist{background-position:-144px -64px}
+.sku-wijribbon .sku-wijribbon-radio{background-position:-80px -64px}
+.sku-wijribbon .sku-wijribbon-checkbox{background-position:-64px -64px}
+.sku-wijribbon .sku-wijribbon-bigbutton .sku-wijribbon-link{background-position:-96px -112px}
+.sku-wijribbon .sku-wijribbon-imagebrowser{background-position:-208px -64px}
+.sku-wijribbon .sku-wijribbon-media{background-position:-224px -64px}
+.sku-wijribbon .sku-wijribbon-datetime{background-position:0 -64px}
+.sku-wijribbon .sku-wijribbon-designview{background-position:-32px -96px}
+.sku-wijribbon .sku-wijribbon-sourceview{background-position:0 -96px}
+.sku-wijribbon .sku-wijribbon-splitview{background-position:-16px -96px}
+.sku-wijribbon .sku-wijribbon-wordwrap{background-position:-144px -32px}
+.sku-wijribbon .sku-wijribbon-fullscreen{background-position:0 -80px}
+.sku-wijribbon .ui-tabs .ui-tabs-nav{border:none;border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+.sku-wijribbon .sku-wijribbon-panel{border-left:solid 1px #b2b7bd;border-right:solid 1px #b2b7bd}
+.sku-wijribbon .sku-wijribbon-panel .sku-wijribbon-groups{border-bottom:none;border-top:none;background:0 0}
+.sku-wijribbon .ui-tabs-nav{-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;border-bottom-right-radius:0;border-bottom-left-radius:0}
+.sku-wijribbon-groups{border-left:0;border-right:0}
+.sku-wijribbon .sku-wijribbon-separator{width:2px;border:1px dotted #000}
+.sku-wijribbon .ui-button{border:none;background:0 0;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;color:#333}
+
+.sku-wijribbon .sku-wijribbon-breaks .ui-button,.sku-wijribbon .sku-wijribbon-review .ui-button,.sku-wijribbon .sku-wijribbon-special .ui-button{color:#000;border:none;background:0 0;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;margin-top:2px}
+.sku-wijribbon .ui-buttonset{margin:0}
+.sku-wijribbon .sku-wijribbon-dropdown,.sku-wijribbon-group-content .ui-helper-reset,.sku-wijribbon-groups .sku-wijribbon-group .sku-wijribbon-dropdowngroup{background:#fafafa;border:solid 1px #a7abb0;box-shadow:1px 1px 3px rgba(0,0,0,.25);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.25);-moz-box-shadow:1px 1px 3px rgba(0,0,0,.25);padding:3px 5px 3px 2px}
+.sku-wijribbon .sku-wijribbon-dropdown .ui-button-text{text-align:left}
+.sku-wijribbon .sku-wijribbon-dropdowngroup{position:absolute}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-icon{position:absolute;left:50%;margin-left:-8px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup{position:relative;border:solid 1px transparent;margin-right:3px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}
+.sku-wijribbon .sku-wijribbon-dropdown li .ui-button{background:0 0;border:none;color:#000}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-text{display:block;padding:2.8em .5em}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .ui-icon{bottom:12px;background-position:-48px -96px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevicon{width:16px;height:16px;margin-left:-8px;margin-top:8px}
+.sku-wijribbon .ui-icon,.sku-wijribbon-abbrevicon{background-image:url(images/wijeditor/sku-ui-icons_000000_240x112.png)}
+.sku-wijribbon,.sku-wijribbon .sku-wijribbon-panel .sku-wijribbon-groups,.sku-wijribbon .ui-icon,.sku-wijribbon .ui-tabs-panel{border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevactions{background-position:-32px -48px}
+.sku-wijribbon .sku-wijribbon-template{background-position:center -48px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevfont{background-position:0 -32px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevparagraph,.sku-wijribbon .sku-wijribbon-justifyleft{background-position:0 -16px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevreview{background-position:-64px -80px}
+.sku-wijribbon .sku-wijribbon-find{background-position:-128px -48px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevbreaks,.sku-wijribbon .sku-wijribbon-insertbreak{background-position:-160px -32px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevforms,.sku-wijribbon .sku-wijribbon-form{background-position:-192px -64px}
+.sku-wijribbon .sku-wijribbon-abbrevgroup .sku-wijribbon-abbrevspecial,.sku-wijribbon .sku-wijribbon-specialchar{background-position:-112px -32px}
+.sku-wijribbon .ui-button .ui-icon-triangle-1-s{background-position:-48px -96px}
+.sku-wijribbon-simple .sku-wijribbon-dropdownbutton,.sku-wijribbon-simple .sku-wijribbon-splitbutton,.sku-wijribbon-simple .ui-button{float:left}
+.sku-wijribbon-simple .sku-wijribbon-dropdown .ui-button{float:none}
+.sku-wijribbon-simple .ui-button-text-icon-secondary .ui-button-text,.ui-button-text-icons .ui-button-text{padding:.4em 2.1em .4em .4em}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{text-decoration:none}
+.sku-wijribbon-disabled{z-index:990}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-group-label{position:relative}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-group-label>button{height:13px;position:absolute;right:0;vertical-align:middle;width:2em;margin-right:1px}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-inputdropdownwrapper{display:inline-block;position:relative;margin:2px 25px 4px 7px}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-inputdropdownwrapper>input{margin:0;padding:.3em;width:5em;height:1.2em;background:none repeat scroll 0 0 transparent;color:#333}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-dropdownbutton .sku-wijribbon-inputdropdownwrapper .sku-wijribbon-inputdropdownbtn{position:absolute;top:0;bottom:0;margin-left:-1px;padding:0;border:1px solid #333;width:1.5em}
+.sku-wijribbon .sku-wijribbon-group .sku-wijribbon-inputdropdownbtn .ui-button-text{height:1.1em}
+.sku-wijribbon .sku-wijmenu .sku-wijmenu-link .ui-icon{display:inline-block;float:left;height:32px;width:32px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijribbon-save{background-position:-32px -112px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijribbon-link{background-position:-96px -112px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijribbon-spelling{background-position:-128px -112px}
+.sku-wijribbon .sku-wijmenu .sku-wijmenu-link{line-height:32px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijribbon-table{background-position:0 -112px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijribbon-inserttable{background-position:0 -112px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijribbon-edittable{background-position:0 -112px}
+.sku-wijribbon .sku-wijribbon-startmenuindicator{display:inline-block;background-position:-48px -96px;position:absolute}
+.sku-wijribbon .ui-tabs-nav .sku-wijribbon-startmenulink{position:relative}
+.sku-wijribbon .ui-tabs-nav .sku-wijribbon-startmenulinkcontainer{background:url() repeat scroll 0 0 #f2b116}
+.sku-wijribbon .sku-wijribbon-accesstoolbar{padding-left:40px}
+.sku-wijribbon .sku-wijribbon-startmenulink .ui-button-text{padding:.2em 1.1em .4em .6em}
+.sku-wijribbon .sku-wijribbon-gallery{width:28em;overflow-y:scroll;height:5.5em}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijmenu-text .ui-icon{margin-right:10px}
+.sku-wijribbon .sku-wijribbon-startmenu .sku-wijmenu-link .ui-icon-triangle-1-e{background-position:-48px -80px;float:right;height:16px;width:16px;margin-top:8px}
+.sku-wijribbon .sku-wijribbon-gallery>div{float:left;color:#000;width:8em;height:5em;overflow:hidden;border:1px solid #b2b7bd;margin:3px;text-align:center}
+.sku-wijribbon .sku-wijmenu .sku-wijmenu-text{color:#000}
+.sku-wijribbon .sku-wijribbon-accesstoolbar .ui-button{margin:1px 0}
+.sku-wijribbon .ui-button .sku-wijribbon-accesstoolbarbtn{background-position:-48px -96px}
+.sku-wijribbon .sku-wijmenu .sku-wijribbon-accesstoolbarmenu .sku-wijmenu-link{line-height:16px}
+.sku-wijribbon .sku-wijmenu .sku-wijribbon-accesstoolbarmenu .sku-wijmenu-link .ui-icon{height:16px;width:16px;margin-right:10px}
+.sku-wijribbon .sku-wijmenu .sku-wijribbon-accesstoolbarmenu .sku-wijribbon-accesstoolbarmenuitemchecked{background-position:-64px -64px}
+.sku-wijribbon .sku-wijmenu .sku-wijribbon-accesstoolbarmenu .sku-wijribbon-accesstoolbarmenutitleitem{background-color:ActiveCaption;border-bottom:1px solid #000;margin:0}
+.sku-wijribbon .sku-wijmenu .sku-wijribbon-accesstoolbarmenutitleitem .ui-state-disabled{opacity:1;filter:alpha(opacity=1)}
+.sku-wijeditor .sku-wijeditor-container{position:relative}
+.sku-wijeditor-fullscreen{position:absolute;left:0;top:0;z-index:999}
+.sku-wijeditor .ui-tabs{position:static}
+.sku-wijeditor .sku-wijeditor-header{cursor:default;text-decoration:none;border:none;border-bottom:solid 1px #b2b7bd}
+.sku-wijeditor .sku-wijeditor-content{clear:both}
+.sku-wijeditor .sku-wijeditor-content iframe{width:100%;height:100%}
+.sku-wijeditor .sku-wijeditor-content textarea{width:100%;height:100%;border-width:0;overflow:auto}
+.sku-wijeditor .sku-wijeditor-footer{clear:both;padding:3px 0}
+.sku-wijeditor .sku-wijeditor-footer:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.sku-wijeditor .sku-wijeditor-footer .sku-wijeditor-pathselector{padding:.2em;height:1.2em;display:inline-block;float:left}
+.sku-wijeditor .sku-wijeditor-footer .sku-wijeditor-pathselector .sku-wijeditor-label{margin:0 2px;font-size:12px;width:auto;font-weight:400;padding:2px}
+.sku-wijeditor .sku-wijeditor-footer .sku-wijribbon-modes{float:right}
+.sku-wijeditor .sku-wijsplitter-h-bar{overflow:hidden;font-size:1px;height:3px;z-index:10}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-actions{width:15em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-font{width:23em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-paragraph{width:11.5em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-review{width:11.5em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-tables{width:18em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-breaks{width:5.4em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-forms{width:18em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-special{width:10em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-dropdownbutton{overflow:hidden;white-space:nowrap;margin-right:3px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-fontname{width:8.7em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-fontsize{width:7.9em}
+.sku-wijeditor .sku-wijribbon .sku-wijribbon-dropdownbutton .ui-button{width:100%}
+.sku-wijeditor .sku-wijeditor-dialog-text{float:left;display:block;width:120px}
+.sku-wijeditor .sku-wijeditor-dialog-hspacing{float:left;width:100%;height:10px;font-size:1px}
+.sku-wijeditor .sku-wijeditor-dialog-vspacing{float:left;width:10px;height:100%}
+.sku-wijeditor .sku-wijeditor-dialog-hr{margin-bottom:.4em}
+.sku-wijeditor .sku-wijeditor-dialog-button{width:80px;height:26px}
+.sku-wijeditor .sku-wijeditor-dialog-button.sku-wijeditor-dialog-uploadbutton{width:85px}
+.sku-wijeditor .sku-wijeditor-dialog-button.sku-wijeditor-dialog-delbutton{width:135px}
+.sku-wijeditor .sku-wijeditor-dialog-button.sku-wijeditor-previewdlg-printone{width:86px;height:26px}
+.sku-wijeditor .sku-wijeditor-imagedlg{padding-left:2px;padding-top:2px;width:584px;overflow:hidden;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-imagedlg-content{width:580px}
+.sku-wijeditor .sku-wijeditor-imagedlg-fields input{width:440px}
+.sku-wijeditor .sku-wijeditor-imagedlg-imageheight input,.sku-wijeditor .sku-wijeditor-imagedlg-imagewidth input{width:200px}
+.sku-wijeditor .sku-wijeditor-imagedlg-imagefield{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-imagedlg-css,.sku-wijeditor .sku-wijeditor-imagedlg-imagealt,.sku-wijeditor .sku-wijeditor-imagedlg-imageheight,.sku-wijeditor .sku-wijeditor-imagedlg-imagesrc,.sku-wijeditor .sku-wijeditor-imagedlg-imagewidth{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-imagedlg-imagelist{float:left;width:200px;height:200px;border:1px solid gray}
+.sku-wijeditor .sku-wijeditor-imagedlg-imagelist select{width:100%;height:100%;border-style:none}
+.sku-wijeditor .sku-wijeditor-imagedlg-preview{float:left;margin-left:10px;width:360px;height:200px;overflow:auto;text-align:center;border:1px solid gray}
+.sku-wijeditor .sku-wijeditor-imagedlg-hideimagelist .sku-wijeditor-imagedlg-imagelist{display:none}
+.sku-wijeditor .sku-wijeditor-imagedlg-hideimagelist .sku-wijeditor-imagedlg-preview{margin-left:0;width:570px}
+.sku-wijeditor .sku-wijeditor-templatedlg{padding-left:5px;padding-top:2px;width:500px;overflow:hidden;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-templatedlg-toplabels{width:490px;height:30px}
+.sku-wijeditor .sku-wijeditor-templatedlg-topleftlabel{float:left;width:200px}
+.sku-wijeditor .sku-wijeditor-templatedlg-toprightlabel{float:left;width:270px;margin-left:10px}
+.sku-wijeditor .sku-wijeditor-templatedlg-content{width:490px;height:180px}
+.sku-wijeditor .sku-wijeditor-templatedlg-templatelist{float:left;width:200px;height:100%;border:1px solid gray}
+.sku-wijeditor .sku-wijeditor-templatedlg-templatelist select{border-style:none;height:100%;width:100%}
+.sku-wijeditor .sku-wijeditor-templatedlg-preview{float:left;width:276px;height:100%;margin-left:10px;border:1px solid gray}
+.sku-wijeditor .sku-wijeditor-templatedlg-preview iframe{width:276px;height:100%}
+.sku-wijeditor .sku-wijeditor-templatedlg-templateinfo{width:488px;height:40px;border:solid 1px #ccc;margin-top:10px}
+.sku-wijeditor .sku-wijeditor-templatedlg-fields{width:490px;margin-top:10px}
+.sku-wijeditor .sku-wijeditor-templatedlg-description,.sku-wijeditor .sku-wijeditor-templatedlg-name{width:360px;height:26px}
+.sku-wijeditor .sku-wijeditor-templatedlg-buttons{width:100%;text-align:right;padding-top:5px}
+.sku-wijeditor .sku-wijeditor-templatedlg-delete{width:150px}
+.sku-wijeditor .sku-wijeditor-templatedlg-save{width:230px}
+.sku-wijeditor .sku-wijeditor-codedlg-sourcelabel{float:left}
+.sku-wijeditor .sku-wijeditor-codedlg-source{width:420px;height:350px;overflow:auto}
+.sku-wijeditor .sku-wijeditor-linkdlg{padding-left:2px;padding-top:2px;width:430px;overflow:hidden;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-linkdlg-address{height:25px}
+.sku-wijeditor .sku-wijeditor-linkdlg-address input{width:300px}
+.sku-wijeditor .sku-wijeditor-linkdlg-linktype{margin-top:5px}
+.sku-wijeditor .sku-wijeditor-linkdlg-linktype label{margin-right:5px}
+.sku-wijeditor .sku-wijeditor-linkdlg-linkicontype label{margin-right:5px}
+.sku-wijeditor .sku-wijeditor-linkdlg-linktype div{float:left}
+.sku-wijeditor .sku-wijeditor-linkdlg-anchor{float:right}
+.sku-wijeditor .sku-wijeditor-linkdlg-text input{width:300px;height:100px}
+.sku-wijeditor .sku-wijeditor-linkdlg-text{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-linkdlg-css,.sku-wijeditor .sku-wijeditor-linkdlg-target{margin-top:5px}
+.sku-wijeditor .sku-wijeditor-linkdlg-css input{width:300px}
+.sku-wijeditor .sku-wijeditor-linkdlg-src input{width:300px}
+.sku-wijeditor .sku-wijeditor-linkdlg-height,.sku-wijeditor .sku-wijeditor-linkdlg-src,.sku-wijeditor .sku-wijeditor-linkdlg-width{margin-top:5px}
+.sku-wijeditor .sku-wijeditor-taginsdlg{padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px;width:520px;overflow:hidden}
+.sku-wijeditor .sku-wijeditor-taginsdlg-caption{font-size:16px;font-weight:700}
+.sku-wijeditor .sku-wijeditor-taginsdlg-filterempty{margin-top:10px;padding-left:120px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-attribs{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-attriblist{width:380px;height:300px;border:solid 1px gray;overflow:auto}
+.sku-wijeditor .sku-wijeditor-taginsdlg-innerhtml{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-innerhtml textarea{width:380px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-css{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-css input{width:380px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-attriblist .sku-wijeditor-dialog-text{text-align:right;width:100px}
+.sku-wijeditor .sku-wijeditor-taginsdlg-attriblist input{margin-left:5px}
+.sku-wijeditor .sku-wijeditor-colordlg{width:242px;padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-colordlg-color .sku-wijeditor-dialog-text{width:100px}
+.sku-wijeditor .sku-wijeditor-colordlg-color{padding-top:10px}
+.sku-wijeditor .sku-wijeditor-colorcanvas *{position:absolute;cursor:crosshair}
+.sku-wijeditor .sku-wijeditor-colorcanvas{position:relative;width:195px;height:195px}
+.sku-wijeditor .sku-wijeditor-colorcanvas .sku-wijeditor-color,.sku-wijeditor .sku-wijeditor-colorcanvas .sku-wijeditor-overlay{top:47px;left:47px;width:101px;height:101px}
+.sku-wijeditor .sku-wijeditor-colorcanvas .sku-wijeditor-wheel{background:transparent url(images/wijeditor/sku-ui-editor-colorwheel.png) no-repeat;width:195px;height:195px}
+.sku-wijeditor .sku-wijeditor-colorcanvas .sku-wijeditor-overlay{background:transparent url(images/wijeditor/sku-ui-editor-colormask.png) no-repeat}
+.sku-wijeditor .sku-wijeditor-colorcanvas .sku-wijeditor-marker{width:17px;height:17px;margin:-8px 0 0 -8px;overflow:hidden;background:transparent url(images/wijeditor/sku-ui-editor-colormarker.png) no-repeat}
+.sku-wijeditor .sku-wijeditor-tabledlg{width:460px;padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px;overflow:hidden}
+.sku-wijeditor .sku-wijeditor-tabledlg-bgcolor,.sku-wijeditor .sku-wijeditor-tabledlg-border,.sku-wijeditor .sku-wijeditor-tabledlg-cellpadding,.sku-wijeditor .sku-wijeditor-tabledlg-cellspacing,.sku-wijeditor .sku-wijeditor-tabledlg-columns,.sku-wijeditor .sku-wijeditor-tabledlg-csstext,.sku-wijeditor .sku-wijeditor-tabledlg-height,.sku-wijeditor .sku-wijeditor-tabledlg-rows,.sku-wijeditor .sku-wijeditor-tabledlg-width{margin-top:5px}
+.sku-wijeditor .sku-wijeditor-previewdlg{padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px;overflow:hidden}
+.sku-wijeditor .sku-wijeditor-previewdlg-caption input{margin-left:5px}
+.sku-wijeditor .sku-wijeditor-previewdlg .sku-wijeditor-dialog-hr{height:15px}
+.sku-wijeditor .sku-wijeditor-previewdlg .sku-wijeditor-dialog-buttons{text-align:left;float:none}
+.sku-wijeditor .sku-wijeditor-previewdlg-navigator{text-align:center}
+.sku-wijeditor .sku-wijeditor-previewdlg-navigator span{margin-left:10px;margin-right:10px}
+.sku-wijeditor .sku-wijeditor-previewdlg-printdocument{display:none;text-align:center}
+.sku-wijeditor .sku-wijeditor-previewdlg-previewiframe{text-align:center}
+.sku-wijeditor .sku-wijeditor-previewdlg-previewiframe iframe{width:640px;height:480px}
+.sku-wijeditor .sku-wijeditor-cleanupdlg{overflow:hidden;padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px;width:520px}
+.sku-wijeditor .sku-wijeditor-cleanupdlg-caption span{font-weight:700;float:none;width:132px}
+.sku-wijeditor .sku-wijeditor-cleanupdlg-document textarea{width:500px;height:250px}
+.sku-wijeditor .sku-wijeditor-cleanupdlg-actions,.sku-wijeditor .sku-wijeditor-cleanupdlg-document{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-cleanupdlg-actions input{margin-left:5px}
+.sku-wijeditor .sku-wijeditor-finddlg{width:532px;overflow:hidden;padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-finddlg-find .sku-wijeditor-dialog-text,.sku-wijeditor .sku-wijeditor-finddlg-replace .sku-wijeditor-dialog-text{font-weight:700}
+.sku-wijeditor .sku-wijeditor-finddlg textarea{width:380px;height:120px}
+.sku-wijeditor .sku-wijeditor-finddlg-replace{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-mediadlg{width:420px;height:164px;overflow:hidden;padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-mediadlg-height,.sku-wijeditor .sku-wijeditor-mediadlg-src,.sku-wijeditor .sku-wijeditor-mediadlg-width{margin-top:10px}
+.sku-wijeditor .sku-wijeditor-mediadlg-src input{width:280px}
+.sku-wijeditor .sku-wijeditor-mediadlg-height input,.sku-wijeditor .sku-wijeditor-mediadlg-width input{width:100px}
+.sku-wijeditor .sku-wijeditor-specialchardlg{width:520px;overflow:hidden;padding-left:2px;padding-top:2px;font-family:Arial;font-size:12px}
+.sku-wijeditor .sku-wijeditor-specialchardlg-chars{position:relative;height:380px}
+.sku-wijeditor .sku-wijeditor-specialchardlg-preview{width:200px;height:100%;text-align:center;position:absolute}
+.sku-wijeditor .sku-wijeditor-specialchardlg-content{margin-left:50px;width:100px;height:100px;line-height:100px;border:solid 1px gray}
+.sku-wijeditor .sku-wijeditor-specialchardlg-content span{font-size:30px;background-color:#d4d0c8;color:#000}
+.sku-wijeditor .sku-wijeditor-specialchardlg-list{float:left;width:300px;height:100%;position:absolute;top:0;right:0;border:solid 1px gray}
+.sku-wijeditor .sku-wijeditor-specialchardlg-label{font-size:13px;font-weight:700;margin-top:10px}
+.sku-wijeditor .sku-wijeditor-specialchardlg-diacritics,.sku-wijeditor .sku-wijeditor-specialchardlg-punctuation,.sku-wijeditor .sku-wijeditor-specialchardlg-symbols{margin-top:5px;float:left;width:300px}
+.sku-wijeditor .sku-wijeditor-specialchardlg label{float:left;width:24px;height:24px;line-height:24px;text-align:center;border:dashed 1px gray;margin:2px 2px 2px 2px}
+.sku-wijeditor .sku-wijmenu{z-index:99}
+.sku-wijrating{cursor:default;overflow:hidden;display:inline-block}
+.sku-wijrating .sku-wijrating-reset{float:left;width:16px;height:16px;margin-right:2px;cursor:pointer}
+.sku-wijrating .sku-wijrating-reset .ui-icon{display:block}
+.sku-wijrating-vertical .sku-wijrating-reset{clear:left}
+.sku-wijrating .sku-wijrating-starcontainer{display:inline}
+.sku-wijrating .sku-wijrating-star{cursor:pointer;text-indent:-999em;float:left;overflow:hidden}
+.sku-wijrating-vertical .sku-wijrating-star{clear:left}
+.sku-wijrating .sku-wijrating-normal{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat 0 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat 0 -16px;opacity:1}
+.sku-wijrating .sku-wijrating-hover{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat 0 -32px;opacity:1}
+.sku-wijrating .sku-wijrating-normal-24{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -16px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-24{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -16px -24px;opacity:1}
+.sku-wijrating .sku-wijrating-hover-24{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -16px -48px;opacity:1}
+.sku-wijrating .sku-wijrating-normal-32{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -40px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-32{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -40px -32px;opacity:1}
+.sku-wijrating .sku-wijrating-hover-32{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -40px -64px;opacity:1}
+.sku-wijrating .sku-wijrating-normal-thumbup{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -72px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-thumbup{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -72px -16px;opacity:1}
+.sku-wijrating .sku-wijrating-hover-thumbup{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -72px -32px;opacity:1}
+.sku-wijrating .sku-wijrating-normal-thumbdown{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -88px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-thumbdown{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -88px -16px;opacity:1}
+.sku-wijrating .sku-wijrating-hover-thumbdown{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -88px -32px;opacity:1}
+.sku-wijrating .sku-wijrating-normal-bar-11{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -103px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-bar-11{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -115px 0}
+.sku-wijrating .sku-wijrating-hover-bar-11{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -126px 0}
+.sku-wijrating .sku-wijrating-normal-bar-21{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -137px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-bar-21{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -148px 0}
+.sku-wijrating .sku-wijrating-hover-bar-21{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -159px 0}
+.sku-wijrating .sku-wijrating-normal-bar-31{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -170px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-bar-31{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -181px 0}
+.sku-wijrating .sku-wijrating-hover-bar-31{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -192px 0}
+.sku-wijrating .sku-wijrating-normal-bar-41{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -203px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-bar-41{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -214px 0}
+.sku-wijrating .sku-wijrating-hover-bar-41{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -225px 0}
+.sku-wijrating .sku-wijrating-normal-bar-51{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -236px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-bar-51{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -247px 0}
+.sku-wijrating .sku-wijrating-hover-bar-51{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -258px 0}
+.sku-wijrating .sku-wijrating-normal-bar-61{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -269px 0;opacity:.5}
+.sku-wijrating .sku-wijrating-rated-bar-61{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -280px 0}
+.sku-wijrating .sku-wijrating-hover-bar-61{background:transparent url(images/wijrating/sku-ui-rating.png) no-repeat -291px 0}
+.ui-mobile .sku-wijrating .sku-wijrating-reset{height:auto;width:auto;padding:7px;margin-right:15px}
+.sku-wijcarousel{position:relative}
+.sku-wijcarousel-vertical,.sku-wijcarousel-vertical-multi{display:inline-block}
+.sku-wijcarousel .sku-wijcarousel-item{float:left;list-style:none;position:relative;margin:0}
+.sku-wijcarousel .sku-wijcarousel-clip{position:absolute;overflow:hidden;margin:0;padding:0}
+.sku-wijcarousel .sku-wijcarousel-list{position:relative;overflow:hidden;float:left;background:0 0;border:none;margin:0;padding:0}
+.sku-wijcarousel .sku-wijcarousel-button{position:absolute;width:16px;left:auto;right:-30px;top:-5px;cursor:pointer;float:left}
+.sku-wijcarousel .sku-wijcarousel-slider-wrapper{position:absolute}
+.sku-wijcarousel .sku-wijcarousel-slider-wrapper .sku-wijslider-horizontal{margin:5px 0}
+.sku-wijcarousel .sku-wijcarousel-button-next,.sku-wijcarousel .sku-wijcarousel-button-previous{-webkit-user-select:none;-khtml-user-select:none;z-index:99}
+.sku-wijcarousel-vertical .sku-wijcarousel-button-next,.sku-wijcarousel-vertical-multi .sku-wijcarousel-button-next{position:absolute;top:auto;bottom:0;cursor:pointer;height:16px;padding:0 10px}
+.sku-wijcarousel-horizontal .sku-wijcarousel-button-next,.sku-wijcarousel-horizontal-multi .sku-wijcarousel-button-next{position:absolute;left:auto;width:16px;right:0;cursor:pointer;padding:10px 0}
+.sku-wijcarousel-vertical .sku-wijcarousel-button-previous,.sku-wijcarousel-vertical-multi .sku-wijcarousel-button-previous{position:absolute;top:0;bottom:auto;cursor:pointer;height:16px;padding:0 10px}
+.sku-wijcarousel-horizontal .sku-wijcarousel-button-previous,.sku-wijcarousel-horizontal-multi .sku-wijcarousel-button-previous{position:absolute;left:0;right:auto;cursor:pointer;width:16px;padding:10px 0}
+.sku-wijcarousel-horizontal-multi{padding:5px 18px}
+.sku-wijcarousel-vertical-multi{padding:18px 5px}
+.sku-wijcarousel-vertical-multi .sku-wijcarousel-item{overflow:hidden;margin:5px 0}
+.sku-wijcarousel-horizontal-multi .sku-wijcarousel-item{overflow:hidden;margin:0 5px}
+.sku-wijcarousel-preview .sku-wijcarousel-item{overflow:hidden;border:none}
+.sku-wijcarousel .sku-wijcarousel-page{float:left;cursor:pointer;height:auto;line-height:16px;list-style:none outside none;width:auto;margin:0 1px}
+.sku-wijcarousel .sku-wijcarousel-dot{width:12px;height:12px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px}
+.sku-wijcarousel .sku-wijcarousel-mask{height:100%;width:100%;position:absolute;top:0;left:0;background:#555;opacity:.5;filter:alpha(opacity=50);cursor:pointer}
+.sku-wijcarousel .sku-wijcarousel-current .sku-wijcarousel-mask{display:none}
+.sku-wijcarousel .sku-wijcarousel-current .sku-wijcarousel-mask{opacity:0;filter:alpha(opacity=0);cursor:default}
+.sku-wijcarousel .sku-wijcarousel-timerbar{bottom:0;height:5px;opacity:.8;position:absolute;background-color:#eee;width:93%;left:0;top:7px;margin:2px 10px 0}
+.sku-wijcarousel .sku-wijcarousel-caption{background:#555;opacity:.5;filter:alpha(opacity=50);cursor:default;overflow:hidden;position:absolute;border:none;bottom:0;padding:7px}
+.sku-wijcarousel .sku-wijcarousel-text{background:0 0;overflow:hidden;position:absolute;cursor:default;border:none;bottom:0;color:#F1F1F1;font-style:italic;text-shadow:1px 1px 1px rgba(0,0,0,.5);padding:7px}
+.sku-wijcarousel .sku-wijcarousel-text h1,.sku-wijcarousel .sku-wijcarousel-text h2,.sku-wijcarousel .sku-wijcarousel-text h3,.sku-wijcarousel .sku-wijcarousel-text h4,.sku-wijcarousel .sku-wijcarousel-text h5,.sku-wijcarousel .sku-wijcarousel-text h6{margin:0}
+.sku-wijcarousel .sku-wijcarousel-timerbar-inner{height:5px;background-color:#bbb;float:left}
+.sku-wijcarousel .sku-wijcarousel-thumbnails .ui-list .ui-page{padding:0;border:none;text-indent:-9999px;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}
+.sku-wijcarousel .sku-wijcarousel-thumbnails .ui-state-active,.sku-wijcarousel .sku-wijcarousel-thumbnails .ui-state-default,.sku-wijcarousel .sku-wijcarousel-thumbnails .ui-state-hover{padding:0;background:0 0;border:0;box-shadow:none;text-shadow:none}
+.sku-wijcarousel .sku-wijcarousel-thumbnails .ui-state-active{margin-top:10px}
+.sku-wijcarousel .sku-wijcarousel-page{overflow:hidden}
+.sku-wijcarousel .sku-wijcarousel-page span{display:block;margin:0;padding:2px 5px}
+.sku-wijcarousel-image{border:0 none}
+.ui-mobile .sku-wijcarousel .ui-icon{display:block}
+.sku-wijgallery{position:relative}
+.sku-wijgallery .sku-wijgallery-thumbs{border-radius:0;-moz-border-radius:0;-webkit-border-radius:0}
+.sku-wijgallery-iframe{width:100%;height:100%}
+.sku-wijgallery .sku-wijgallery-button-next{position:absolute;left:auto;width:16px;right:0;cursor:pointer;padding:10px 0}
+.sku-wijgallery .sku-wijgallery-button-previous{position:absolute;left:0;right:auto;cursor:pointer;width:16px;padding:10px 0}
+.sku-wijgallery .sku-wijgallery-counter{position:absolute;bottom:0;right:0;padding:3px;cursor:default;border-bottom:none;border-right:none}
+.sku-wijgallery .sku-wijgallery-caption{background:#555;opacity:.5;filter:alpha(opacity=50);cursor:default;overflow:hidden;position:absolute;border:none;bottom:0;left:0;padding:7px}
+.sku-wijgallery .sku-wijgallery-text{background:0 0;overflow:hidden;position:absolute;cursor:default;border:none;bottom:0;left:0;color:#F1F1F1;font-style:italic;text-shadow:1px 1px 1px rgba(0,0,0,.5);padding:7px}
+.sku-wijgallery .sku-wijgallery-flashwrapper{position:relative;z-index:0;width:100%;height:100%}
+.sku-wijgallery .sku-wijgallery-frame{position:relative;overflow:hidden}
+.sku-wijgallery .sku-wijgallery-framewrapper-vertical,.sku-wijgallery .sku-wijgallery-thumbswrapper-vertical{float:left}
+.sku-wijgallery .sku-wijgallery-frame-next{height:100%;position:absolute;right:0;top:0;width:50%;filter:alpha(opacity=1)}
+.sku-wijgallery .sku-wijgallery-frame-previous{height:100%;left:0;position:absolute;top:0;width:50%;filter:alpha(opacity=1)}
+.sku-wijgallery .sku-wijgallery-frame-link{display:block;height:100%;outline:medium none;width:100%}
+.sku-wijgallery .sku-wijgallery-current,.sku-wijgallery .sku-wijgallery-last{float:left;overflow:hidden;text-align:center;vertical-align:middle;position:static;opacity:1;filter:alpha(opacity=100)}
+.sku-wijgallery .sku-wijgallery-content img{vertical-align:middle;margin-top:-2px}
+.sku-wijgallery .sku-wijgallery-content{height:100%;margin:0;overflow:hidden;padding:0;position:relative;width:100%;vertical-align:middle}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-bottom,.sku-wijgallery .sku-wijgallery-thumbs-pointer-left,.sku-wijgallery .sku-wijgallery-thumbs-pointer-right,.sku-wijgallery .sku-wijgallery-thumbs-pointer-top{position:absolute;height:0;background:none repeat scroll 0 0 transparent}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-bottom,.sku-wijgallery .sku-wijgallery-thumbs-pointer-top{border-left:20px dashed transparent;border-right:20px dashed transparent}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-left,.sku-wijgallery .sku-wijgallery-thumbs-pointer-right{border-top:20px dashed transparent;border-bottom:20px dashed transparent}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-top{border-bottom:0 none;border-top-width:10px}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-bottom{border-top:0 none;border-bottom-width:10px}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-right{border-left:0 none;border-right-width:10px}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-left{border-right:0 none;border-left-width:10px}
+.sku-wijgallery .sku-wijgallery-thumbswrapper{position:relative}
+.sku-wijgallery .sku-wijgallery-button{cursor:pointer;float:left;left:auto;position:absolute;right:-28px;top:-5px;width:16px}
+.sku-wijgallery .sku-wijgallery-timerbar{bottom:0;height:5px;opacity:.8px;position:absolute;background-color:#eee;width:93%;left:5px;top:12px;margin:2px 10px 0}
+.sku-wijgallery .sku-wijgallery-timerbar-inner{height:5px;background-color:#bbb;float:left}
+.sku-wijgallery-loading{width:37px;height:37px;border:none;display:block;position:absolute;background:transparent url(images/waiting.gif) no-repeat scroll}
+.sku-wijgallery .sku-wijcarousel-item{border-width:5px;display:block;overflow:hidden}
+.sku-wijcarousel-image{display:block;margin:0 auto}
+.sku-wijgallery .sku-wijcarousel-horizontal-multi{padding:5px 15px}
+.sku-wijgallery .sku-wijcarousel-vertical-multi{padding:15px 5px}
+.sku-wijgallery .sku-wijgallery-thumbs-bottom{border-top:none}
+.sku-wijgallery .sku-wijgallery-thumbs-right{border-left:none}
+.sku-wijgallery .sku-wijgallery-thumbs-top{border-bottom:none}
+.sku-wijgallery .sku-wijgallery-thumbs-left{border-right:none}
+.sku-wijgallery .sku-wijgallery-thumbs-pointer-bottom,.sku-wijgallery .sku-wijgallery-thumbs-pointer-left,.sku-wijgallery .sku-wijgallery-thumbs-pointer-top{z-index:99}
+.sku-wijgallery .sku-wijgallery-content .sku-wijgallery-small-image{vertical-align:middle}
+.ui-mobile .sku-wijgallery .ui-icon{display:block}
+.sku-wijlightbox{position:absolute;outline:0}
+.sku-wijlightbox-frame{padding:1em;margin:0;position:relative;-moz-box-shadow:0 0 20px rgba(0,0,0,.5);-webkit-box-shadow:0 0 20px rgba(0,0,0,.5);box-shadow:0 0 20px rgba(0,0,0,.5);border:none}
+.sku-wijlightbox-content{padding:0;margin:0;overflow:hidden;position:relative;width:100%;height:100%}
+.sku-wijlightbox-iframe,.sku-wijlightbox-image{width:100%;height:100%}
+.sku-wijlightbox-mask,.sku-wijlightbox-text{width:100%;overflow:hidden;position:absolute;border:none;bottom:1em;left:1em;cursor:default}
+.sku-wijlightbox-text-overlay,.sku-wijlightbox-text-titleoverlay,.sku-wijlightbox-title-overlay,.sku-wijlightbox-title-titleoverlay{background:0 0;border:none}
+.sku-wijlightbox-mask-overlay,.sku-wijlightbox-mask-titleoverlay{opacity:.5;filter:alpha(opacity=50)}
+.sku-wijlightbox-text-outside{position:relative;height:auto;padding:.4em 1em;left:auto;bottom:auto;margin:3px 0;-moz-box-shadow:0 3px 5px rgba(0,0,0,.5);-webkit-box-shadow:0 3px 5px rgba(0,0,0,.5);box-shadow:0 3px 5px rgba(0,0,0,.5)}
+.sku-wijlightbox-mask-overlay,.sku-wijlightbox-mask-titleoverlay{background:#333}
+.sku-wijlightbox-title-overlay,.sku-wijlightbox-title-titleoverlay{color:#f1f1f1}
+.sku-wijlightbox-detail-overlay,.sku-wijlightbox-detail-titleoverlay{color:#f1f1f1}
+.sku-wijlightbox-title{background:0 0;border:none;padding:3px 15px;font-weight:700;margin:0}
+.sku-wijlightbox-detail{padding:3px 15px 3px;font-style:italic;margin:0}
+.sku-wijlightbox-controls-inside .sku-wijlightbox-counter{position:absolute;bottom:0;right:0;z-index:100;padding:3px;border-right:none;border-bottom:none;cursor:default}
+.sku-wijlightbox-controls-outside .sku-wijlightbox-counter{position:absolute;bottom:-27px;right:0;z-index:100;padding:3px;cursor:default}
+.sku-wijlightbox-counter-item{margin:1px;padding:0 3px;cursor:pointer;text-decoration:none}
+.sku-wijlightbox-counter-active{text-decoration:underline}
+.sku-wijlightbox-toolbox{position:absolute;top:-25px;right:-5px;z-index:99;width:100%;margin:3px}
+.sku-wijlightbox-timerbar{width:50%;padding:1px;position:absolute;margin:8px}
+.sku-wijlightbox-timermeter{width:0;padding:1px;position:absolute;margin:8px}
+.sku-wijlightbox-frame .sku-wijlightbox-toolbox-button,.sku-wijlightbox-frame .sku-wijlightbox-toolbox-sep{float:right;margin:1px}
+.sku-wijlightbox-toolbox-separator{margin-left:18px}
+.sku-wijlightbox-button-next,.sku-wijlightbox-button-prev{display:block;position:absolute;padding:10px 5px;top:50%}
+.sku-wijlightbox-controls-inside .sku-wijlightbox-button-next{right:0;border-right:none}
+.sku-wijlightbox-controls-inside .sku-wijlightbox-button-prev{left:0;border-left:none}
+.sku-wijlightbox-controls-outside .sku-wijlightbox-button-next{right:-28px}
+.sku-wijlightbox-controls-outside .sku-wijlightbox-button-prev{left:-28px}
+.sku-wijlightbox-aniwrapper{position:relative;left:0;top:0;border:none}
+.sku-wijlightbox-waitingoverlay{background:0 0}
+.sku-wijlightbox-waiting{width:37px;height:37px;border:none;display:block;position:relative;background:transparent url(images/waiting.gif) no-repeat scroll}
+.ui-mobile .sku-wijlightbox .ui-icon{display:block}
+.sku-wijdatepager{position:relative;width:100%}
+.sku-wijdatepager-container{-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;box-shadow:2px 2px 3px rgba(0,0,0,.25) inset;position:absolute;width:100%;font-size:11px;line-height:15px;height:22px;overflow:hidden;padding:0;margin:0}
+.sku-wijdatepager-container .sku-wijdatepager-pages{width:99%;margin:0;padding:2px 3px;cursor:pointer;position:absolute;display:table;table-layout:fixed}
+.sku-wijdatepager-pages .sku-wijdatepager-pagelabel{display:table-cell;border:none;height:16px;min-width:14px;padding:2px 0;text-align:center;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin:1px;font-weight:400}
+.sku-wijdatepager-decrement{float:left;margin:0;margin:2px 4px 0;width:18px;height:18px;-webkit-user-select:none}
+.sku-wijdatepager-increment{float:right;margin:0;margin:2px 4px 0;width:18px;height:18px;-webkit-user-select:none}
+.sku-wijdatepager-decrement .ui-btn-inner,.sku-wijdatepager-increment .ui-btn-inner{left:0;top:0;margin:0;padding:0;margin-top:-1px;width:18px;height:18px}
+.sku-wijdatepager-decrement .ui-btn-inner .ui-icon,.sku-wijdatepager-increment .ui-btn-inner .ui-icon{left:0;top:0;margin:0;padding:0;width:18px;height:18px}
+.sku-wijdatepager-tooltip{padding:10px;font-size:14px;background-color:#ccc;text-align:center;height:20px;line-height:20px;z-index:1000}
+.sku-wijdatepager-tooltip .sku-wijdatepager-triangle{position:absolute;overflow:visible;bottom:-12px;width:0;left:50%;border-color:#ccc;border-left:8px solid transparent;border-right:8px solid transparent;border-top:12px solid #ccc}
+.sku-wijdatepager-width-medium .sku-wijdatepager-pagelabel{font-size:9px}
+.sku-wijdatepager-width-small .sku-wijdatepager-pagelabel{font-size:7px}
+.sku-wijdatepager-width-smallest .sku-wijdatepager-pagelabel{font-size:5px}
+.sku-wijev{width:900px;height:600px;font-size:100%;border-radius:6px}
+.ui-mobile .sku-wijevcal{width:100%;height:100%}
+.sku-wijev-headerbar{float:left;text-align:center;padding:4px 0;background:0 0;border:none}
+.sku-wijev-headerbar .sku-wijev-tools{margin-right:0;border:none}
+.sku-wijev-navigationbar .sku-wijev-title{display:inline-block;padding:6px}
+.sku-wijev-view .sku-wijev-header-title{font-size:48px;font-weight:400;margin:0;padding:0 0 0 58px}
+.sku-wijev .sku-wijev-view{overflow:hidden;width:900px;height:600px;clear:none;float:left;font-size:12px}
+.sku-wijev-event-dialog .sku-wijinput .sku-wijinput-trigger .ui-icon{position:absolute}
+.sku-wijev .sku-wijev-dayview .sku-wijev-timeruler{display:block;width:60px;float:left;clear:none;min-height:10px}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer{min-height:36px;margin-top:6px}
+.sku-wijev-view-container{box-shadow:0 0 10px rgba(0,0,0,.25);padding:0;margin:2px 12px;clear:none;float:left}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer .sku-wijev-dayheadercolumn{border:none;width:200px;height:100%;display:block;float:left;clear:none;padding:0}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer .sku-wijev-dayheadercolumn .sku-wijev-daylabel{text-align:left;font-size:12px;opacity:.7;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-weight:400;padding:0 6px;cursor:default}
+.sku-wijev .sku-wijev-weekview .sku-wijev-headercontainer .sku-wijev-dayheadercolumn .sku-wijev-daylabel{text-align:left;font-size:12px;opacity:.7;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;font-weight:400;padding:0 6px;cursor:pointer}
+.sku-wijev.ui-state-disabled .sku-wijev-weekview .sku-wijev-headercontainer .sku-wijev-dayheadercolumn .sku-wijev-daylabel{cursor:default}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer .sku-wijev-dayheadercolumn .sku-wijev-allday-cell{margin-right:-1px;position:relative}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer .sku-wijev-dayheadercolumn .sku-wijev-ay-cell .sku-wijev-allday-label{position:absolute;left:0;top:0;padding:6px}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer .sku-wijev-sizer{float:left;width:60px;text-align:right}
+.sku-wijev .sku-wijev-dayview .sku-wijev-headercontainer .sku-wijev-sizer .sku-wijev-gmtlabel{padding:16px 6px;font-weight:400;opacity:0}
+.sku-wijev .sku-wijev-listview .sku-wijev-headercontainer .sku-wijev-sizer .sku-wijev-gmtlabel,.sku-wijev .sku-wijev-weekview .sku-wijev-headercontainer .sku-wijev-sizer .sku-wijev-gmtlabel{display:block;opacity:.7}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn{width:200px;display:block;float:left;clear:none;position:relative}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-content,.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-content .sku-wijev-title,.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-timeinterval,.sku-wijev .sku-wijev-dayview .sku-wijev-timeruler .sku-wijev-timerulerinterval,.sku-wijev .sku-wijev-monthview .sku-wijev-monthcellcontainer{box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-timeinterval{width:100%;height:15px;border-bottom:none;border-right:none}
+.sku-wijev .sku-wijev-monthview .sku-wijev-appointment{cursor:pointer;clear:both;height:17px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;margin:1px;position:relative;width:100%;box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;padding-left:20px}
+.sku-wijev.ui-state-disabled .sku-wijev-monthview .sku-wijev-appointment{cursor:default}
+.sku-wijev .sku-wijev-monthview .sku-wijev-appointment .sku-wijev-colordot{height:12px;width:12px;border:1px solid;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin:2px;position:absolute;left:0}
+.sku-wijev .sku-wijev-monthview .sku-wijev-appointment .sku-wijev-event-title{float:left;height:17px;line-height:17px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;width:100%}
+.sku-wijev .sku-wijev-dayview .sku-wijev-allday-cell .sku-wijev-appointment{cursor:pointer;clear:both;height:17px}
+.sku-wijev.ui-state-disabled .sku-wijev-dayview .sku-wijev-allday-cell .sku-wijev-appointment{cursor:default}
+.sku-wijev .sku-wijev-dayview .sku-wijev-allday-cell .sku-wijev-appointment .sku-wijev-colordot{float:left;height:12px;width:12px;border:1px solid;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin:2px}
+.sku-wijev .sku-wijev-dayview .sku-wijev-allday-cell .sku-wijev-appointment .sku-wijev-event-title{height:17px;line-height:17px;margin-left:4px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment{width:100%;height:15px;position:absolute;top:0;left:0;border-radius:4px;box-shadow:2px 2px 3px rgba(0,0,0,.1),inset 1px 1px 0 rgba(255,255,255,.25);min-height:5px;overflow:hidden;z-index:999;-moz-opacity:.95;filter:alpha(opacity=95);opacity:.95}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-resizer{position:absolute;height:7px;line-height:7px;width:100%;bottom:0;cursor:ns-resize;z-index:1;background-color:#fff;-moz-opacity:.4;filter:alpha(opacity=40);opacity:.4}
+.sku-wijev.ui-state-disabled .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-resizer{cursor:default}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-resizer .ui-icon{position:absolute;bottom:-4px;left:50%;margin-left:-8px}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment.sku-wijev-dragging{-moz-opacity:.5;filter:alpha(opacity=50);opacity:.5}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-content{background:-moz-linear-gradient(top,rgba(255,255,255,.25) 0,rgba(255,255,255,0) 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(255,255,255,.25)),color-stop(100%,rgba(255,255,255,0)));background:-webkit-linear-gradient(top,rgba(255,255,255,.25) 0,rgba(255,255,255,0) 100%);background:-o-linear-gradient(top,rgba(255,255,255,.25) 0,rgba(255,255,255,0) 100%);background:-ms-linear-gradient(top,rgba(255,255,255,.25) 0,rgba(255,255,255,0) 100%);background:linear-gradient(top,rgba(255,255,255,.25) 0,rgba(255,255,255,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#40ffffff', endColorstr='#00ffffff', GradientType=0 );width:auto;height:100%;border-radius:4px}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-appointment .sku-wijev-content .sku-wijev-title{color:#fff;font-size:11px;text-shadow:none;margin:0;padding:4px;overflow:hidden;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;border-top-left-radius:4px;border-top-right-radius:4px;box-shadow:inset 1px 1px 0 rgba(255,255,255,.25)}
+.sku-wijev .sku-wijev-dayview .sku-wijev-timeruler .sku-wijev-timerulerinterval{display:block;width:100%;height:15px;text-align:right;border:solid 1px transparent;padding:0 4px;font-weight:400;opacity:.7}
+.sku-wijev-currenttime-indicator{display:block;overflow:hidden;height:8px;width:100%;position:absolute;top:0;margin-top:-3px;z-index:1}
+.sku-wijev-currenttime-indicator-arrow{width:0;height:0;background:0 0!important;border-top:4px solid transparent!important;border-bottom:4px solid transparent!important;border-right:0!important;border-left-width:4px!important;margin:0;padding:0}
+.sku-wijev-currenttime-indicator-line{position:absolute;top:3px;left:60px;height:0;width:100%}
+.sku-wijev .sku-wijev-monthview .sku-wijev-monthcolumn{border:none;width:200px;height:100%;display:block;float:left;clear:none}
+.sku-wijev .sku-wijev-monthview .sku-wijev-monthcellcontainer .sku-wijev-monthcellheader{border:none;padding:0 6px;text-align:right;cursor:pointer}
+.sku-wijev.ui-state-disabled .sku-wijev-monthview .sku-wijev-monthcellcontainer .sku-wijev-monthcellheader{cursor:default}
+.sku-wijev .sku-wijev-monthview .sku-wijev-monthcellcontainer .sku-wijev-monthcellheader:hover{text-decoration:underline}
+.sku-wijev-monthcell{overflow:hidden;position:relative}
+.sku-wijev-monthcell-showmore{position:absolute;bottom:0;font-size:.8em;width:100%;background:rgba(255,255,255,.9);text-align:right;font-weight:400;cursor:pointer}
+.sku-wijev.ui-state-disabled .sku-wijev-monthcell-showmore{cursor:default}
+.sku-wijev .sku-wijev-monthview .sku-wijev-monthcellcontainer .sku-wijev-monthcellheader .sku-wijev-todaylabel{float:left}
+.sku-wijev .sku-wijev-monthview .sku-wijev-monthcellcontainer.sku-wijev-today .sku-wijev-monthcell{border:none}
+.sku-wijev-addevent-dialog .sku-wijev-calendar,.sku-wijev-addevent-dialog .sku-wijev-color{width:200px;height:150px}
+.sku-wijev .sku-wijev-event-dialog{position:absolute;z-index:100;box-shadow:0 0 10px rgba(0,0,0,.5);-moz-box-shadow:0 0 10px rgba(0,0,0,.5);-webkit-box-shadow:0 0 10px rgba(0,0,0,.5);padding:4px;min-width:289px;font-size:12px}
+.sku-wijev-event-dialog ul li{list-style:none;clear:both;padding:4px;position:relative}
+.sku-wijev-event-dialog ul li:after{clear:both;content:".";display:block;height:0;visibility:hidden}
+.sku-wijev-event-dialog label{display:block;float:left;font-size:12px;font-weight:400;opacity:.7;padding:4px;text-align:right;width:63px;text-transform:lowercase;overflow:hidden;text-overflow:ellipsis}
+.sku-wijev-event-dialog a{display:block;color:#1F66D2;text-decoration:none;text-align:center;clear:none;float:left;margin:5px;padding:2px 7px}
+.sku-wijev-event-dialog .sku-wijev-brief-content{margin:4px 0}
+.sku-wijev-event-dialog .sku-wijev-color{cursor:pointer}
+.sku-wijev.ui-state-disabled .sku-wijev-event-dialog .sku-wijev-color{cursor:default}
+.sku-wijev-event-dialog .sku-wijev-delete{float:left;color:Red}
+.sku-wijev-event-dialog .footer .ui-button{padding:4px 6px;font-size:12px}
+.sku-wijev-event-dialog .footer .ui-button-text{padding:0}
+.sku-wijev-event-dialog .sku-wijev-angle{position:absolute;width:0;height:0}
+.sku-wijev-event-dialog.sku-wijev-topangle .sku-wijev-angle{left:50%;top:-12px;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:12px solid #fff}
+.sku-wijev-event-dialog.sku-wijev-bottomangle .sku-wijev-angle{left:50%;bottom:-12px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:12px solid #fff}
+.sku-wijev-event-dialog.sku-wijev-leftangle .sku-wijev-angle{left:-12px;top:50%;margin-top:-8px;border-top:8px solid transparent;border-bottom:8px solid transparent;border-right:12px solid #fff}
+.sku-wijev-event-dialog.sku-wijev-rightangle .sku-wijev-angle{left:100%;top:50%;margin-top:-8px;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid #fff}
+.sku-wijev-event-dialog .footer{clear:both}
+.sku-wijev-event-color-default{color:#fff;background-color:#668CD9;border-color:#668CD9}
+.sku-wijev-event-color-red{color:#fff;background-color:#FF4040;border-color:red}
+.sku-wijev-event-color-red .sku-wijev-title{background-color:red}
+.sku-wijev-event-color-green{color:#fff;background-color:#44B441;border-color:#04B400}
+.sku-wijev-event-color-green .sku-wijev-title{background-color:#04B400}
+.sku-wijev-event-color-blue{color:#fff;background-color:#668CD9;border-color:#2952A3}
+.sku-wijev-event-color-yellow{background-color:#FF0;border-color:#DADA00}
+.sku-wijev-event-color-yellow .sku-wijev-title{background-color:#DADA00}
+.sku-wijev-event-color-bronze{background-color:#CD7F32;border-color:#CDA073}
+.sku-wijev-event-color-bronze .sku-wijev-title{background-color:#CDA073}
+.sku-wijev-event-color-cornflowerblue{background-color:#91B2ED;border-color:#6495ED}
+.sku-wijev-event-color-cornflowerblue .sku-wijev-title{background-color:#6495ED}
+.sku-wijev-event-color-darkorchid{background-color:#9932CC;border-color:#A658CC}
+.sku-wijev-event-color-darkorchid .sku-wijev-title{background-color:#A658CC}
+.sku-wijev-event-color-blue .sku-wijev-title,.sku-wijev-event-color-default .sku-wijev-title{background-color:#2952A3}
+.sku-wijev .sku-wijev-dayview .sku-wijev-today .sku-wijev-timeinterval{background:#fff8c2;border-color:#f8eb7e}
+div.sku-wijev .ui-state-highlight{background:#fff8c2;color:#af9b00;text-shadow:1px 1px 0 #fff;border-color:#f8eb7e}
+.sku-wijev-listcolor{display:block;width:16px;height:16px;float:left;cursor:pointer;border:solid 1px transparent;margin:4px}
+.sku-wijev.ui-state-disabled .sku-wijev-listcolor{cursor:default}
+.sku-wijev-listcolor:hover{border:solid 1px rgba(0,0,0,.25);box-shadow:0 0 3px rgba(0,0,0,.5);-moz-box-shadow:0 0 3px rgba(0,0,0,.5);-webkit-box-shadow:0 0 3px rgba(0,0,0,.5)}
+.sku-wijev-color-menu{box-shadow:3px 3px 5px rgba(0,0,0,.25);-moz-box-shadow:3px 3px 5px rgba(0,0,0,.25);-webkit-box-shadow:3px 3px 5px rgba(0,0,0,.25);padding:6px}
+.sku-wijev-color{padding:0 8px}
+.sku-wijev .sku-wijev-dayview .sku-wijev-daycolumn .sku-wijev-oddrow{border-top-style:dotted}
+.sku-wijev-rightpane{width:150px;float:right;clear:none}
+.sku-wijev-leftpane{float:left;border-right:none}
+.sku-wijev-leftpane-inner{padding:6px 12px}
+.sku-wijev-viewdetails .sku-wijev-leftpane-inner{padding:0}
+.sku-wijev-viewdetails{display:none;height:100%;position:relative}
+.sku-wijev-list-details{width:30%}
+.sku-wijev-agenda-container{min-height:36px;border:none}
+.sku-wijev-viewdetails .sku-wijev-agenda-container .sku-wijev-agenda-header{background:0 0;height:20px;line-height:20px;padding:4px;border:none;font-size:11px;color:inherit}
+.sku-wijev-viewdetails .sku-wijev-agenda-container li.sku-wijev-agenda-event{padding:6px;list-style:none;border-left:none;border-right:none;margin-bottom:-1px;cursor:pointer}
+.sku-wijev.ui-state-disabled .sku-wijev-viewdetails .sku-wijev-agenda-container li.sku-wijev-agenda-event{cursor:default}
+.sku-wijev-viewdetails .sku-wijev-agenda-event-color{float:left;height:12px;width:12px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin:4px}
+.sku-wijev-viewdetails .sku-wijev-agenda-event-title{float:left}
+.sku-wijev-viewdetails .sku-wijev-agenda-event-time{float:right;font-weight:400;opacity:.7;font-size:12px;line-height:19px}
+.sku-wijev-agenda-details{position:relative;width:30%}
+.sku-wijev-day-details{width:50%;position:relative}
+.sku-wijev-day-details .sku-wijev-monthday-container{float:left;width:35%;margin:12px}
+.sku-wijev-day-details .sku-wijev-monthday-label{font-size:124px;margin:-26px 0}
+.sku-wijev-day-details .sku-wijev-fulldate-label,.sku-wijev-day-details .sku-wijev-year-label{font-size:16px;font-weight:400;opacity:.7}
+.sku-wijev-day-details .sku-wijev-daycalendar{background:0 0;float:right;width:50%;border:none;padding:12px}
+.sku-wijev-daycalendar .sku-wijcalendar-table{margin:0}
+.sku-wijev-daycalendar .sku-wijcalendar-table tbody,.sku-wijev-daycalendar .sku-wijcalendar-table td,.sku-wijev-daycalendar .sku-wijcalendar-table thead{border:none}
+.sku-wijev-viewdetails.sku-wijev-day-details .sku-wijev-agenda-container{min-height:33px;margin-top:12px;float:left;width:100%}
+.sku-wijev-monthcellcontainer{margin-bottom:-1px;margin-right:-1px}
+.sku-wijev-navigationbar{display:block;float:left;clear:both;text-align:center;padding:0;padding:5px;background:0 0;border:none}
+.sku-wijev-event-dialog .sku-wijev-cancel,.sku-wijev-event-dialog .sku-wijev-save,.sku-wijev-navigationbar .sku-wijev-next,.sku-wijev-viewdetails .sku-wijev-agenda-container .sku-wijev-agenda-header .sku-wijev-date{float:right}
+.sku-wijev-event-dialog .sku-wijev-brief-content,.sku-wijev-event-dialog .sku-wijev-detailed-content,.sku-wijev-today,.sku-wijevcal .sku-wijev-scrollpanel{border:solid 1px transparent}
+.sku-wijev-navigationbar .sku-wijev-previous,.sku-wijev-navigationbar .sku-wijev-today,.sku-wijev-viewdetails .sku-wijev-agenda-container .sku-wijev-agenda-header .sku-wijev-weekday{float:left}
+.sku-wijev-event-dialog ul,.sku-wijev-viewdetails .sku-wijev-agenda-container ul.sku-wijev-agenda-list{margin:-1px 0 0 0;padding:0}
+.sku-wijev-day-details .sku-wijev-agenda-container ul.sku-wijev-agenda-list{margin:0}
+.sku-wijev-event-dialog .sku-wijtextbox{width:192px}
+.sku-wijev-event-dialog .sku-wijtextbox.sku-wijev-subject{width:145px;padding-right:44px}
+.sku-wijev-event-dialog .sku-wijev-color-button{position:absolute;right:16px;border:none;background:0 0}
+.sku-wijev-event-dialog .sku-wijev-color-button .ui-button-text{padding:6px 19px 6px 6px}
+.sku-wijev-event-dialog .sku-wijev-color-button .ui-icon{right:4px;left:auto}
+.sku-wijev-event-dialog .sku-wijdropdown{display:inline-block}
+.sku-wijev-event-dialog .sku-wijev-calendar,.sku-wijev-event-dialog .sku-wijev-repeat{width:190px}
+.sku-wijev-event-dialog .sku-wijinput{float:left;clear:none;margin-right:5px}
+.sku-wijev-agenda-day-container{clear:both}
+.sku-wijev-monthview-inner{padding:0;margin:12px}
+.sku-wijev-event-dialog .sku-checkbox label{display:block;float:left;font-size:12px;font-weight:400;opacity:.7;padding:0 4px;text-align:right;width:63px;margin-left:0}
+.sku-wijev-event-dialog .sku-checkbox .sku-checkbox-box{border-radius:2px 2px 2px 2px;top:0;height:16px;left:71px;margin-right:3px;position:absolute;right:0;width:16px}
+.sku-wijev .sku-wijev-datepager{float:right;margin:6px 0;max-width:85%}
+.sku-wijev-statusbar{height:20px}
+.sku-wijev-loading-modal-frame{background-color:#fff;width:100%;height:100%;position:absolute;z-index:1001;-moz-opacity:.35;filter:alpha(opacity=35);opacity:.35;display:none}
+.sku-wijev-loading{background:transparent url(images/waiting.gif) no-repeat scroll;background-position:center center;width:100%;height:100%;left:0;top:0;border:none;position:absolute;z-index:1002;display:none}
+.sku-wijev-loading-text{position:absolute;color:#000;left:50%;bottom:30%;width:200px;margin-left:-100px;text-overflow:ellipsis;overflow:hidden;text-align:center}
+.sku-wijev-editcalendar-dialog.ui-dialog-content label{width:150px;display:inline-block;clear:none;float:left;vertical-align:top;margin-top:5px}
+.sku-wijev-editcalendar-dialog.ui-dialog-content textarea{width:250px;margin-top:5px;height:100px}
+.sku-wijev-editcalendar-dialog.ui-dialog-content .sku-wijtextbox{position:relative;top:5px;right:5px;width:220px;margin-top:5px}
+.sku-wijev-editcalendar-dialog.ui-dialog-content .sku-wijtextbox.sku-wijev-name{width:180px;padding-right:44px}
+.sku-wijev-editcalendar-dialog.ui-dialog-content .sku-wijev-color-button{position:absolute;top:12px;left:350px;border:none;background:0 0;margin-top:5px}
+.sku-wijev-editcalendar-dialog.ui-dialog-content .sku-wijev-color-button .ui-button-text{padding:6px 19px 6px 6px}
+.sku-wijev-editcalendar-dialog.ui-dialog-content .sku-wijev-color-button .ui-icon{right:4px;left:auto}
+.sku-wijev-editcalendar-dialog .sku-wijev-color{cursor:pointer}
+.sku-wijev.ui-state-disabled .sku-wijev-editcalendar-dialog .sku-wijev-color{cursor:default}
+.ui-mobile .sku-wijev-day-details .sku-wijev-daycalendar{float:none;width:100%}
+.ui-mobile .sku-wijev-tools .ui-radio{width:25%}
+.ui-mobile .sku-wijev-headerbar .sku-wijev-tools{width:100%}
+.ui-mobile .sku-wijev .sku-wijev-datepager{width:100%!important;max-width:100%!important}
+.ui-mobile .sku-wijev-view-container{padding:0;margin:0;float:none;box-shadow:none}
+.ui-mobile .sku-wijev-navigationbar{float:none;padding:0;margin:0}
+.ui-mobile .ui-controlgroup-horizontal .ui-controlgroup-controls{display:block}
+.ui-mobile .sku-wijev-headerbar .sku-wijev-tools .ui-btn-text{display:block;font-size:.75em}
+.ui-mobile .sku-wijev-day-details{padding:0;margin:0}
+.ui-mobile .sku-wijev-view .sku-wijev-header-title{font-size:12px;padding:0;text-align:center}
+.sku-wijappview-content,.sku-wijappview-menu{overflow:auto;overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}
+.sku-wijappview-menu{position:absolute;top:42px;bottom:0;width:25%;margin:0;padding:0}
+.sku-wijappview-menu .ui-listview{margin:0}
+.sku-wijappview-menu h2{position:absolute;left:-9999px}
+.sku-wijappview-content{margin:0;padding:1.5em 1%;width:73%;position:absolute;bottom:0;right:0}
+.sku-wijappview.sku-wijappview-with-fixed-header .sku-wijappview-content{top:42px}
+.sku-wijappview-content ul:first-child{margin-top:0}
+.sku-wijappview-page{display:none}
+.sku-wijappview-page-active{display:block}
+@media all and (min-width:0){.sku-wijappview-content,.sku-wijappview-menu{overflow:inherit}
+.sku-wijappview-menu{width:100%}
+.sku-wijappview-in-page .sku-wijappview-menu{display:none}
+.sku-wijappview-content{display:none;padding:.5em;width:auto;left:0}
+.sku-wijappview-in-page .sku-wijappview-content{display:block}
+}
+@media all and (min-width:650px){.sku-wijappview-content,.sku-wijappview-menu{overflow:auto;overflow-x:hidden;overflow-y:auto}
+.sku-wijappview-menu{width:34%;position:absolute}
+.sku-wijappview-in-page .sku-wijappview-menu{display:block}
+.sku-wijappview-content{left:auto;float:right;width:64%;padding:1.5em 1%;display:block}
+}
+@media all and (min-width:750px){.sku-wijappview-menu{width:30%}
+.sku-wijappview-content{width:68%}
+}
+@media all and (min-width:1200px){.sku-wijappview-menu{width:25%;margin:0;padding:0}
+.sku-wijappview-content{margin:0;padding:1.5em 1%;width:73%;position:absolute;bottom:0;right:0}
+}

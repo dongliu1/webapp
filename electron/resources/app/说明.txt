@@ -1,0 +1,2 @@
+初始化加载文件，在spreadWrapper/spreadWrapper.js中 skLoadFile()
+保存文件在spreadWrapper/actions.js 中 skSave()

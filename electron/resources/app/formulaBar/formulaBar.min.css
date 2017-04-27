@@ -1,0 +1,18 @@
+.formulaBar{padding:10px 0;height:30px;display:-webkit-box;display:box;overflow:hidden}
+.formulaBar>table{width:100%}
+.formulaBar td:last-child{width:100%;padding-right:4px}
+.formulaBar .union-container{width:204px;margin:1px 0}
+.formulaBar .union-container .union-item{display:inline-block;width:200px;margin-left:-200px}
+.formulaBar .union-container .union-item:first-child{margin-left:0}
+.formulaBar .union-container .union-item{height:22px;text-align:center;margin-top:-2px;width:200px}
+.formulaBar .splitter{width:32px;background-image:url(../images/splitter.png);background-repeat:no-repeat;background-position:center;margin:1px 0;display:block;cursor:w-resize}
+.formulaBar button{width:20px;height:20px;border:none;padding:4px;background-color:transparent;background-image:none}
+.formulaBar .fill-content{-webkit-box-flex:1;-moz-box-flex:1;-ms-box-flex:1;box-flex:1}
+.formulaBar #formulaBarText{height:18px;width:100%;background-color:#fff;overflow:hidden;-webkit-user-select:all}
+.formulaBar .formulaBar-container{border:1px solid grey;background:#fff;padding-left:3px;padding-top:2px}
+.formulaBar input{border:1px solid #8e919f;background-color:#fff;margin:0;padding:0}
+.formulaBar .formula-bar-item{height:20px}
+.formulaBar .btn-group{background-color:#fff;border:1px solid #8e919f;margin-right:4px;width:60px;padding-left:2px;padding-top:2px}
+.formulaBar .ok-btn{background-image:url(../images/icons.png);background-position:0 -1584px;height:16px;width:16px;vertical-align:top}
+.formulaBar .cancel-btn{background-image:url(../images/icons.png);background-position:0 -864px;height:16px;width:16px;vertical-align:top}
+.formulaBar .functions-btn{background-image:url(../images/icons.png);background-position:0 -1600px;height:16px;width:16px;vertical-align:top}
